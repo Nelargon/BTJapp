@@ -81,6 +81,8 @@ var BTJApp = (function () {
   }
 
   function renderBubbles() {
+    el('freetext-feedback').hidden = true;
+    el('freetext-input').value = '';
     var field = el('bubble-field');
     field.innerHTML = '';
     /* al massimo un globo per archetipo alla volta: varietà garantita */

@@ -121,9 +121,16 @@ El momento más importante de la experiencia. Antes de pedir nada, la app **devu
 
 ### 3.4 Ritual de cierre
 
-Adaptación digital de los gestos físicos del método:
-- *"cerchia una sola cosa"* → el texto escrito se divide en frases; la persona **toca una** y queda rodeada con un trazo de tinta.
-- *"sottolinea la parola che ti sorprende"* → tap sobre una palabra.
+Adaptación digital de los gestos físicos del método. El motor clasifica el ritual de cada ejercicio en 5 tipos:
+
+| Gesto en el contenido original | Interacción en la app |
+|---|---|
+| *"cerchia una sola cosa"* | el texto se divide en frases; la persona **toca una** y queda "rodeada" con tinta |
+| *"sottolinea la parola che ti sorprende"* | las palabras escritas se muestran como píldoras; tap subraya una |
+| *"segna con una M ciò che è tuo, con una A ciò che hai assorbito"* (Sismografo) | cada frase se marca al tocar: Ⓜ *mia* / Ⓐ *assorbita* |
+| *"chiudi con «Per oggi, è abbastanza»"* | **sigillo**: la frase aparece en grande y un botón la escribe y cierra la página |
+| *"poi chiudi il quaderno"* / *"e fermati"* | sin interacción: se pasa directo al cierre |
+
 - Después, la card **"Perché funziona"** con la referencia científica del día (Pennebaker, Lieberman, Gross, Aron, Fogg, Oettingen, Amabile…) — la app nunca es esotérica: siempre explica.
 - Cierre: *"E basta così."* + anticipo del día siguiente (como en los emails: *"Domani parleremo di…"*).
 

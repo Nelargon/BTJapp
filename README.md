@@ -6,6 +6,16 @@ App de journaling terapéutico guiado, basada en el método y los 9 arquetipos d
 
 📄 El diseño completo está en [`docs/DISENO.md`](docs/DISENO.md).
 
+## Así se ve
+
+| Check-in | Rispecchiamento | Escritura guiada |
+|---|---|---|
+| ![Check-in](docs/screenshots/01-checkin.png) | ![Rispecchiamento](docs/screenshots/02-rispecchiamento.png) | ![Escritura](docs/screenshots/03-scrittura.png) |
+
+| Ritual de cierre | Cierre | Percorso |
+|---|---|---|
+| ![Ritual](docs/screenshots/04-rituale.png) | ![Cierre](docs/screenshots/05-chiusura.png) | ![Percorso](docs/screenshots/06-percorso.png) |
+
 ## Probar la app
 
 No hay build ni dependencias: es una SPA estática.

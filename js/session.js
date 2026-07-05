@@ -335,6 +335,8 @@ var BTJSession = (function () {
   }
 
   function finishSession() {
+    if (!state || state.finished) return; /* doppio tocco: una sola pagina */
+    state.finished = true;
     var day = state.day;
     var entry = {
       id: 'e' + Date.now() + Math.random().toString(36).slice(2, 7),
