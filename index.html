@@ -26,7 +26,11 @@
 
     <!-- ============ CHECK-IN ============ -->
     <section class="screen" id="screen-welcome" hidden>
-      <p class="greeting" id="greeting">Ciao.</p>
+      <div class="daily-greeting" id="daily-greeting" hidden>
+        <p class="daily-greeting-text" id="daily-greeting-text"></p>
+        <p class="daily-quote-text" id="daily-quote-text"></p>
+      </div>
+      <p class="greeting" id="greeting" hidden></p>
       <h1 class="question" data-i18n="welcomeQuestion">Come ti senti adesso?</h1>
       <p class="hint" data-i18n="welcomeHint">Tocca la frase che ti somiglia di più. Non deve essere precisa. Basta che sia vera.</p>
 
@@ -81,6 +85,7 @@
       <h2 class="archetype-name" id="mirror-name"></h2>
       <p class="mirror-essence" id="mirror-essence"></p>
       <div class="mirror-text" id="mirror-text"></div>
+      <p class="mirror-continuity" id="mirror-continuity" hidden></p>
       <p class="mirror-reassurance" data-i18n="mirrorReassurance">Non c'è niente di sbagliato in te.</p>
       <div class="mirror-cta">
         <button class="btn btn-primary btn-big" id="btn-start-session"></button>
@@ -195,6 +200,7 @@
   <script src="data/strings.js"></script>
   <script src="data/archetypes.js"></script>
   <script src="data/emotions.js"></script>
+  <script src="data/greetings.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/quiz.js"></script>

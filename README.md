@@ -47,6 +47,7 @@ js/session.js             motor de la sesión: pasos, timer, bifurcación papel/
 js/quiz.js                mini bussola/brújula: 4 preguntas → arquetipo
 js/storage.js             persistencia local (localStorage) — privacidad primero
 data/strings.js           todos los textos de interfaz, en italiano y español
+data/greetings.js         saludos del primer acceso del día + frases que invitan a escribir (IT/ES)
 data/emotions.js          globos de emociones + léxico (IT/ES) del matcher de texto libre
 data/archetypes.js        contenido de los 9 arquetipos en ambos idiomas (GENERADO — no editar a mano)
 data/extracted/*.json     contenido original en italiano, fiel a los documentos fuente (Drive)
@@ -65,6 +66,10 @@ El selector IT/ES vive en la barra superior y funciona en cualquier pantalla, in
 ### Papel o pantalla
 
 Al empezar cada sesión, la app pregunta dónde vas a escribir. En pantalla, todo funciona como antes (textarea, ritual de tocar/subrayar/marcar). En papel, la caja de texto se reemplaza por un recordatorio breve; al final, el ritual pide traer de vuelta la palabra o frase que encerraste en el cuaderno — así el gesto de cierre sobrevive aunque no se haya tipeado nada. También hay una pregunta opcional, "¿cuánto de esto depende de ti?": si la respuesta es "casi nada", el cierre cambia de marco — de empujar hacia un próximo paso a solo acompañar, sin pedir ninguna acción.
+
+### La app te recuerda
+
+La primera vez que abres la app cada día, un saludo más cálido y una frase breve que invita a escribir reemplazan el saludo simple de siempre — ambos rotan entre varias opciones, y no vuelven a aparecer ese mismo día. Y cuando reconoces un arquetipo en el que ya estuviste antes, la pantalla de reconocimiento recuerda cuándo fue la última vez y, si trajiste una palabra o frase de esa sesión, te la devuelve: *"La última vez que te sentiste así fue hace 3 días. Te llevaste contigo: «...»"*. Todo esto vive solo en tu dispositivo — nada se envía a ningún lado.
 
 ## Principios
 

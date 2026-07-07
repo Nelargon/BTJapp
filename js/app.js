@@ -65,7 +65,7 @@ var BTJApp = (function () {
         (b.dataset.nav === name) ||
         (b.dataset.nav === 'welcome' && ['welcome', 'candidates', 'quiz', 'archetypes', 'mirror'].indexOf(name) !== -1));
     });
-    if (name === 'welcome') renderBubbles();
+    if (name === 'welcome') { renderBubbles(); renderGreeting(); }
     if (name === 'journey') renderJourney();
     if (name === 'diary') renderDiary();
     window.scrollTo(0, 0);
@@ -205,6 +205,26 @@ var BTJApp = (function () {
     showScreen('mirror');
   }
 
+  /* "l'ultima volta che sei stato qui" — la app ricorda, senza conservare
+     più del necessario: solo data e, se esiste, la frase che hai portato via. */
+  function lastEntryForArchetype(archetypeId) {
+    var entries = BTJStore.getEntries(); // già ordinati dal più recente
+    for (var i = 0; i < entries.length; i++) {
+      if (entries[i].archetypeId === archetypeId) return entries[i];
+    }
+    return null;
+  }
+
+  function relativeWhen(ts) {
+    var days = Math.floor((Date.now() - ts) / 86400000);
+    if (days <= 0) return BTJLang.t('continuityToday');
+    if (days === 1) return BTJLang.t('continuityYesterday');
+    if (days < 7) return BTJLang.t('continuityDaysAgo', { n: days });
+    if (days < 14) return BTJLang.t('continuityWeekAgo');
+    if (days < 30) return BTJLang.t('continuityWeeksAgo', { n: Math.floor(days / 7) });
+    return BTJLang.t('continuityWhileAgo');
+  }
+
   function renderMirror(a) {
     el('mirror-kicker').textContent = currentEmotionLabel
       ? BTJLang.t('mirrorKickerWithEmotion', { emotion: currentEmotionLabel })
@@ -214,6 +234,17 @@ var BTJApp = (function () {
 
     var paragraphs = (a.description || '').split('\n').filter(Boolean);
     el('mirror-text').innerHTML = paragraphs.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
+
+    var continuity = el('mirror-continuity');
+    var lastEntry = lastEntryForArchetype(a.id);
+    if (lastEntry) {
+      var line = BTJLang.t('continuityLine', { when: relativeWhen(lastEntry.ts) });
+      if (lastEntry.circled) line += ' ' + BTJLang.t('continuityCircled', { phrase: lastEntry.circled });
+      continuity.textContent = line;
+      continuity.hidden = false;
+    } else {
+      continuity.hidden = true;
+    }
 
     var day = nextDayFor(a);
     el('btn-start-session').textContent = BTJLang.t('mirrorCta', { n: day.durationMinutes });
@@ -459,7 +490,7 @@ var BTJApp = (function () {
     showScreen(currentScreen);
   }
 
-  /* ---------- avvio ---------- */
+  /* ---------- saluto del giorno ---------- */
 
   function greeting() {
     var h = new Date().getHours();
@@ -469,9 +500,46 @@ var BTJApp = (function () {
     return BTJLang.t('greetingLate');
   }
 
+  /* Il primo accesso di ogni giornata merita un saluto più caldo e una
+     citazione. Da lì in poi, nella stessa giornata, torna il saluto semplice.
+     La scelta è fatta una sola volta per caricamento pagina (memoizzata),
+     così il cambio di lingua ridisegna la STESSA frase, solo tradotta. */
+  var dailyMoment = null;
+
+  function computeDailyMoment() {
+    var today = new Date();
+    var todayStr = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+    var isNew = BTJStore.getLastGreetingDate() !== todayStr;
+    if (isNew) BTJStore.setLastGreetingDate(todayStr);
+    return {
+      isNew: isNew,
+      greetingIdx: Math.floor(Math.random() * BTJ_DAILY_GREETINGS.it.length),
+      quoteIdx: Math.floor(Math.random() * BTJ_QUOTES.it.length)
+    };
+  }
+
+  function renderGreeting() {
+    if (!dailyMoment) dailyMoment = computeDailyMoment();
+    var dailyBox = el('daily-greeting');
+    if (dailyMoment.isNew) {
+      var lang = BTJLang.get();
+      var greetings = BTJ_DAILY_GREETINGS[lang] || BTJ_DAILY_GREETINGS.it;
+      var quotes = BTJ_QUOTES[lang] || BTJ_QUOTES.it;
+      el('daily-greeting-text').textContent = greetings[dailyMoment.greetingIdx];
+      el('daily-quote-text').textContent = '«' + quotes[dailyMoment.quoteIdx] + '»';
+      dailyBox.hidden = false;
+      el('greeting').hidden = true;
+    } else {
+      dailyBox.hidden = true;
+      el('greeting').hidden = false;
+      el('greeting').textContent = greeting();
+    }
+  }
+
+  /* ---------- avvio ---------- */
+
   document.addEventListener('DOMContentLoaded', function () {
     BTJLang.applyStatic();
-    el('greeting').textContent = greeting();
 
     el('btn-home').addEventListener('click', function () { showScreen('welcome'); });
     el('btn-shuffle').addEventListener('click', renderBubbles);
@@ -508,7 +576,6 @@ var BTJApp = (function () {
       b.addEventListener('click', function () { BTJLang.set(b.dataset.lang); });
     });
     BTJLang.onChange(function () {
-      el('greeting').textContent = greeting();
       rerenderCurrentScreen();
     });
 
