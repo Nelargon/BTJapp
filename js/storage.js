@@ -73,19 +73,22 @@ var BTJStore = (function () {
     exportText: function (archetypes) {
       var byId = {};
       (archetypes || []).forEach(function (a) { byId[a.id] = a; });
-      var lines = ['BACK TO JOURNAL — il mio diario', ''];
+      var lang = BTJLang.get();
+      var dayWord = lang === 'es' ? 'Día' : 'Giorno';
+      var circledWord = lang === 'es' ? '✎ Marcado: ' : '✎ Cerchiato: ';
+      var lines = [BTJLang.t('exportHeader'), ''];
       this.getEntries().slice().reverse().forEach(function (e) {
         var a = byId[e.archetypeId];
         lines.push('────────────────────────────');
-        lines.push(new Date(e.ts).toLocaleString('it-IT'));
-        lines.push((a ? a.name : e.archetypeId) + ' — Giorno ' + e.day + (e.emotionLabel ? ' — «' + e.emotionLabel + '»' : ''));
+        lines.push(new Date(e.ts).toLocaleString(BTJLang.t('dateLocale')));
+        lines.push((a ? a.name : e.archetypeId) + ' — ' + dayWord + ' ' + e.day + (e.emotionLabel ? ' — «' + e.emotionLabel + '»' : ''));
         lines.push('');
         (e.steps || []).forEach(function (s) {
           if (s.prompt) lines.push(s.prompt);
           lines.push(s.text || '');
           lines.push('');
         });
-        if (e.circled) lines.push('✎ Cerchiato: ' + e.circled + '\n');
+        if (e.circled) lines.push(circledWord + e.circled + '\n');
       });
       return lines.join('\n');
     }

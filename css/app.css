@@ -74,11 +74,36 @@ button { font-family: inherit; color: inherit; }
 }
 .wordmark span { font-style: italic; font-weight: 400; color: var(--accent); }
 
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .topbar-note {
   font-size: 0.72rem;
   color: var(--ink-faint);
   letter-spacing: 0.05em;
 }
+
+.lang-switch {
+  display: flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+.lang-btn.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.lang-btn:first-child { border-right: 1px solid var(--line); }
 
 /* ---------- layout ---------- */
 

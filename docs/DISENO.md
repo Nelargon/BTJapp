@@ -174,12 +174,13 @@ Este modelo permite añadir arquetipos, traducir la interfaz (los strings de UI 
 | **SPA estática, vanilla JS, sin build** | Se abre con doble clic en `index.html`, se despliega gratis en GitHub Pages. Cero dependencias que mantener. |
 | **localStorage** | Privacidad primero; sin cuentas ni servidor. El diario es tuyo. |
 | **Contenido como JS data files** | Evita problemas de CORS al abrir en local; fácil de regenerar desde Drive. |
-| **UI en italiano** | El brand y su audiencia son italianos. La arquitectura separa contenido/strings para traducir después. |
+| **Bilingüe IT/ES (v1.1)** | El brand nace italiano; el journaling terapéutico como categoría tiene enorme audiencia hispanohablante. Selector persistente en la barra superior; los 63 días de contenido (164 pasos) están traducidos fielmente, no solo la interfaz. La arquitectura separa `data/strings.js` (interfaz) de `data/archetypes.js` (contenido), ambos indexados por idioma con los mismos ids de arquetipo — añadir un tercer idioma es solo sumar un diccionario más. |
 | **Mobile-first, responsive** | El journaling pasa en el sofá y en la cama, no en el escritorio. |
 
 ## 6. Roadmap sugerido
 
 - **v1 (este prototipo)** — loop completo offline: check-in → sesión → ritual → diario.
+- **v1.1** — versión bilingüe italiano/español con selector de idioma.
 - **v1.5** — recordatorio suave opcional (notificación local a la hora que elijas: *"Il quaderno ti aspetta. Se oggi non va, va bene lo stesso."*), PWA instalable, export PDF.
 - **v2** — cuentas + sync cifrado; el quiz completo del sitio integrado; secuencias estacionales nuevas.
 - **v3** — acompañamiento adaptativo: la app aprende qué ejercicios te desbloquean según tus check-ins (p. ej., con Claude API generando variaciones de prompts dentro de la voz del brand, siempre con revisión editorial).

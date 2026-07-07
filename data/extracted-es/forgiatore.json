@@ -1,0 +1,176 @@
+{
+  "id": "forgiatore",
+  "name": "El Forjador de Hábitos",
+  "driveFileId": "1yp83pGSDGoA7jbheMlzSd_Y0if2w-43_",
+  "essence": "Un nombre que no habla de rigidez. Habla de ambición profunda.",
+  "description": "Eres una persona que ama la idea de convertirse en alguien. No en \"otra persona\". En ti mismo, pero en una versión más centrada, más fuerte, más limpia. Sabes que los hábitos cambian la vida. Y de hecho lo intentas: rutinas, objetivos, planes, seguimientos. Has leído libros sobre el tema, quizás has probado más métodos de los que recuerdas.",
+  "strength": "La ambición profunda de convertirte en la versión más centrada, más fuerte y más limpia de ti mismo. Sabes que los hábitos cambian la vida y de verdad lo intentas: rutinas, objetivos, planes, seguimientos.",
+  "shadow": "A veces te conviertes en tu propio entrenador despiadado: rigidez, control, perfeccionismo. Y cuando no logras ser constante, en lugar de corregir el sistema, te pones a ti mismo en el banquillo.",
+  "coreNeed": "Cambiar sin que el motor del cambio sea el castigo: porque si el motor es el castigo, el cambio no dura, se agota.",
+  "trap": "Confundir el perfeccionismo con la disciplina: el perfeccionismo se presenta como un estándar elevado, pero por debajo es miedo a no ser suficiente. Al primer día torcido, en lugar de adaptarte, lo dejas todo, porque si no es perfecto no cuenta.",
+  "journalingMetaphor": "espejo",
+  "howJournalingHelps": "No como otro hábito más que añadir a la lista. No como un seguimiento que rellenar. Sino como un espejo: una herramienta para ver cómo te tratas mientras intentas convertirte en quien quieres ser.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "¿Por qué quieres convertirte en esa persona?",
+      "durationMinutes": 5,
+      "intro": "Hoy no planificamos nada. No creamos rutinas. No fijamos objetivos. Hacemos solo una cosa: vamos a la raíz. Antes de construir, hay que entender por qué se construye.",
+      "steps": [
+        {
+          "prompt": "La persona en la que quiero convertirme es…",
+          "instruction": "Describe esta versión de ti. No en términos de objetivos o hábitos: en términos de cómo se siente, cómo vive, cómo está en el mundo."
+        },
+        {
+          "prompt": "Quiero convertirme en esta persona porque…",
+          "instruction": "Busca la respuesta verdadera. No la motivacional: la íntima, la que está debajo."
+        }
+      ],
+      "closingRitual": "Y basta así.",
+      "why": "La mayoría de los hábitos fracasan porque están conectados a un objetivo, no a una identidad. \"Quiero correr 5 km\" es un objetivo; \"quiero ser una persona que se mueve con el cuerpo\" es una identidad. Lo que has escrito hoy es la brújula: todo lo demás —los hábitos, los sistemas, las rutinas— es su consecuencia.",
+      "research": "La investigación de James Clear, basada en décadas de estudios conductuales, muestra que el cambio más duradero no parte de la acción sino de la imagen de uno mismo: no \"tengo que hacerlo\", sino \"soy una persona que lo hace\".",
+      "tomorrow": "Mañana hablaremos de una trampa que conoces demasiado bien: confundir el perfeccionismo con la disciplina."
+    },
+    {
+      "day": 2,
+      "subject": "El perfeccionismo no es disciplina. Es miedo.",
+      "durationMinutes": 3,
+      "intro": "Ayer fuimos a la raíz: quién quieres ser y por qué. Hoy hablamos de la trampa más insidiosa para quien forja hábitos: el perfeccionismo, que se disfraza de aliado pero crea una puerta de entrada tan estrecha que al primer día torcido ya no consigues pasar por ella.",
+      "steps": [
+        {
+          "prompt": "Una regla que me impuse y que me hizo más daño que bien es…",
+          "instruction": "Una sola frase. La primera que se te ocurra."
+        },
+        {
+          "prompt": "La versión amable de esta regla sería…",
+          "instruction": "Reescribe la misma regla de un modo que te permita cumplirla también en los días difíciles."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos eliminando las reglas: las estamos haciendo sostenibles. Es la diferencia entre un entrenador que grita y uno que corrige: uno te da ganas de volver al gimnasio, el otro de huir. Las reglas amables no son reglas débiles: son reglas que duran, porque puedes cumplirlas incluso un lunes a las 7 de la mañana, después de una noche de sueño terrible.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un ritual. No una rutina: un ritual. La diferencia es más grande de lo que piensas."
+    },
+    {
+      "day": 3,
+      "subject": "La diferencia entre rutina y ritual",
+      "durationMinutes": 4,
+      "intro": "En los últimos dos días has encontrado tu porqué y has hecho amables tus reglas. Hoy abordamos un punto crucial: el modo en que practicas los hábitos. Una rutina es algo que haces; un ritual es algo que significa algo para ti. La rutina se rompe cuando falta la motivación; el ritual aguanta incluso sin ella, porque está ligado a quién eres, no a cómo te sientes.",
+      "steps": [
+        {
+          "prompt": "Mi ritual de escritura.",
+          "instruction": "Escribe esta frase en la parte superior de la página, luego responde a las tres preguntas que siguen."
+        },
+        {
+          "prompt": "¿Cuándo lo hago? (un momento del día)",
+          "instruction": "Elige un momento del día para tu ritual."
+        },
+        {
+          "prompt": "¿Cómo lo hago? (el gesto físico que lo acompaña)",
+          "instruction": "Identifica el gesto físico que acompaña la escritura."
+        },
+        {
+          "prompt": "¿Qué significa para mí?",
+          "instruction": "La pregunta más importante. Por ejemplo: significa cuidar de mí, significa que existo más allá de la productividad, significa que no me estoy olvidando de mí mismo."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "Un ritual no necesita disciplina: necesita significado. Y el significado es el combustible más resistente que existe, no se agota en los días difíciles. El gesto físico que has elegido —encender una vela, preparar un té, sentarte en un rincón concreto— se convierte en una señal: el cuerpo lo reconoce y, incluso antes de que empieces a escribir, algo se predispone. No es magia. Es condicionamiento amable.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: cómo transformar las caídas en datos, en vez de en sentencias."
+    },
+    {
+      "day": 4,
+      "subject": "Las caídas son datos. No sentencias.",
+      "durationMinutes": 5,
+      "intro": "Hoy tocamos un punto delicado. Hablamos de cuando caes. Porque caerás: no es pesimismo, es realismo. Pero una caída no es un fracaso. Es un dato: si la lees como una sentencia te bloqueas, si la lees como una información te adaptas.",
+      "steps": [
+        {
+          "prompt": "Últimas caídas",
+          "instruction": "Divide la página en dos columnas. En la columna izquierda escribe las últimas veces que abandonaste un hábito o un compromiso contigo mismo."
+        },
+        {
+          "prompt": "Qué me estaban diciendo",
+          "instruction": "En la columna derecha, para cada una, pregúntate: ¿qué estaba pasando en realidad? No \"era perezoso\". La verdadera razón: ¿estaba cansado? ¿La regla era demasiado rígida? ¿Necesitaba una pausa y no me la concedí?"
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Estás transformando la vergüenza en comprensión. Las caídas dejan de pesar cuando dejan de ser juicios: se convierten simplemente en datos, y con los datos puedes trabajar —ajustar el sistema, bajar el umbral, cambiar el momento, hacer el ritual más flexible. No estás justificando la caída: estás leyendo el mensaje que trae consigo.",
+      "research": "",
+      "tomorrow": "Mañana abordamos un momento específico: la noche, cuando el día termina y llega el balance. Y ese balance, en tu caso, casi nunca es amable."
+    },
+    {
+      "day": 5,
+      "subject": "El balance nocturno que no te castiga",
+      "durationMinutes": 5,
+      "intro": "Si hay un momento en que el forjador se vuelve implacable consigo mismo, es el final del día: cuando la mente recorre la lista de todo lo que debías hacer y mide la distancia con lo que has hecho. Hoy cambiamos el balance. Este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Hoy me he presentado así…",
+          "instruction": "Escribe de qué manera te has hecho presente hoy. No las cosas completadas: el modo en que te has tratado. ¿Has sido paciente? ¿Has vuelto después de una pausa? ¿Has adaptado una regla?"
+        },
+        {
+          "prompt": "Un hábito que hoy ha funcionado, aunque sea solo un poco, es…",
+          "instruction": "Solo uno. Aunque sea parcial. Aunque sea imperfecto."
+        },
+        {
+          "prompt": "Por hoy, mi forma de presentarme ha sido suficiente.",
+          "instruction": "Cierra con esta frase, escrita entera."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "El balance tradicional del forjador es binario: hecho / no hecho. Pero los hábitos no son on/off, son un gradiente: hay todo un mundo entre \"hecho perfectamente\" y \"no hecho\". Desplazar el balance de \"qué he completado\" a \"cómo me he presentado\" lo cambia todo: porque siempre puedes presentarte, incluso en los días en que no completas nada.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de algo que quizás no valoras lo suficiente: la diferencia entre convertirte en alguien y aceptar quién eres ya."
+    },
+    {
+      "day": 6,
+      "subject": "Convertirte en ti mismo, no en otra persona",
+      "durationMinutes": 5,
+      "intro": "Hoy damos un paso aún más sutil: hablamos de la motivación que está debajo de todo. Cuando el motor del cambio es \"no valgo tal como soy\", cada hábito se convierte en una corrección, un castigo disfrazado de mejora. Pero si el motor es \"quiero expresar más quién ya soy\", los hábitos se convierten en expresiones, no en correcciones.",
+      "steps": [
+        {
+          "prompt": "Cosas de mí que quiero cambiar",
+          "instruction": "Divide la página en tres partes. En la primera escribe todo: los hábitos que quieres construir, los comportamientos que quieres modificar, las versiones de ti que quieres alcanzar."
+        },
+        {
+          "prompt": "Cosas de mí que ya son buenas",
+          "instruction": "Relee la primera lista y pregúntate: ¿hay algo que quiero cambiar no porque esté mal, sino porque he decidido que no basta? Traslada aquí las cualidades que ya posees y que estás subestimando."
+        },
+        {
+          "prompt": "El cambio que nace del respeto por quien soy",
+          "instruction": "Un solo hábito: el que quieres llevar adelante no para corregir un defecto, sino para expresar algo que ya existe en ti."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "El forjador más eficaz no es el que más se castiga: es el que mejor se conoce. Porque cuando conoces tus cualidades, el cambio parte de un lugar de plenitud, no de carencia. Y desde ese lugar los hábitos ya no son una lucha: son una extensión natural de quien eres.",
+      "research": "",
+      "tomorrow": "Mañana llegamos al último día: no hablaremos de hacer más, sino de cómo llevar contigo lo que has aprendido, sin convertirlo en una regla más que cumplir."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es el modo en que continúas.",
+      "durationMinutes": 5,
+      "intro": "En estos siete días no has creado el hábito perfecto, y ese no era el objetivo. Has hecho algo más raro: has cambiado el modo en que te tratas mientras intentas cambiar. Hoy no añadimos nada nuevo. Hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe las tres frases una debajo de la otra y completa la primera con lo que sientes verdadero."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Aunque esté incompleto. Aunque sea solo una línea."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Escribe lo que sientes verdadero, sin convertirlo en una nueva regla que cumplir."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es transformarlo enseguida en un deber. Pero el journaling no funciona cuando se convierte en una obligación: funciona cuando se convierte en un espacio que eliges tener en tu vida. No tienes que escribir todos los días, no tienes que escribir bien, no tienes que escribir mucho: te basta con saber por qué escribes y cuándo lo necesitas de verdad. Es el punto en el que la escritura deja de ser un hábito que mantener y se convierte en un ritual que te representa.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal no es un método que seguir. Es una forma de volver a casa, cada vez que sientas la necesidad. Si quieres seguir escribiendo, sabes dónde encontrar papel y bolígrafo; si te pierdes, sabes que puedes volver aquí. Gracias: por la atención, por el tiempo, por haber elegido forjar con más amabilidad."
+}

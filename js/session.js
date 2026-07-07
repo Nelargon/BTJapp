@@ -1,29 +1,30 @@
-/* Back to Journal — motore della sessione guidata.
+/* Back to Journal — motore della sessione guidata, bilingue.
    Un esercizio alla volta: intro → passi di scrittura → rituale → chiusura.
    Il timer è morbido: quando finisce non suona, suggerisce. */
 
 var BTJSession = (function () {
-  var ENCOURAGE_EMPTY = [
-    'Non deve avere senso. Scrivi la prima cosa che viene.',
-    'Nessuno leggerà. Puoi essere sincero.',
-    'Anche una parola sola va bene.'
-  ];
-  var ENCOURAGE_PAUSE = [
-    'Puoi fermarti quando vuoi. O continuare, se ti va.',
-    'Stai andando bene. Non serve rileggere adesso.',
-    'Respira. Poi continua da dove sei.'
-  ];
-
   var state = null;
   var timerInterval = null;
   var encourageTimeout = null;
 
   function el(id) { return document.getElementById(id); }
+  function t(key, vars) { return BTJLang.t(key, vars); }
 
   function esc(text) {
     var d = document.createElement('div');
     d.textContent = text == null ? '' : String(text);
     return d.innerHTML;
+  }
+
+  /* trova lo stesso archetipo/giorno nella lingua indicata, tramite id condiviso */
+  function findInLang(archetypeId, dayNumber) {
+    var list = BTJLang.archetypes();
+    var a = null;
+    for (var i = 0; i < list.length; i++) { if (list[i].id === archetypeId) { a = list[i]; break; } }
+    if (!a) return null;
+    var d = null;
+    for (var j = 0; j < a.days.length; j++) { if (a.days[j].day === dayNumber) { d = a.days[j]; break; } }
+    return d ? { archetype: a, day: d } : null;
   }
 
   /* ---------- timer morbido ---------- */
@@ -42,7 +43,7 @@ var BTJSession = (function () {
         stopTimer();
         el('session-timer').classList.add('done');
         el('timer-label').textContent = '·';
-        encourage('Il tempo è passato. Puoi fermarti. O continuare, se ti va.');
+        encourage(t('encourageTimeout'));
         return;
       }
       renderTimer();
@@ -72,8 +73,10 @@ var BTJSession = (function () {
   function scheduleEncourage(textarea) {
     clearTimeout(encourageTimeout);
     encourageTimeout = setTimeout(function () {
-      var pool = textarea.value.trim() ? ENCOURAGE_PAUSE : ENCOURAGE_EMPTY;
-      encourage(pool[Math.floor(Math.random() * pool.length)]);
+      var keys = textarea.value.trim()
+        ? ['encouragePause1', 'encouragePause2', 'encouragePause3']
+        : ['encourageEmpty1', 'encourageEmpty2', 'encourageEmpty3'];
+      encourage(t(keys[Math.floor(Math.random() * keys.length)]));
     }, textarea.value.trim() ? 35000 : 18000);
   }
 
@@ -85,6 +88,7 @@ var BTJSession = (function () {
       dayNumber: opts.dayNumber,
       day: opts.day,
       emotionLabel: opts.emotionLabel || '',
+      phase: 'intro', /* intro | step | ritual */
       stepIndex: -1,
       responses: opts.day.steps.map(function () { return ''; }),
       startedAt: Date.now(),
@@ -97,7 +101,6 @@ var BTJSession = (function () {
       state.responses = opts.day.steps.map(function (_, i) { return (draft.responses || [])[i] || ''; });
     }
 
-    el('session-kicker').textContent = opts.archetype.name + ' · Giorno ' + opts.dayNumber;
     el('timer-label').textContent = opts.day.durationMinutes + ':00';
     el('timer-ring').style.strokeDashoffset = '119.4';
     el('session-timer').classList.remove('done');
@@ -107,7 +110,9 @@ var BTJSession = (function () {
   }
 
   function renderIntro() {
+    state.phase = 'intro';
     var day = state.day;
+    el('session-kicker').textContent = t('sessionKicker', { archetype: state.archetype.name, n: state.dayNumber });
     var introHtml = (day.intro || '').split('\n').filter(Boolean)
       .map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
 
@@ -115,9 +120,9 @@ var BTJSession = (function () {
       '<div class="session-card session-intro">' +
         '<p class="step-count">' + esc(day.subject) + '</p>' +
         introHtml +
-        '<p class="hint" style="margin-top:14px">Bastano ' + day.durationMinutes + ' minuti. Carta digitale, nessuna pressione.</p>' +
+        '<p class="hint" style="margin-top:14px">' + esc(t('introHint', { n: day.durationMinutes })) + '</p>' +
         '<div class="session-actions">' +
-          '<button class="btn btn-primary btn-big" id="btn-step-begin">Sono qui. Iniziamo</button>' +
+          '<button class="btn btn-primary btn-big" id="btn-step-begin">' + esc(t('beginBtn')) + '</button>' +
         '</div>' +
       '</div>';
 
@@ -128,24 +133,26 @@ var BTJSession = (function () {
   }
 
   function showStep(i) {
+    state.phase = 'step';
     state.stepIndex = i;
     var day = state.day;
     var step = day.steps[i];
     var isLast = i === day.steps.length - 1;
+    el('session-kicker').textContent = t('sessionKicker', { archetype: state.archetype.name, n: state.dayNumber });
     var stepCount = day.steps.length > 1
-      ? '<p class="step-count">Passo ' + (i + 1) + ' di ' + day.steps.length + '</p>' : '';
+      ? '<p class="step-count">' + esc(t('stepCount', { i: i + 1, n: day.steps.length })) + '</p>' : '';
 
     el('session-body').innerHTML =
       '<div class="session-card">' +
         stepCount +
         (step.instruction ? '<p class="step-instruction">' + esc(step.instruction) + '</p>' : '') +
         '<p class="step-prompt">' + esc(step.prompt) + '</p>' +
-        '<textarea class="step-textarea" id="step-textarea" placeholder="continua da qui…" ' +
+        '<textarea class="step-textarea" id="step-textarea" placeholder="' + esc(t('textareaPlaceholder')) + '" ' +
           'autocapitalize="sentences" autocomplete="off" spellcheck="false"></textarea>' +
         '<p class="session-encourage" aria-live="polite"></p>' +
         '<div class="session-actions">' +
-          '<button class="btn btn-primary" id="btn-step-next">' + (isLast ? 'Ho finito' : 'Avanti') + '</button>' +
-          '<button class="link-btn" id="btn-step-leave">esci senza salvare</button>' +
+          '<button class="btn btn-primary" id="btn-step-next">' + esc(isLast ? t('finishBtn') : t('nextBtn')) + '</button>' +
+          '<button class="link-btn" id="btn-step-leave">' + esc(t('leaveLink')) + '</button>' +
         '</div>' +
       '</div>';
 
@@ -176,7 +183,7 @@ var BTJSession = (function () {
     });
 
     el('btn-step-leave').addEventListener('click', function () {
-      if (confirm('Vuoi uscire? Quello che hai scritto in questa sessione non verrà salvato nel diario.')) {
+      if (confirm(t('leaveConfirm'))) {
         stopTimer();
         clearTimeout(encourageTimeout);
         BTJStore.clearDraft();
@@ -186,21 +193,23 @@ var BTJSession = (function () {
   }
 
   /* ---------- rituale di chiusura ----------
-     I gesti del metodo, adattati al digitale:
-     - "cerchia una cosa"          → tocca una frase
-     - "sottolinea una parola"     → tocca una parola
-     - "segna con una M / una A"   → tocca per marcare: mia / assorbita
-     - "chiudi con «…»"            → sigillo: la frase chiude la pagina
-     - "poi chiudi il quaderno"    → nessuna interazione: si passa alla chiusura */
+     I gesti del metodo, adattati al digitale (riconoscimento bilingue IT/ES):
+     - "cerchia"/"encierra" o "tocca"/"toca" una frase   → tocca una frase
+     - "sottolinea"/"subraya" una parola                  → tocca una parola
+     - "con una M ... con una A"                          → tocca per marcare: mia / assorbita
+     - "chiudi con"/"cierra con" «…»                      → sigillo: la frase chiude la pagina
+     - solo "chiudi il quaderno"/"cierra el cuaderno" ecc → nessuna interazione: si passa alla chiusura */
 
   function classifyRitual(text) {
     var t = text.toLowerCase();
     if (t.indexOf('con una m') !== -1 && t.indexOf('con una a') !== -1) return 'tag-ma';
-    if (t.indexOf('cerchia') !== -1 || t.indexOf('tocca') !== -1) return 'select-sentence';
-    if (t.indexOf('sottolinea') !== -1) {
-      return t.indexOf('parola') !== -1 ? 'select-word' : 'select-sentence';
+    if (t.indexOf('cerchia') !== -1 || t.indexOf('encierra') !== -1 ||
+        t.indexOf('tocca la') !== -1 || t.indexOf('toca la') !== -1) return 'select-sentence';
+    if (t.indexOf('sottolinea') !== -1 || t.indexOf('subraya') !== -1) {
+      return (t.indexOf('parola') !== -1 || t.indexOf('palabra') !== -1) ? 'select-word' : 'select-sentence';
     }
-    if (t.indexOf('chiudi scrivendo') !== -1 || t.indexOf('chiudi con') !== -1) return 'seal';
+    if (t.indexOf('chiudi scrivendo') !== -1 || t.indexOf('chiudi con') !== -1 ||
+        t.indexOf('cierra escribiendo') !== -1 || t.indexOf('cierra con') !== -1) return 'seal';
     return 'none';
   }
 
@@ -221,7 +230,7 @@ var BTJSession = (function () {
   function splitWords(text) {
     var seen = {};
     var out = [];
-    text.split(/[\s.,;:!?…"«»()\[\]]+/).forEach(function (w) {
+    text.split(/[\s.,;:!?…"«»()\[\]¿¡]+/).forEach(function (w) {
       var key = w.toLowerCase();
       if (w.length > 3 && !seen[key]) { seen[key] = true; out.push(w); }
     });
@@ -235,9 +244,7 @@ var BTJSession = (function () {
 
   function renderSelectRitual(ritual, fragments, isWords) {
     el('ritual-title').textContent = ritual;
-    el('ritual-hint').textContent = isWords
-      ? 'Tocca la parola.'
-      : 'Tocca la frase che senti più tua. Non la più grave. Quella che ti chiama.';
+    el('ritual-hint').textContent = isWords ? t('ritualHintWord') : t('ritualHintSentence');
     var box = el('ritual-fragments');
     box.className = 'ritual-fragments' + (isWords ? ' words' : '');
     box.innerHTML = '';
@@ -261,7 +268,7 @@ var BTJSession = (function () {
 
   function renderTagRitual(ritual, fragments) {
     el('ritual-title').textContent = ritual;
-    el('ritual-hint').textContent = 'Tocca ogni frase per segnarla: un tocco = Ⓜ mia, due = Ⓐ assorbita.';
+    el('ritual-hint').textContent = t('ritualHintTagMa');
     var box = el('ritual-fragments');
     box.className = 'ritual-fragments';
     box.innerHTML = '';
@@ -271,7 +278,7 @@ var BTJSession = (function () {
     function updateCircled() {
       var parts = [];
       fragments.forEach(function (frag, idx) {
-        if (tags[idx]) parts.push((tags[idx] === 'M' ? 'Ⓜ ' : 'Ⓐ ') + frag);
+        if (tags[idx]) parts.push((tags[idx] === 'M' ? t('tagMia') : t('tagAssorbita')) + ' ' + frag);
       });
       state.circled = parts.join(' · ');
       el('btn-ritual-done').disabled = parts.length === 0;
@@ -295,23 +302,24 @@ var BTJSession = (function () {
 
   function renderSealRitual(ritual, phrase) {
     el('ritual-title').textContent = ritual;
-    el('ritual-hint').textContent = 'Un gesto per chiudere la pagina di oggi.';
+    el('ritual-hint').textContent = t('ritualHintSeal');
     var box = el('ritual-fragments');
     box.className = 'ritual-fragments';
     box.innerHTML = '<p class="seal-phrase">«' + esc(phrase) + '»</p>';
     state.circled = phrase;
     var done = el('btn-ritual-done');
     done.disabled = false;
-    done.textContent = 'Scrivilo. E chiudi';
+    done.textContent = t('ritualSealBtn');
     BTJApp.showScreen('ritual');
   }
 
   function finishWriting() {
     stopTimer();
+    state.phase = 'ritual';
     var allText = state.responses.join('\n').trim();
     var ritual = (state.day.closingRitual || '').trim();
     var type = ritual ? classifyRitual(ritual) : 'none';
-    el('btn-ritual-done').textContent = 'Basta così';
+    el('btn-ritual-done').textContent = t('ritualDone');
 
     if (type === 'seal') {
       var phrase = extractSealPhrase(ritual);
@@ -337,6 +345,7 @@ var BTJSession = (function () {
   function finishSession() {
     if (!state || state.finished) return; /* doppio tocco: una sola pagina */
     state.finished = true;
+    state.phase = 'done';
     var day = state.day;
     var entry = {
       id: 'e' + Date.now() + Math.random().toString(36).slice(2, 7),
@@ -363,22 +372,40 @@ var BTJSession = (function () {
     var tomorrowKicker = tomorrowCard.querySelector('.card-kicker');
     if (state.dayNumber >= state.archetype.days.length && state.archetype.closingMessage) {
       tomorrowCard.hidden = false;
-      tomorrowKicker.textContent = 'Alla fine del sentiero';
+      tomorrowKicker.textContent = t('pathEndKicker');
       el('closing-tomorrow').textContent = state.archetype.closingMessage;
     } else if (day.tomorrow) {
       tomorrowCard.hidden = false;
-      tomorrowKicker.textContent = 'Domani';
+      tomorrowKicker.textContent = t('tomorrowKicker');
       el('closing-tomorrow').textContent = day.tomorrow;
     } else {
       tomorrowCard.hidden = true;
     }
 
-    el('closing-returns').textContent = returns === 1
-      ? 'Oggi sei tornato alla carta. È la prima volta: contala.'
-      : 'Sei tornato alla carta ' + returns + ' volte. È questo che costruisce.';
+    el('closing-returns').textContent = returns === 1 ? t('returnsFirst') : t('returnsN', { n: returns });
 
     BTJApp.showScreen('closing');
     BTJApp.refreshNavBadges && BTJApp.refreshNavBadges();
+  }
+
+  /* ---------- cambio lingua a metà sessione ----------
+     Il testo già scritto dall'utente (state.responses) non cambia mai:
+     è suo. Cambiano solo i testi dell'archetipo/giorno e dell'interfaccia. */
+
+  function relanguage() {
+    if (!state) return;
+    var found = findInLang(state.archetype.id, state.dayNumber);
+    if (!found) return;
+    state.archetype = found.archetype;
+    state.day = found.day;
+
+    if (state.phase === 'intro') {
+      renderIntro();
+    } else if (state.phase === 'step') {
+      showStep(state.stepIndex);
+    } else if (state.phase === 'ritual') {
+      finishWriting();
+    }
   }
 
   /* rituale: bottoni (registrati una sola volta) */
@@ -390,5 +417,5 @@ var BTJSession = (function () {
     });
   });
 
-  return { start: start };
+  return { start: start, relanguage: relanguage, isActive: function () { return !!state && state.phase !== 'done'; } };
 })();

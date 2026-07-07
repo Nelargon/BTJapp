@@ -1,0 +1,180 @@
+{
+  "id": "sognatore",
+  "name": "El Soñador con las Manos Manchadas de Tinta",
+  "driveFileId": "1TBhqwnCYEQQazee_8lrw6MJ3wgC7BiLI",
+  "essence": "Un nombre largo, pero preciso: ves cosas que todavía no existen. No en el sentido de la fantasía: en el sentido de la visión.",
+  "description": "Tú eres una persona que ve cosas que todavía no existen. No en el sentido de la fantasía: en el sentido de la visión. Proyectos, posibilidades, versiones futuras de ti y del mundo. Tu mente trabaja para el futuro, siempre. Ves lo que podría ser y sientes la necesidad profunda de traerlo a tierra.",
+  "strength": "La visión: ves proyectos, posibilidades y versiones futuras de ti y del mundo antes de que existan, y sientes la necesidad profunda de traerlas a tierra.",
+  "shadow": "La distancia entre la visión y la realidad es enorme, y tú la sientes entera, cada día. Como una brecha que no logras cerrar lo bastante rápido, como una promesa que te hiciste a ti mismo y que no consigues cumplir.",
+  "coreNeed": "habitar la distancia entre la visión y la realidad sin ser consumido por ella",
+  "trap": "La parálisis de la perfección: tu visión es tan clara, hermosa y completa que cada paso real te parece inadecuado. Y entonces esperas el momento justo, las condiciones justas, la versión justa de ti mismo — y mientras tanto el sueño sigue siendo un sueño, intocable, inmóvil.",
+  "journalingMetaphor": "puente",
+  "howJournalingHelps": "No como planificación, no como vision board, sino como puente: un lugar donde la visión y la realidad se encuentran. Donde puedes soñar con la pluma en la mano, y mancharte las manos con la tinta de lo concreto. En el papel el sueño deja de ser una promesa irrealizable y se convierte en una obra abierta.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Escribe el sueño. Luego mánchalo.",
+      "durationMinutes": 5,
+      "intro": "Hoy no planificamos nada. No creamos hojas de ruta. No definimos objetivos SMART. Hacemos solo una cosa: ponemos el sueño sobre el papel. Y después lo manchamos con lo real.",
+      "steps": [
+        {
+          "prompt": "El sueño que llevo dentro en este momento es…",
+          "instruction": "Escríbelo todo. La visión completa, como si le estuvieras contando a alguien el futuro que ves. Sin censura, sin \"pero es irrealista\", sin filtros."
+        },
+        {
+          "prompt": "La realidad hoy es…",
+          "instruction": "Escribe dónde estás ahora. Sin juzgar. Solo describir."
+        },
+        {
+          "prompt": "El próximo paso sucio es…",
+          "instruction": "Un gesto concreto. Pequeño. Imperfecto. Que podrías hacer hoy o mañana."
+        }
+      ],
+      "closingRitual": "Y basta así.",
+      "why": "Los sueños que se quedan en la cabeza crecen, pero crecen solo en complejidad: se vuelven más grandes, más ambiciosos, más lejanos, y la distancia entre sueño y realidad aumenta hasta volverse paralizante. El sueño, solo, no basta. Hace falta el puente: la visión más la realidad más el paso siguiente. Hoy has construido ese puente: tres líneas. Sueño, realidad, paso sucio.",
+      "research": "Los estudios de Gabriele Oettingen sobre la técnica del contraste mental muestran que visualizar el resultado deseado sin confrontarlo con la realidad actual reduce la motivación en lugar de aumentarla.",
+      "tomorrow": "Mañana hablaremos de una trampa que conoces bien: la parálisis de la perfección futura."
+    },
+    {
+      "day": 2,
+      "subject": "La perfección del sueño te paraliza",
+      "durationMinutes": 3,
+      "intro": "Ayer pusimos el sueño sobre el papel y lo manchamos con un paso concreto. Hoy hablamos de la trampa más insidiosa para quien sueña en grande: la parálisis de la perfección. Ningún sueño se ha vuelto realidad en su forma perfecta: la mancha no es el fracaso de la visión, es la prueba de que la visión se ha vuelto real.",
+      "steps": [
+        {
+          "prompt": "Algo que postergo porque todavía no es perfecto es…",
+          "instruction": "Una sola frase."
+        },
+        {
+          "prompt": "La versión sucia de esto sería…",
+          "instruction": "¿Cómo sería si lo hicieras hoy, al 60%, con lo que tienes?"
+        },
+        {
+          "prompt": "El peor resultado posible de hacer la versión sucia es…",
+          "instruction": "Escribe lo peor que podría pasar. Después míralo bien: casi siempre es mucho más soportable que la inmovilidad."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos matando el sueño: estamos matando su intocabilidad. Como un escultor frente a un bloque de mármol: hasta que no da el primer golpe, la escultura es perfecta en su mente, pero ese primer golpe — sucio, impreciso, irreversible — es el único gesto que transforma el mármol en algo real. La versión sucia es tu primer golpe: no es bonita, pero existe. Y lo que existe puede mejorarse; lo que solo se imagina, no.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un lugar donde la visión y el hacer se encuentran cada día, sin esperar a que las condiciones sean perfectas."
+    },
+    {
+      "day": 3,
+      "subject": "La obra: donde el sueño se convierte en trabajo",
+      "durationMinutes": 4,
+      "intro": "Hoy abordamos el punto crucial: transformar la visión en obra. Un sueño es hermoso, pero una obra es más poderosa: es un sueño con andamios, cubos de pintura y manos manchadas. No está terminada, no es perfecta, pero se trabaja en ella.",
+      "steps": [
+        {
+          "prompt": "Mi obra.",
+          "instruction": "Escríbelo arriba en la página, como título."
+        },
+        {
+          "prompt": "¿Qué estoy construyendo?",
+          "instruction": "Responde debajo del título."
+        },
+        {
+          "prompt": "¿En qué punto estoy?",
+          "instruction": "Responde con honestidad, sin juzgar."
+        },
+        {
+          "prompt": "¿Cuál es la próxima cosa sucia por hacer?",
+          "instruction": "No la próxima cosa importante: la próxima cosa concreta, que puedas hacer con las manos, con los recursos que tienes, en el tiempo que tienes. Por ejemplo: escribir la primera página aunque sea mala, enviar ese correo que postergas desde hace semanas, abrir el archivo y trabajar en él 15 minutos, pedirle ayuda a alguien."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "El soñador se pierde en la distancia entre la visión y la realidad. La obra elimina esa distancia: no porque acorte el camino, sino porque te sitúa en el camino. Escribir \"en qué punto estoy\" es un acto de honestidad que te arraiga: no estás al principio ni estás al final, estás a mitad de camino. Y a mitad de camino es exactamente donde se trabaja.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: cómo convivir con la frustración de la brecha, ese momento en que la realidad todavía no se parece a la visión y sientes que no eres suficiente."
+    },
+    {
+      "day": 4,
+      "subject": "La frustración de la brecha es la señal de que estás caminando",
+      "durationMinutes": 5,
+      "intro": "Hoy tocamos un punto delicado: la frustración que conoces mejor que nadie, la brecha. La brecha entre lo que ves y lo que es, entre la versión que imaginas y la que tienes. La brecha no es un problema: es la prueba de que tu visión es más grande que tu realidad actual, y se vuelve destructiva solo cuando la usas para juzgarte.",
+      "steps": [
+        {
+          "prompt": "Dónde querría estar",
+          "instruction": "Divide la página en dos columnas. En la columna izquierda escribe tu visión, el punto de llegada. Sin censura."
+        },
+        {
+          "prompt": "Dónde estoy, y qué hay de bueno aquí",
+          "instruction": "En la columna derecha escribe dónde estás ahora, pero esta vez, por cada punto, añade algo: algo bueno que ya hay aquí. Algo que funciona, algo que has construido."
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Estás honrando la brecha sin dejar que te aplaste. La brecha existe, y está bien que así sea. Pero junto a la brecha está también todo lo que ya has construido, y tú, atrapado en la visión, a menudo lo olvidas. La columna derecha es tu ancla: no te dice que dejes de soñar, te dice que mires también dónde estás. Estás más adelante de lo que crees.",
+      "research": "",
+      "tomorrow": "Mañana abordamos un momento específico: la noche, cuando el día termina y la brecha parece más grande que nunca."
+    },
+    {
+      "day": 5,
+      "subject": "Noche: el sueño puede esperar hasta mañana",
+      "durationMinutes": 5,
+      "intro": "Si hay un momento en que la brecha pesa más, suele ser cuando el día termina: de noche la mente hace cuentas, y para ti las cuentas casi siempre son desfavorables. El punto no es cerrar la distancia en una noche. Es cerrar el día: decirte \"por hoy es suficiente, el sueño puede esperar hasta mañana. No se escapa.\" Este ejercicio funciona mejor de noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Hoy trabajé en el sueño así…",
+          "instruction": "Escribe todo lo que hiciste durante el día que, aunque sea en mínima parte, acercó el sueño a la realidad. No solo las acciones grandes: también un pensamiento, una conversación, una pequeña decisión."
+        },
+        {
+          "prompt": "Lo más sucio que hice hoy es…",
+          "instruction": "Lo menos perfecto. Lo que en tu visión nunca habría aparecido así. Pero que existe."
+        }
+      ],
+      "closingRitual": "Por último, cierra escribiendo: \"Por hoy, la obra cierra. El sueño me espera mañana.\" Y detente.",
+      "why": "El soñador nunca cierra: la visión está siempre encendida, siempre en construcción, siempre incompleta. Y sin un cierre, el día nunca termina de verdad. Escribir \"la obra cierra\" es un gesto práctico con un efecto profundo: le estás diciendo a la visión \"te dediqué hoy. Mañana más.\" No es una rendición: es un respeto, hacia el sueño, hacia el trabajo, y hacia ti, que necesitas descansar para poder continuar.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de algo que quizás no consideras lo suficiente: la diferencia entre quien sueña y quien construye. Y por qué tú eres ambas cosas."
+    },
+    {
+      "day": 6,
+      "subject": "Eres un soñador. Pero también un constructor.",
+      "durationMinutes": 5,
+      "intro": "Hoy damos un paso todavía más sutil: hablamos de cómo te ves a ti mismo. Tú te defines como un soñador, y lo eres. Pero tu problema no es que sueñes demasiado: es que no te reconoces lo suficiente cuando construyes, porque el resultado nunca se parece a la visión y te juzgas por la distancia en lugar de por el camino recorrido.",
+      "steps": [
+        {
+          "prompt": "Cosas que soñé y que existen",
+          "instruction": "Divide la página en tres partes. En la primera, escribe todo lo que alguna vez fue solo una visión y que hoy es real. Aunque sea parcialmente, aunque sea de forma imperfecta: un proyecto iniciado, una relación construida, una decisión tomada, un cambio realizado."
+        },
+        {
+          "prompt": "El precio que pagué por traerlas a tierra",
+          "instruction": "Por cada una, escribe qué te costó: esfuerzo, dudas, imperfección aceptada, juicio de los demás. No para quejarte: para reconocer el trabajo hecho."
+        },
+        {
+          "prompt": "La frase que me digo hoy",
+          "instruction": "Una sola frase. La que el soñador-constructor merece escuchar."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "El soñador siempre mira hacia adelante, nunca hacia atrás, y por eso no ve cuánto ha construido ya. Hoy has mirado hacia atrás: no por nostalgia, por justicia. Cada sueño que has traído a tierra — aunque sea de forma imperfecta — es la prueba de que no eres solo un soñador: eres alguien que hace. Y hacer, con las manos manchadas de tinta, es el gesto más valiente que un visionario puede llevar a cabo.",
+      "research": "",
+      "tomorrow": "Mañana llegamos al último día: cómo llevar contigo lo que has aprendido, sin convertirlo en una visión más que se queda solo en la cabeza."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es el modo en que continúas.",
+      "durationMinutes": 5,
+      "intro": "Durante siete días elegiste mancharte las manos: llevar el sueño al papel y trabajar en él. Y para un visionario, eso lo es todo. Hoy no añadimos nada nuevo. Hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe las tres frases una debajo de la otra y complétalas con lo que sientas verdadero."
+        },
+        {
+          "prompt": "Lo que más me ayudó es…",
+          "instruction": "Aunque esté incompleto. Aunque sea solo una línea."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Escribe cómo te gustaría llevar el journaling a tu vida, sin obligaciones: no tienes que escribir todos los días, ni bien, ni mucho."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es transformarlo en otra visión: algo hermoso que has imaginado pero que no se convierte en práctica cotidiana. El journaling no funciona cuando se queda en sueño: funciona cuando se convierte en un espacio que eliges tener en tu vida. Te basta con saber por qué escribes y cuándo lo necesitas de verdad. Es el punto en que la escritura deja de ser una visión y se convierte en una obra abierta, donde cada día puedes volver, mancharte las manos, y construir algo que antes existía solo en tu cabeza.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal no es un método que seguir. Es un modo de volver a casa, cada vez que sientas la necesidad. Si quieres seguir escribiendo, sabes dónde encontrar papel y pluma; si te pierdes, sabes que puedes volver aquí. Gracias: por la atención, por el tiempo, por haber elegido mancharte las manos con tu sueño."
+}

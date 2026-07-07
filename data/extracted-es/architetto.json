@@ -1,0 +1,164 @@
+{
+  "id": "architetto",
+  "name": "El Arquitecto de las Preocupaciones",
+  "driveFileId": "1U4NA7FNnC3Wk1oMXORVS9Rd2PDsfvEoA",
+  "essence": "Un nombre que no habla de debilidad. Habla de funcionamiento.",
+  "description": "Tú no te limitas a pensar. Tú construyes. Tomas una duda, una posibilidad, un detalle… y construyes encima todo un edificio mental. Planes, escenarios, alternativas, vías de escape. Ves los riesgos antes que los demás. Los anticipas. Te preparas. Incluso cuando todo calla, tú sigues proyectando, y a veces terminas habitando un futuro que todavía no ha sucedido.",
+  "strength": "Ves los riesgos antes que los demás, los anticipas y te preparas. Esta capacidad nace de la inteligencia y el sentido de responsabilidad.",
+  "shadow": "Tu mente casi nunca se detiene. Incluso cuando todo calla, sigues proyectando, y a veces terminas habitando un futuro que todavía no ha sucedido.",
+  "coreNeed": "sentirte a salvo sin tener que controlarlo todo",
+  "trap": "Intentar controlar los pensamientos: cuanto más intentas no pensar en algo, más vuelve esa cosa. Cuando intentas controlar un pensamiento, le estás diciendo al cerebro que es importante y él lo vuelve a poner en primer plano.",
+  "journalingMetaphor": "espacio de descompresión",
+  "howJournalingHelps": "No como introspección pesada, no como análisis infinito, sino como espacio de descompresión. Un lugar donde los pensamientos pueden salir de la cabeza, detenerse en el papel y dejar de dar vueltas.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Quitarle peso a la cabeza",
+      "durationMinutes": 5,
+      "intro": "Hoy no analizamos nada. No resolvemos. No arreglamos. Hoy hacemos solo una cosa: quitamos peso.",
+      "steps": [
+        {
+          "prompt": "En este momento, lo que me preocupa es…",
+          "instruction": "Toma papel y bolígrafo, pon un temporizador de 5 minutos y escribe todo. Sin orden, sin sentido, sin filtros: pensamientos lógicos, absurdos, repetitivos, incompletos. No tienen que tener un hilo, no tienen que poder resolverse. Cuando suene el temporizador, detente."
+        }
+      ],
+      "closingRitual": "Lee rápidamente y encierra una sola cosa. No la más grave, no la más urgente: la que sientas más \"tuya\" ahora. Y basta así.",
+      "why": "La mente llena no necesita soluciones. Necesita espacio. Cuando un pensamiento se queda en la cabeza, rebota de un lado a otro; cuando termina en el papel, se detiene. No estás perdiendo el control: solo lo estás trasladando a un lugar más seguro.",
+      "research": "Diversas investigaciones en el ámbito psicológico —a partir de los trabajos de James Pennebaker sobre la escritura expresiva— confirman que poner en palabras lo que nos preocupa reduce la carga cognitiva y disminuye los niveles de estrés.",
+      "tomorrow": "Mañana hablaremos de una trampa muy común: la necesidad de controlar los pensamientos, y de por qué cuanto más lo intentas, más se te vuelven en contra."
+    },
+    {
+      "day": 2,
+      "subject": "Cuanto más intentas controlarlos, más vuelven",
+      "durationMinutes": 3,
+      "intro": "Ayer le quitamos peso a la cabeza. Hoy damos un paso diferente. El problema no es el pensamiento: es la relación que tienes con él. Los pensamientos no se van porque los combatas. Se van cuando dejas de perseguirlos.",
+      "steps": [
+        {
+          "prompt": "Un pensamiento que vuelve con frecuencia es…",
+          "instruction": "Toma papel y bolígrafo, te bastan 3 minutos. Escribe una sola frase. Sin explicaciones, sin contexto."
+        },
+        {
+          "prompt": "Si este pensamiento fuera solo ruido de fondo, ¿cómo me sentiría?",
+          "instruction": "Debajo, responde a esta pregunta. Escribe lo primero que se te ocurra."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos eliminando el pensamiento: le estamos quitando autoridad. Cuando un pensamiento se escribe y se observa, sin corregirlo ni combatirlo, deja de ser una orden y se convierte solo en un contenido. Tú permaneces. El pensamiento pasa.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un espacio mental intencional. Aunque tengas poco tiempo, aunque la cabeza ya esté llena."
+    },
+    {
+      "day": 3,
+      "subject": "El espacio no se encuentra. Se crea.",
+      "durationMinutes": 4,
+      "intro": "Muchas personas dicen: \"Escribiría, si tuviera más tiempo\" o \"Escribiría, si tuviera menos confusión\". La verdad es otra: el espacio mental no llega antes. Llega después. No es una condición, es una consecuencia.",
+      "steps": [
+        {
+          "prompt": "Este es mi espacio.",
+          "instruction": "Toma papel y bolígrafo, bastan 4 minutos. Escribe esta frase en la parte superior de la página."
+        },
+        {
+          "prompt": "Aquí puedo permitirme…",
+          "instruction": "Debajo, completa la frase. Escribe todo lo que se te ocurra, incluso cosas simples: bajar el ritmo, no saber, no decidir ahora, no resolver nada, no ser productivo."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "Tu mente está acostumbrada a estar siempre en funcionamiento: siempre útil, siempre lista, siempre adelantándose. Pero una mente que no tiene un espacio dedicado termina usando cada momento como espacio de emergencia. Escribir \"este es mi espacio\" no es una frase simbólica: es un límite. Le estás diciendo a tu sistema nervioso: aquí no tengo que controlar nada.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: por qué algunas preocupaciones no hay que resolverlas, sino contenerlas. Y qué significa realmente \"contener\" sin reprimir."
+    },
+    {
+      "day": 4,
+      "subject": "No todo hay que resolverlo. Algunas cosas hay que contenerlas.",
+      "durationMinutes": 5,
+      "intro": "No todo lo que te preocupa hay que resolverlo ahora. Algunas cosas, simplemente, no se pueden resolver en este momento. Resolver significa encontrar una respuesta. Contener significa crear un espacio seguro en el que esa cosa pueda estar sin devorarte atención y energía.",
+      "steps": [
+        {
+          "prompt": "Preocupaciones para contener",
+          "instruction": "Toma papel y bolígrafo, bastan 5 minutos. Divide la página en dos columnas. En la columna izquierda, con este título, escribe todo lo que te preocupa pero que no puedes resolver hoy."
+        },
+        {
+          "prompt": "Acciones posibles (incluso mínimas)",
+          "instruction": "En la columna derecha, para cada preocupación, escribe una sola cosa: una microacción posible, una fecha futura, o simplemente \"ninguna acción por ahora\"."
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Le estás diciendo a la mente qué debe hacer y qué no. Las preocupaciones no desaparecen porque las ignores: se calman cuando saben dónde estar. Este ejercicio no elimina el problema, elimina la sobrecarga. Así es como se construye el equilibrio mental: no quitando peso al azar, sino distribuyéndolo mejor.",
+      "research": "",
+      "tomorrow": "Mañana afrontamos un momento específico: la noche, cuando el cuerpo se detiene pero la mente no. Y vemos cómo cerrar de verdad el día, antes de llevarte todo a la cama."
+    },
+    {
+      "day": 5,
+      "subject": "Prohibido llevarse las preocupaciones a la cama",
+      "durationMinutes": 5,
+      "intro": "Cuando el día termina, el cuerpo se detiene pero la mente no. La cuestión no es dormir mejor: es llegar más ligero. No hace falta vaciar la mente. Hace falta decirle que puede dejar de trabajar.",
+      "steps": [
+        {
+          "prompt": "Hoy puedo dejar aquí…",
+          "instruction": "Toma papel y bolígrafo: este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras. Escribe esta frase arriba y debajo escribe todo lo que no quieres llevarte contigo: pensamientos, cuestiones abiertas, cosas sin resolver, frases que se quedaron a medias."
+        },
+        {
+          "prompt": "Mañana me ocuparé de esto así:",
+          "instruction": "Añade una sola línea. Aunque sea vaga, aunque sea imperfecta."
+        },
+        {
+          "prompt": "Por hoy, es suficiente.",
+          "instruction": "Cierra con esta frase. Y detente."
+        }
+      ],
+      "closingRitual": "Cierra con \"Por hoy, es suficiente.\" Y detente.",
+      "why": "La mente permanece activa cuando teme olvidar, cuando siente que algo ha quedado en suspenso sin un lugar donde estar. Escribir es como decir: \"yo me encargo. Ahora no.\" No estás evitando: estás posponiendo de forma consciente. El papel y el bolígrafo se convierten en un umbral: de un lado el hacer, del otro el descanso.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de algo que quizá no consideras lo suficiente: cuánto peso estás sosteniendo que ni siquiera es tuyo."
+    },
+    {
+      "day": 6,
+      "subject": "No todo está sobre tus hombros",
+      "durationMinutes": 5,
+      "intro": "Quien tiene una mente como la tuya tiende a cargar con cosas incluso antes de que alguien se las pida: responsabilidades, preocupaciones, escenarios futuros. No porque debas, sino porque sabes hacerlo. El problema es que, con el tiempo, empiezas a tratar todo como si fuera urgente y todo como si dependiera de ti.",
+      "steps": [
+        {
+          "prompt": "Cosas que estoy sosteniendo",
+          "instruction": "Toma papel y bolígrafo, bastan 5 minutos. Divide la página en tres partes. En la primera parte escribe todo lo que sientes sobre tus hombros: pensamientos, responsabilidades, expectativas, deberes. Sin filtros."
+        },
+        {
+          "prompt": "Cosas que no dependen solo de mí",
+          "instruction": "Vuelve a leer lo que has escrito arriba y traslada aquí todo lo que, honestamente, no está bajo tu control total."
+        },
+        {
+          "prompt": "Lo que puedo hacer hoy",
+          "instruction": "Escribe una sola cosa. Pequeña, pero real."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "La mente se sobrecarga cuando todo parece igual de importante. Pero no lo es. No estás renunciando a la responsabilidad: estás dejando de asumir también lo que no te pertenece. Cuando ves en blanco y negro que ciertas cosas no dependen de ti, el propio cuerpo responde: los hombros bajan, la respiración se alarga.",
+      "research": "",
+      "tomorrow": "Mañana llegamos al último día. No hablaremos de hacer más, sino de cómo llevar contigo lo que has aprendido, sin convertirlo en una cosa más que mantener."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es el modo en que continúas.",
+      "durationMinutes": 5,
+      "intro": "En estos siete días no has resuelto todas las preocupaciones, y ese no era el objetivo. Has hecho algo más raro: has aprendido a estar con tu mente sin combatirla. Hoy no añadimos nada nuevo. Hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Toma papel y bolígrafo y escribe las tres frases una debajo de la otra, empezando por esta. Escribe lo que sientas verdadero, aunque esté incompleto, aunque sea solo una línea."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Completa también esta frase con lo que sientas verdadero."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Completa la última frase. Basta con una sola línea."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es convertirlo enseguida en un deber. Pero el journaling no funciona cuando se vuelve una obligación: funciona cuando se convierte en un espacio que eliges tener en tu vida. No tienes que escribir todos los días, ni escribir bien, ni durante mucho tiempo. Te basta con saber por qué escribes y cuándo lo necesitas de verdad. Es el punto en el que la escritura deja de ser un ejercicio y se convierte en un compañero de viaje.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Por ahora, no tienes que hacer nada más. Si quieres seguir escribiendo, ya sabes dónde encontrar papel y bolígrafo. Si te pierdes, sabes que puedes volver aquí. Back to Journal no es un método que seguir: es una forma de volver a casa, cada vez que sientas la necesidad. Gracias. Por la atención, por el tiempo, por haberte detenido."
+}

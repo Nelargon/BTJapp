@@ -1,0 +1,172 @@
+{
+  "id": "ladro-di-scintille",
+  "name": "El Ladrón de Chispas",
+  "driveFileId": "1PXvkytScB9XSQpJ3_m_wdi4dFnMnBuAS",
+  "essence": "Es un nombre que no habla de confusión. Habla de hambre creativa.",
+  "description": "Tú vives de chispas. Frases guardadas, capturas de pantalla, notas de voz, ideas robadas al aire mientras caminas, mientras escuchas música, mientras miras una escena y piensas: “esto, esto se parece a mí.” Tu problema no es la creatividad. Es la dispersión. Tienes mil comienzos y pocos finales. Y de tanto perseguir inspiraciones, corres el riesgo de no construir nunca algo que sea verdaderamente tuyo.",
+  "strength": "El hambre creativa: recoges el mundo, capturas chispas en todas partes. No hay nada de malo en tu forma de recoger el mundo.",
+  "shadow": "La dispersión: tienes mil comienzos y pocos finales. De tanto perseguir inspiraciones, corres el riesgo de no construir nunca algo que sea verdaderamente tuyo.",
+  "coreNeed": "un lugar donde las chispas dejan de acumularse y se convierten en algo tuyo",
+  "trap": "La seducción de lo nuevo: la idea nueva, más fresca y luminosa, hace que la anterior parezca vieja, aburrida, insuficiente. Y entonces la sueltas y persigues la siguiente.",
+  "journalingMetaphor": "taller",
+  "howJournalingHelps": "El journaling no como diario, no como lista de tareas creativa, sino como taller: un lugar donde las chispas dejan de acumularse y empiezan a tomar forma. Escribir cada día no sirve para seguir recogiendo, sino para elegir: para darle a una sola idea el espacio que antes repartías entre cien.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Vacía el cajón",
+      "durationMinutes": 5,
+      "intro": "Hoy no creamos nada. No organizamos. No elegimos. Hacemos solo una cosa: vaciamos. Antes de elegir hacia dónde ir, hay que ver qué hay sobre la mesa.",
+      "steps": [
+        {
+          "prompt": "Las ideas, los proyectos y las inspiraciones que tengo en la cabeza ahora mismo son…",
+          "instruction": "Escribe todo. Sin orden, sin evaluar, sin preguntarte si son ideas buenas o factibles: el libro que querrías escribir, la app que se te ocurrió en la ducha, el viaje que sueñas, la frase que guardaste ayer, el proyecto que empezaste y abandonaste. Todo."
+        }
+      ],
+      "closingRitual": "Cuando suene el temporizador, detente. Relee y encierra en un círculo una sola cosa. No la mejor: la que más te llama, la que, al leerla, te hace sentir algo en el pecho. Y basta así.",
+      "why": "Una mente creativa llena de ideas no necesita más ideas. Necesita visibilidad sobre lo que ya tiene. Cuando las inspiraciones se quedan en la cabeza, todas compiten por la misma atención y saltas de una a otra sin profundizar nunca. Ponerlas en papel las detiene, las hace visibles y te permite elegir.",
+      "research": "Los estudios de Teresa Amabile en Harvard muestran que la producción creativa más significativa no nace de la cantidad de ideas, sino de la capacidad de seleccionar y desarrollar: y la selección siempre empieza por hacer visible lo invisible.",
+      "tomorrow": "Mañana hablaremos de una trampa que conoces bien: la seducción de la idea nueva."
+    },
+    {
+      "day": 2,
+      "subject": "La idea nueva siempre es más bonita. Pero no siempre es más verdadera.",
+      "durationMinutes": 3,
+      "intro": "Ayer vaciamos el cajón y elegimos una chispa. Hoy hablamos de la trampa más insidiosa para quien vive de inspiraciones: la seducción de lo nuevo. Lo nuevo activa la dopamina, lo familiar no; pero crear algo significativo requiere quedarse con una idea incluso cuando deja de ser nueva.",
+      "steps": [
+        {
+          "prompt": "Una idea que abandoné porque llegó una nueva es…",
+          "instruction": "Una sola frase."
+        },
+        {
+          "prompt": "Si volviera a esa idea hoy, ¿qué encontraría todavía en ella?",
+          "instruction": "Debajo, escribe lo primero que se te ocurra."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos diciendo que las ideas nuevas sean malas: estamos dando valor a lo que ya has empezado. Como un jardinero que planta una semilla nueva cada semana pero nunca riega las viejas, al final tienes un campo lleno de semillas y ninguna planta. A veces lo más creativo que puedes hacer no es empezar algo nuevo: es volver a algo inacabado y darle un poco más de agua.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un lugar donde las chispas dejan de acumularse y empiezan a tomar dirección."
+    },
+    {
+      "day": 3,
+      "subject": "De chispa a dirección",
+      "durationMinutes": 4,
+      "intro": "Hoy afrontamos el punto crucial: transformar las chispas en dirección. Tú no tienes un problema de inspiración, tienes un problema de contenedor: cuando una inspiración vive en diez sitios distintos, no vive en ninguno. Las ideas nómadas no crecen.",
+      "steps": [
+        {
+          "prompt": "La chispa que elijo llevar adelante es…",
+          "instruction": "Escribe esta frase arriba. Elige una sola idea: la que encerraste el primer día, u otra que mientras tanto haya vuelto a hacerse notar."
+        },
+        {
+          "prompt": "¿Por qué esta y no otra?",
+          "instruction": "Responde debajo, sin necesidad de un plan completo."
+        },
+        {
+          "prompt": "¿Cuál es el paso siguiente más pequeño posible?",
+          "instruction": "Hace falta un gesto concreto, no un plan."
+        },
+        {
+          "prompt": "¿Cuándo lo hago?",
+          "instruction": "Dale una fecha a ese gesto concreto."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "La diferencia entre quien tiene mil ideas y quien las realiza no es el talento: es la elección. Y la elección es un músculo que se entrena. Escribir “elijo esta” no es un matrimonio: estás diciendo que por ahora tu energía va aquí, las demás esperan, no se escapan. El paso más pequeño posible no te pide ser brillante, solo te pide moverte: y el movimiento, aunque sea mínimo, transforma una chispa en algo real.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: qué hacer con todas las demás ideas que siguen llegando mientras trabajas en la tuya."
+    },
+    {
+      "day": 4,
+      "subject": "Las ideas que llegan mientras trabajas no son enemigas",
+      "durationMinutes": 5,
+      "intro": "Estás trabajando en tu chispa y de repente otra idea te atraviesa la mente: luminosa, urgente, irresistible. Ante la disyuntiva entre perseguirla o ignorarla hay una tercera opción: capturarla y dejarla ir. La idea no se escapa si la escribes: se escapa si te quedas mirándola fijamente en la cabeza.",
+      "steps": [
+        {
+          "prompt": "Ideas que llegan",
+          "instruction": "Divide la página en dos columnas. En esta columna de la izquierda escribe todas las ideas que han llegado estos días mientras intentabas concentrarte en tu chispa: las que te han distraído, tentado, seducido."
+        },
+        {
+          "prompt": "Para retomar cuando",
+          "instruction": "En la columna derecha, para cada idea escribe una fecha, un momento, o simplemente “ahora no”."
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Estás honrando las ideas sin dejar que te desvíen. Las ideas se vuelven tiránicas cuando temen ser olvidadas; pero cuando tienen un lugar donde estar —escritas, reconocidas, con una fecha posible— se calman. Ya no te tiran de la manga: saben que volverás. Este ejercicio no mata la creatividad, la canaliza. Y la creatividad canalizada produce; la dispersa consume.",
+      "research": "",
+      "tomorrow": "Mañana afrontamos un momento específico: la noche, cuando el día termina y la mente creativa no deja de producir."
+    },
+    {
+      "day": 5,
+      "subject": "Noche: cuando la mente creativa no se apaga",
+      "durationMinutes": 5,
+      "intro": "Si hay un momento en que las chispas se vuelven más ruidosas, suele ser cuando el día termina. El cuerpo está cansado, pero la mente no: tu mente creativa no tiene interruptor y, si no le das un momento de cierre, sigue produciendo toda la noche. Este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Las chispas de hoy han sido…",
+          "instruction": "Escribe arriba esta frase y debajo anota brevemente las ideas, las inspiraciones, los fragmentos recogidos durante el día. No importa si están completos: basta un título, una imagen, una palabra."
+        },
+        {
+          "prompt": "La que me llevo conmigo mañana es…",
+          "instruction": "Solo una. Las demás se quedan aquí, en el papel. A salvo."
+        },
+        {
+          "prompt": "Por hoy, he recogido suficiente.",
+          "instruction": "Por último, cierra escribiendo esta frase."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "La mente creativa se queda encendida cuando siente que algo podría perderse, que una idea no capturada es una idea muerta. Escribir las chispas del día es como decirle a la mente: “lo he recogido todo. Estoy a salvo. Puedes detenerte.” No estás apagando la creatividad: le estás dando un horario de cierre. Y el cierre, para una mente que nunca se detiene, es un acto de cuidado profundo.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de la diferencia entre consumir belleza y producirla, y por qué estás listo para el segundo paso."
+    },
+    {
+      "day": 6,
+      "subject": "De consumidor a creador",
+      "durationMinutes": 5,
+      "intro": "Tú no quieres solo coleccionar inspiraciones: hay algo dentro que quiere salir, una necesidad de crear y de dejar algo tuyo en el mundo. El problema es que consumir es fácil y da la sensación de estar haciendo algo; crear es más costoso, más incierto, más expuesto, y por eso lo aplazas. Pero la chispa correcta es la que ya tienes.",
+      "steps": [
+        {
+          "prompt": "Cosas que consumo",
+          "instruction": "Divide la página en tres partes. En la primera escribe todo lo que absorbes regularmente: podcasts, libros, artículos, perfiles que sigues, capturas de pantalla que guardas. Sin juzgar."
+        },
+        {
+          "prompt": "Cosas que creo",
+          "instruction": "En la segunda parte escribe todo lo que produces: textos, ideas desarrolladas, proyectos iniciados, cualquier cosa que exista porque tú la hiciste."
+        },
+        {
+          "prompt": "Una cosa que quiero crear a partir de lo que he consumido",
+          "instruction": "Solo una. El puente entre el consumo y la creación."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "La desproporción entre consumo y creación es una de las fuentes de frustración más sutiles, porque el consumo da la ilusión de movimiento, pero el movimiento real está en la creación. No estás dejando de consumir: estás empezando a transformar. Y la transformación es el gesto más natural para un ladrón de chispas: tomar lo que le has robado al mundo y devolverlo en una forma que es solo tuya.",
+      "research": "",
+      "tomorrow": "Mañana, último día: cómo llevarte contigo lo que has aprendido, sin convertirlo en la enésima inspiración que nunca se convierte en nada."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es la forma en que continúas.",
+      "durationMinutes": 5,
+      "intro": "Durante siete días has elegido quedarte con una sola cosa, en lugar de perseguir cien. Y para ti, eso es enorme. No has dejado de recoger chispas —no era ese el objetivo—, pero has hecho algo más raro: has aprendido a darles una dirección. Hoy no añadimos nada nuevo: hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe estas tres frases una debajo de la otra y completa con lo que sientas verdadero. Aunque sea incompleto. Aunque sea solo una línea."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Completa con lo que sientas verdadero."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Completa con lo que sientas verdadero."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es transformarlo en otra inspiración: algo bonito que has consumido pero que no se convierte en práctica. El journaling no funciona cuando queda como una idea: funciona cuando se convierte en un espacio que eliges tener en tu vida. No tienes que escribir todos los días, ni bien, ni mucho tiempo: te basta con saber por qué escribes y cuándo lo necesitas de verdad. Es el punto en el que la escritura se convierte en un taller, donde las chispas toman forma y tú te conviertes en el creador que siempre has sido.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Si quieres seguir escribiendo, sabes dónde encontrar papel y lápiz. Si te pierdes, sabes que puedes volver aquí. Back to Journal no es un método que seguir: es una forma de volver a casa, cada vez que sientas la necesidad. Gracias. Por la atención, por el tiempo, por haber elegido transformar las chispas en algo tuyo."
+}
