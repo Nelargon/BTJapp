@@ -1,0 +1,164 @@
+{
+  "id": "custode",
+  "name": "Il Custode delle Emozioni",
+  "driveFileId": "1XN7EW8G331w3qCJA0_a6BnoNcSnOC1Ny",
+  "essence": "Un nome che non parla di fragilità. Parla di capacità.",
+  "description": "Tu senti. Eccome se senti. Solo che non lo fai vedere. Sei la persona che ascolta, che comprende, che regge. Quella che \"non vuole creare problemi\". E così, nel tempo, sei diventato bravissimo in una cosa pericolosa: tenerti tutto dentro senza far rumore. Non è freddezza: è educazione emotiva al contrario, hai imparato che certe emozioni vanno chiuse in un cassetto, che mostrarle è \"troppo\", che reggere è meglio che esprimere.",
+  "strength": "Sai sentire, ascoltare, comprendere e reggere. Non c'è niente di sbagliato nel sentire tanto: il problema non è la quantità di emozioni.",
+  "shadow": "Le emozioni tenute dentro non hanno mai avuto un posto dove andare, e i cassetti, prima o poi, si riempiono. E iniziano a non chiudersi più.",
+  "coreNeed": "Dare alle tue emozioni un posto dove andare: un luogo dove possano esistere senza essere giudicate, spiegate o giustificate a qualcuno.",
+  "trap": "La trappola del trattenere: succede qualcosa, tu senti, ma invece di esprimere trattieni, e un'emozione alla volta costruisci una diga. Dall'esterno sembri solido, stabile, affidabile; dentro la pressione sale. Non è forza, è un automatismo.",
+  "journalingMetaphor": "spazio privato",
+  "howJournalingHelps": "Non come introspezione forzata, non come terapia improvvisata, ma come spazio privato: un luogo dove le emozioni possono esistere senza essere giudicate, spiegate o giustificate a qualcuno. Scrivere non per capire, ma per posare il peso non detto che stava cambiando il modo di vivere le giornate, le relazioni, persino il sonno.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Dare un nome a quello che senti",
+      "durationMinutes": 5,
+      "intro": "Oggi non analizziamo nulla. Non cerchiamo cause. Non risolviamo. Facciamo solo una cosa: diamo un nome. Potrebbe sembrare un gesto piccolo, ma è più potente di quanto immagini.",
+      "steps": [
+        {
+          "prompt": "In questo momento, dentro di me c'è…",
+          "instruction": "Prendi carta e penna, bastano 5 minuti. Scrivi questa frase e poi scrivi: senza ordine, senza dover essere preciso, senza giudicare quello che esce. Possono essere emozioni chiare o confuse, sensazioni fisiche, immagini, anche solo colori o parole sciolte. Non devono avere un filo logico."
+        }
+      ],
+      "closingRitual": "Quando il timer suona, fermati. Rileggi quello che hai scritto e sottolinea una sola parola: non la più importante, quella che ti sorprende di più. E basta così.",
+      "why": "Le emozioni che non hanno un nome non smettono di esistere: continuano a lavorare sotto la superficie, influenzando tutto — l'umore, le scelte, l'energia. In parole semplici: nominare calma. Non stai aprendo un vaso di Pandora, stai facendo il contrario: stai dando una forma a qualcosa che, senza nome, restava una massa confusa dentro il petto.",
+      "research": "Matthew Lieberman (UCLA): il semplice atto di dare un nome a un'emozione riduce l'attivazione dell'amigdala, la parte del cervello che gestisce la reattività emotiva.",
+      "tomorrow": "Domani parleremo di una trappola in cui cadi spesso: la convinzione che trattenere sia la stessa cosa di essere forti."
+    },
+    {
+      "day": 2,
+      "subject": "Trattenere non è forza. È abitudine.",
+      "durationMinutes": 3,
+      "intro": "Ieri abbiamo dato un nome a ciò che senti. Oggi parliamo di una trappola che conosci bene, anche se forse non l'hai mai chiamata così: la trappola del trattenere. Le emozioni trattenute non evaporano: si trasformano in stanchezza, in irritabilità improvvisa, in quella sensazione di essere \"pieni\" senza sapere di cosa.",
+      "steps": [
+        {
+          "prompt": "Una cosa che ho trattenuto di recente è…",
+          "instruction": "Prendi carta e penna, ti bastano 3 minuti. Una frase sola. Niente spiegazioni, niente contesto."
+        },
+        {
+          "prompt": "Se l'avessi espressa, cosa sarebbe cambiato?",
+          "instruction": "Rispondi sotto. Scrivi la prima cosa che viene: non la più ragionevole, la più vera."
+        }
+      ],
+      "closingRitual": "Poi chiudi il quaderno.",
+      "why": "Non stiamo cercando di eliminare il trattenere: è un'abitudine radicata e a volte anche utile. Stiamo facendo qualcosa di più sottile: la stiamo rendendo visibile. Come quando ti accorgi che stringi la mascella da ore: nel momento in cui lo noti, qualcosa si rilascia. Quando un'emozione trattenuta viene scritta, smette di spingere in silenzio: diventa qualcosa che puoi guardare, non qualcosa che ti preme dentro.",
+      "research": "",
+      "tomorrow": "Domani creeremo uno spazio dove non devi spiegare nulla. Né a te, né agli altri."
+    },
+    {
+      "day": 3,
+      "subject": "Uno spazio dove non devi spiegare niente",
+      "durationMinutes": 4,
+      "intro": "Per te, esprimere un'emozione spesso significa anche doverla giustificare: spiegare perché la senti, dimostrare che è legittima, convincere qualcuno che non stai esagerando. È estenuante, ed è uno dei motivi per cui finisci per non dire niente. Ma c'è un'altra possibilità: uno spazio dove le emozioni possono semplicemente stare.",
+      "steps": [
+        {
+          "prompt": "Qui non devo spiegare niente.",
+          "instruction": "Prendi carta e penna, bastano 4 minuti. Scrivi questa frase in alto sulla pagina."
+        },
+        {
+          "prompt": "Oggi mi sento… e va bene così.",
+          "instruction": "Sotto, completa la frase e scrivi tutto ciò che viene. Anche le contraddizioni, anche le cose che \"non hanno senso\": triste anche se la giornata è andata bene, arrabbiato senza sapere con chi, vuoto anche se hai fatto tutto, grato e stanco allo stesso tempo."
+        }
+      ],
+      "closingRitual": "Quando senti che basta, fermati.",
+      "why": "Il tuo mondo emotivo è complesso, e tu hai imparato a semplificarlo per gli altri: \"sto bene\", \"tutto ok\", \"niente di che\". Ma quella semplificazione, ripetuta per anni, finisce per tagliare via pezzi di te. Scrivere \"qui non devo spiegare niente\" non è una frase simbolica: è un permesso. Stai dicendo alla parte di te che trattiene: qui puoi esistere intera. Nessuno giudica, nessuno aspetta una versione pulita di quello che senti.",
+      "research": "",
+      "tomorrow": "Domani parleremo di un passaggio delicato: perché non tutte le emozioni vanno \"capite\". Alcune hanno solo bisogno di essere viste."
+    },
+    {
+      "day": 4,
+      "subject": "Non tutte le emozioni vanno capite. Alcune vanno solo viste.",
+      "durationMinutes": 5,
+      "intro": "Non tutto ciò che senti ha bisogno di una spiegazione: non tutto ha una causa chiara, un'origine identificabile, un perché logico. La trappola è cercare di capire a tutti i costi. Ma a volte l'emozione non chiede di essere capita: chiede solo di essere vista.",
+      "steps": [
+        {
+          "prompt": "Quel che sento",
+          "instruction": "Prendi carta e penna, bastano 5 minuti. Dividi la pagina in due colonne. Nella colonna sinistra, con questo titolo, scrivi le emozioni che porti dentro in questo momento: anche quelle vaghe, anche quelle contraddittorie."
+        },
+        {
+          "prompt": "Cosa ha bisogno da me",
+          "instruction": "Nella colonna destra, per ogni emozione, scrivi una sola cosa: un'azione gentile, uno spazio, oppure semplicemente \"essere vista\"."
+        }
+      ],
+      "closingRitual": "Poi fermati.",
+      "why": "Stai distinguendo le emozioni che hanno bisogno di azione da quelle che hanno bisogno di presenza. Le emozioni non spariscono perché le capisci: si calmano quando si sentono accolte. Questo esercizio non risolve il sentire, gli toglie la pressione di dover essere qualcosa di diverso da ciò che è.",
+      "research": "",
+      "tomorrow": "Domani affrontiamo un momento specifico: la sera, quando il silenzio arriva e tutte le emozioni che hai trattenuto durante il giorno bussano alla porta."
+    },
+    {
+      "day": 5,
+      "subject": "Di sera bussano tutte insieme",
+      "durationMinutes": 5,
+      "intro": "Se c'è un momento in cui le emozioni trattenute diventano più rumorose, di solito è quando la giornata finisce: quando smetti di fare, quando non hai più nessuno da ascoltare, nessun ruolo da interpretare. Il punto non è dormire meglio: è arrivarci più leggero. Non serve svuotare il cuore, serve dirgli che per oggi può smettere di reggere.",
+      "steps": [
+        {
+          "prompt": "Oggi ho sentito…",
+          "instruction": "Prendi carta e penna: questo esercizio funziona meglio la sera, ma puoi farlo quando vuoi. Scrivi questa frase in alto e sotto scrivi tutto ciò che hai provato durante la giornata: non solo le emozioni grandi, anche quelle piccole, quelle che hai ignorato, quelle che hai messo via per dopo."
+        },
+        {
+          "prompt": "Quello che posso lasciare qui è…",
+          "instruction": "Scegli almeno una cosa. Anche solo una."
+        },
+        {
+          "prompt": "Per oggi, ho sentito abbastanza.",
+          "instruction": "Infine, chiudi con questa frase."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "Le emozioni restano attive quando non hanno avuto spazio, quando sono state messe in pausa ma mai davvero accolte. Scrivere è come dire: \"ti ho visto. Adesso puoi andare.\" Non stai reprimendo: stai facendo una chiusura gentile. È uno dei gesti più teneri che puoi fare a fine giornata: non pretendere di aver gestito tutto perfettamente, ma riconoscere che hai sentito. E che è stato abbastanza.",
+      "research": "",
+      "tomorrow": "Domani parleremo di qualcosa che forse non consideri abbastanza: quanto del peso emotivo che porti non è nemmeno tuo."
+    },
+    {
+      "day": 6,
+      "subject": "Non tutte le emozioni che senti sono tue",
+      "durationMinutes": 5,
+      "intro": "Chi ha un cuore come il tuo tende a fare una cosa in automatico: assorbire le emozioni degli altri come se fossero proprie. Il dolore di un amico diventa il tuo dolore, la tensione in una stanza diventa la tua tensione. Non perché sei debole, ma perché sai sentire. Il problema è che, a lungo andare, cominci a non distinguere più ciò che è tuo da ciò che hai raccolto dagli altri.",
+      "steps": [
+        {
+          "prompt": "Quel che sto sentendo",
+          "instruction": "Prendi carta e penna, bastano 5 minuti. Dividi la pagina in tre parti. Nella prima, con questo titolo, scrivi tutto ciò che porti dentro in questo momento: emozioni, sensazioni, pesi. Senza filtri."
+        },
+        {
+          "prompt": "Quel che non è mio",
+          "instruction": "Nella seconda parte, rileggi quello che hai scritto sopra e sposta qui tutto ciò che, onestamente, appartiene a qualcun altro: emozioni che hai assorbito, preoccupazioni che hai raccolto, tensioni che non sono nate in te."
+        },
+        {
+          "prompt": "Quel che posso fare per me oggi",
+          "instruction": "Nella terza parte, una cosa sola. Piccola, ma dedicata a te. Non a chi ti sta intorno. A te."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "Il cuore va in sovraccarico quando tutto sembra ugualmente tuo. Ma non lo è. Non stai smettendo di essere empatico: stai imparando a restituire ciò che non ti appartiene. È uno dei passaggi più difficili per chi è abituato a sentire tutto per tutti, ma anche uno dei più liberatori: quando vedi nero su bianco che certe emozioni non sono tue, il petto si apre. Il respiro torna.",
+      "research": "",
+      "tomorrow": "Domani arriviamo all'ultimo giorno: non parleremo di sentire di più, ma di come portare con te ciò che hai imparato, senza trasformarlo nell'ennesima cosa da reggere."
+    },
+    {
+      "day": 7,
+      "subject": "Non è la fine. È il modo in cui continui.",
+      "durationMinutes": 5,
+      "intro": "In questi sette giorni non hai risolto tutto ciò che senti, e non era questo l'obiettivo. Hai fatto qualcosa di più raro: hai permesso alle tue emozioni di esistere senza combatterle, giustificarle o nasconderle. Oggi non aggiungiamo nulla di nuovo. Facciamo una scelta.",
+      "steps": [
+        {
+          "prompt": "Quando scrivo, mi accorgo che…",
+          "instruction": "Prendi carta e penna. Scrivi queste tre frasi, una sotto l'altra, e completa ciò che senti vero. Anche se è incompleto. Anche se è solo una riga."
+        },
+        {
+          "prompt": "La cosa che mi ha aiutato di più è…",
+          "instruction": "Completa con ciò che senti vero, senza cercare la risposta giusta."
+        },
+        {
+          "prompt": "Se continuassi, lo farei così…",
+          "instruction": "Completa immaginando il tuo modo di continuare: senza obblighi, a modo tuo."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Il rischio, dopo un percorso, è trasformarlo subito in un dovere. Ma il journaling non funziona quando diventa un obbligo: funziona quando diventa uno spazio che scegli di avere nella tua vita. Non devi scrivere ogni giorno, non devi scrivere bene, non devi scrivere a lungo. Ti basta sapere perché scrivi e quando ti serve davvero: è il punto in cui la scrittura smette di essere un esercizio e diventa un rifugio.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal non è un metodo da seguire. È un modo di tornare a casa, ogni volta che ne senti il bisogno. Se vuoi continuare a scrivere, sai dove trovare carta e penna; se ti perdi, sai che puoi tornare qui. Grazie: per l'attenzione, per il tempo, per aver permesso a ciò che senti di uscire, almeno un po'."
+}

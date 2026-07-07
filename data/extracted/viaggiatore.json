@@ -1,0 +1,176 @@
+{
+  "id": "viaggiatore",
+  "name": "Il Viaggiatore delle Maree",
+  "driveFileId": "1lLlJKvFIfwGK1gf6-RkFoiMflr7OsAoj",
+  "essence": "Un nome che non parla di instabilità. Parla di profondità.",
+  "description": "Dentro di te ci sono maree. Giorni in cui sei leggero, creativo, presente. E altri in cui ti senti lontano da tutto, anche da te stesso. Non sempre c'è una causa chiara, non sempre c'è una soluzione rapida. E la cosa più faticosa è questa: quando cambi umore, cambi mondo. Le stesse cose che ieri erano facili, oggi sembrano enormi, e tu cominci a pensare che il problema sia tu. Ma non lo è: è solo una corrente, e le correnti, se impari a leggerle, non ti trascinano più. Ti attraversano.",
+  "strength": "La profondità: hai giorni in cui sei leggero, creativo, presente, capace di conquistare il mondo. Non c'è niente di sbagliato nel muoverti dentro.",
+  "shadow": "Quando cambi umore, cambi mondo: le stesse cose che ieri erano facili oggi sembrano enormi, e cominci a pensare che il problema sia tu, sentendoti un impostore nelle fasi basse.",
+  "coreNeed": "avere un filo che ti tiene unito attraverso le fasi",
+  "trap": "Giudicarti per come oscilli: credere che la versione luminosa sia quella vera e la versione in ombra un errore da correggere. Il problema non è avere giornate diverse, è credere che dovresti essere sempre uguale.",
+  "journalingMetaphor": "filo",
+  "howJournalingHelps": "Non come diario dei sentimenti, non come strumento di controllo, ma come filo: qualcosa che resta uguale anche quando tu cambi. Che ti ricorda chi sei, indipendentemente dalla marea in cui ti trovi. Sulla carta vedi quello che nella testa non riesci a vedere: sei sempre tu, solo in fasi diverse.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "In che marea sei oggi?",
+      "durationMinutes": 5,
+      "intro": "Oggi non analizziamo nulla. Non cerchiamo cause. Non sistemiamo. Facciamo solo una cosa: ci orientiamo.",
+      "steps": [
+        {
+          "prompt": "Oggi la mia marea è…",
+          "instruction": "Descrivi come ti senti adesso. Non con una parola sola: con un'immagine, una metafora, una sensazione. Tipo: acqua bassa, tutto fermo; mare mosso, non so dove sto andando; corrente leggera, mi sento a galla; fondo, ma tranquillo. Non c'è una risposta giusta. C'è solo la tua."
+        },
+        {
+          "prompt": "Ieri ero…",
+          "instruction": "Scrivilo sotto e nota la differenza. Senza giudicarla. Solo vederla. E basta così."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Quando sei dentro una marea, non la vedi: la vivi. E siccome la vivi come fosse tutto ciò che esiste, perdi la prospettiva. Scrivere \"oggi la mia marea è…\" ti mette in una posizione diversa: non sei più dentro la corrente, sei su una riva che la guarda. E da quella riva puoi notare qualcosa di prezioso: che ieri era diversa, e che domani probabilmente lo sarà ancora.",
+      "research": "Il modello di regolazione emotiva di James Gross a Stanford mostra che riconoscere e nominare il proprio stato emotivo è uno dei primi passi per non esserne sopraffatti. Non serve cambiarlo: serve vederlo.",
+      "tomorrow": "Domani parleremo di una trappola molto comune: giudicarsi per le proprie oscillazioni."
+    },
+    {
+      "day": 2,
+      "subject": "Smettila di giudicarti per come oscilli",
+      "durationMinutes": 3,
+      "intro": "Ieri abbiamo riconosciuto in che marea sei. Oggi parliamo della cosa che ti fa più male: non l'oscillazione in sé, ma il giudizio che ti dai per oscillare. Sono entrambe te, solo in momenti diversi. E nessuna delle due è più vera dell'altra.",
+      "steps": [
+        {
+          "prompt": "Quando sono nella mia versione migliore, io…",
+          "instruction": "Una frase. Quello che fai, come ti senti, come vedi il mondo."
+        },
+        {
+          "prompt": "Quando sono nella mia versione più bassa, io…",
+          "instruction": "Stessa cosa. Senza giudicare. Solo descrivere."
+        },
+        {
+          "prompt": "La cosa che resta uguale in entrambe le versioni è…",
+          "instruction": "Questa è la più difficile. Prenditi il tempo che serve."
+        }
+      ],
+      "closingRitual": "Poi chiudi il quaderno.",
+      "why": "Non stiamo cercando di eliminare le oscillazioni: stiamo cercando il filo. Un po' come il mare: la superficie cambia continuamente, ma il fondale resta. Scrivere ti porta al fondale, dove le cose sono più ferme di quanto sembrano. La risposta alla terza domanda è il tuo centro: non scompare nei giorni brutti, solo che non lo vedi perché sei troppo occupato a giudicarti.",
+      "research": "",
+      "tomorrow": "Domani creeremo un luogo sulla carta che funziona in qualsiasi fase, che non ti chiede di essere in un umore specifico per accoglierti."
+    },
+    {
+      "day": 3,
+      "subject": "Un luogo che funziona in ogni fase",
+      "durationMinutes": 4,
+      "intro": "Oggi affrontiamo un punto cruciale: il bisogno di continuità. Il tuo problema più grande non è l'oscillazione, è la discontinuità: quando cambi fase hai la sensazione di ricominciare da zero, perché la bassa marea ti fa dimenticare ciò che hai costruito nell'alta.",
+      "steps": [
+        {
+          "prompt": "Questo spazio funziona sempre.",
+          "instruction": "Scrivi questa frase in alto sulla pagina."
+        },
+        {
+          "prompt": "Nei giorni buoni, qui posso…",
+          "instruction": "Completa la frase con ciò che viene. Anche cose semplici: celebrare quello che ho fatto, solo respirare."
+        },
+        {
+          "prompt": "Nei giorni difficili, qui posso…",
+          "instruction": "Stessa cosa: piangere senza doverlo spiegare, ricordarmi che la fase passa. Scrivi ciò che viene."
+        }
+      ],
+      "closingRitual": "Quando senti che basta, fermati.",
+      "why": "La maggior parte degli strumenti ti chiede di essere in un certo stato per funzionare: la meditazione vuole calma, l'esercizio fisico vuole energia, la socialità vuole leggerezza. Il journaling no: ti prende come sei. Scrivere \"questo spazio funziona sempre\" è un atto di fede pratica: qualunque cosa succeda dentro di te, questa pagina ti aspetta, non ti giudica, non ti chiede di essere diverso. Ed è proprio questa costanza dello spazio – non la tua costanza – che crea continuità.",
+      "research": "",
+      "tomorrow": "Domani parleremo di come stare nella bassa marea senza combatterla, e perché provare a forzare la risalita spesso peggiora le cose."
+    },
+    {
+      "day": 4,
+      "subject": "La bassa marea non è il nemico",
+      "durationMinutes": 5,
+      "intro": "Quando arriva la bassa marea, il tuo primo istinto è combatterla: forzare l'energia, cercare la motivazione, fare finta di stare bene. Oppure arrenderti del tutto. Ma né la lotta né la resa funzionano: la lotta ti esaurisce, la resa ti fa sentire in colpa. C'è una terza via: stare nella bassa marea senza combatterla.",
+      "steps": [
+        {
+          "prompt": "Cosa la bassa marea mi toglie",
+          "instruction": "Dividi la pagina in due colonne. Nella colonna sinistra, sotto questo titolo, scrivi tutto ciò che senti di perdere nei giorni bassi: energia, chiarezza, motivazione, connessione, speranza."
+        },
+        {
+          "prompt": "Cosa la bassa marea mi insegna",
+          "instruction": "Nella colonna destra, per ognuna, chiediti: c'è qualcosa che questa fase mi sta mostrando? Qualcosa che nei giorni buoni non riesco a vedere? Per alcune la risposta potrebbe essere \"no, niente\". E va benissimo."
+        }
+      ],
+      "closingRitual": "Poi fermati.",
+      "why": "Stai togliendo alla bassa marea il potere di definirti. Non è la verità su di te: è una fase che ti attraversa. E come ogni fase, porta via qualcosa e lascia qualcosa. A volte la bassa marea ti mostra ciò che conta davvero, perché nei giorni buoni sei troppo occupato a correre per vederlo.",
+      "research": "",
+      "tomorrow": "Domani affrontiamo un momento specifico: la sera, quando la giornata finisce e non sai se domani troverai la stessa versione di te o una completamente diversa."
+    },
+    {
+      "day": 5,
+      "subject": "Sera: chiudere senza sapere chi sarai domani",
+      "durationMinutes": 5,
+      "intro": "Se c'è un momento in cui le maree si fanno sentire di più, è quando la giornata finisce e non sai cosa troverai domattina. Non è solo stanchezza: è incertezza interna. Il punto non è prevedere la marea di domani. È chiudere quella di oggi.",
+      "steps": [
+        {
+          "prompt": "Oggi la marea è stata…",
+          "instruction": "Questo esercizio funziona meglio la sera, ma puoi farlo quando vuoi. Descrivi brevemente la fase della giornata. Senza giudicarla. Solo registrarla."
+        },
+        {
+          "prompt": "Una cosa che oggi ho fatto nonostante la marea è…",
+          "instruction": "Anche piccola. Anche insignificante. L'hai fatta lo stesso."
+        },
+        {
+          "prompt": "Qualunque marea porti domani, io ci sarò.",
+          "instruction": "Chiudi con questa frase."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "La mente si agita quando sente di non avere controllo sul futuro, e per te il futuro più imprevedibile è quello interno. Scrivere cosa hai fatto nonostante la marea è un atto di riconoscimento: non stai dicendo \"sono stato perfetto\", stai dicendo \"sono stato presente\". E la presenza, a differenza della performance, non dipende dalla fase. L'ultima frase è il filo: non una promessa di costanza, ma una promessa di continuità.",
+      "research": "",
+      "tomorrow": "Domani parleremo del peso di sembrare sempre uguale fuori mentre dentro cambi continuamente."
+    },
+    {
+      "day": 6,
+      "subject": "Il peso di sembrare fermo",
+      "durationMinutes": 5,
+      "intro": "Oggi parliamo del divario: quello tra ciò che succede dentro di te e ciò che mostri fuori. Tu ti muovi dentro, costantemente. Ma fuori sembri fermo, affidabile, stabile, e le persone si appoggiano a quella stabilità. A forza di tenere ferma la facciata, il divario tra dentro e fuori diventa enorme. E isolante.",
+      "steps": [
+        {
+          "prompt": "Come mi vedono gli altri",
+          "instruction": "Dividi la pagina in tre parti. Nella prima scrivi le parole che pensi gli altri userebbero per descriverti: stabile, affidabile, calmo, forte, sempre uguale. Quello che immagini."
+        },
+        {
+          "prompt": "Come mi sento davvero",
+          "instruction": "Scrivi la verità. Quella che nessuno vede. Quella che cambia da un giorno all'altro. Senza edulcorare."
+        },
+        {
+          "prompt": "Una cosa che vorrei che qualcuno sapesse",
+          "instruction": "Una sola. La più vera."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "Il divario tra dentro e fuori è una delle fonti di stanchezza più sottili, perché non è visibile, non ha un nome e nessuno te lo riconosce. Scrivere la differenza tra come ti vedono e come ti senti non è un lamento: è un atto di onestà, con te stesso prima che con chiunque altro. E la terza domanda è il momento in cui la carta diventa qualcuno che ti vede per come sei davvero: non per la versione ferma, per quella che si muove.",
+      "research": "",
+      "tomorrow": "Domani, ultimo giorno: come portare con te ciò che hai imparato, senza trasformarlo nell'ennesima cosa che funziona solo nei giorni buoni."
+    },
+    {
+      "day": 7,
+      "subject": "Non è la fine. È il modo in cui continui.",
+      "durationMinutes": 5,
+      "intro": "In questi sette giorni non hai smesso di oscillare, e non era questo l'obiettivo. Hai fatto qualcosa di più raro: hai trovato un filo che ti tiene unito attraverso le fasi. Oggi non aggiungiamo nulla di nuovo. Facciamo una scelta.",
+      "steps": [
+        {
+          "prompt": "Quando scrivo, mi accorgo che…",
+          "instruction": "Scrivi ciò che senti vero. Anche se è incompleto. Anche se è solo una riga."
+        },
+        {
+          "prompt": "La cosa che mi ha aiutato di più è…",
+          "instruction": "Scrivi ciò che senti vero, senza cercare la risposta perfetta."
+        },
+        {
+          "prompt": "Se continuassi, lo farei così…",
+          "instruction": "Non un obbligo: una scelta. Come vorresti che la scrittura restasse nella tua vita."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Il rischio, dopo un percorso, è trasformarlo subito in un dovere. Ma il journaling non funziona quando diventa un obbligo: funziona quando diventa uno spazio che scegli di avere nella tua vita. Non devi scrivere ogni giorno, non devi scrivere bene, non devi scrivere a lungo. Ti basta sapere perché scrivi e quando ti serve davvero: è il punto in cui la scrittura smette di essere un esercizio e diventa un filo, quello che ti ricorda chi sei, in qualsiasi marea.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Se vuoi continuare a scrivere, sai dove trovare carta e penna. Se ti perdi, sai che puoi tornare qui. Back to Journal non è un metodo da seguire: è un modo di tornare a casa, ogni volta che ne senti il bisogno. Grazie. Per l'attenzione, per il tempo, per aver scelto di restare anche quando la marea cambiava."
+}

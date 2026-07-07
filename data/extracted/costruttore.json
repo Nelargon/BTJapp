@@ -1,0 +1,180 @@
+{
+  "id": "costruttore",
+  "name": "Il Costruttore di Giorni",
+  "driveFileId": "12SJatqurHvyVTJw9yaP4EdrVOwNogaxD",
+  "essence": "È un nome che non parla di produttività. Parla di intenzione.",
+  "description": "Tu non vuoi la svolta. Tu vuoi la traiettoria. Ti interessa costruire una vita che regga: fatta di scelte piccole, ripetute, coerenti. Non cerchi il gesto eclatante. Cerchi la solidità del mattone quotidiano. Il punto è che sei stanco di iniziare con entusiasmo e poi perderti: non perché sei incostante, ma perché la vita reale è piena, e quando salti un giorno ti sembra di aver perso tutto.",
+  "strength": "Non c'è niente di sbagliato nella tua costanza: sai costruire con intenzione, un mattone quotidiano alla volta, con scelte piccole, ripetute, coerenti.",
+  "shadow": "I sistemi che hai usato finora erano fatti per una versione idealizzata di te, quella che non salta mai un giorno. E quando salti, ti sembra di aver perso tutto e ti senti un fallimento.",
+  "coreNeed": "Un sistema che preveda le interruzioni e ti permetta di tornare senza colpa: qualcosa che non ti punisce quando manchi, ma ti aspetta quando torni.",
+  "trap": "La colpa di aver interrotto: nel momento in cui salti, scatta il pensiero \"Ho rovinato tutto. Devo ricominciare da capo\". È quel giudizio che trasforma una pausa in un abbandono — è la colpa che ti blocca, non la mancanza di voglia.",
+  "journalingMetaphor": "appuntamento morbido",
+  "howJournalingHelps": "Il journaling non è una routine rigida né un tracker da compilare: è un appuntamento morbido con te stesso. Qualcosa che non ti punisce quando manchi, ma ti aspetta quando torni. Smetti di contare i giorni consecutivi e inizi a contare le volte in cui sei tornato.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Un mattone. Uno solo.",
+      "durationMinutes": 5,
+      "intro": "Oggi non costruiamo un palazzo. Non pianifichiamo una settimana. Non creiamo un sistema. Posiamo un mattone. Uno solo.",
+      "steps": [
+        {
+          "prompt": "Oggi il mio mattone è…",
+          "instruction": "Scrivi una sola cosa che vuoi fare oggi. Non la più importante. Non la più ambiziosa. La più fattibile."
+        },
+        {
+          "prompt": "Lo faccio perché…",
+          "instruction": "Non cercare una motivazione profonda. Anche \"perché mi fa sentire in carreggiata\" basta. Anche \"perché l'ho promesso a me stesso\"."
+        }
+      ],
+      "closingRitual": "E basta così.",
+      "why": "La trappola del costruttore è la grandezza: vuoi che ogni giorno sia significativo, ogni azione pesante, ogni scelta strategica. Ma i sistemi che funzionano sono fatti di gesti piccoli, ripetuti, quasi noiosi. Un mattone al giorno non sembra niente, ma tra un mese sono trenta mattoni. E trenta mattoni sono già una parete.",
+      "research": "La ricerca sulle abitudini di BJ Fogg a Stanford mostra che il modo più efficace per costruire un comportamento stabile non è la motivazione, è la riduzione: più piccolo è il gesto, più è probabile che lo ripeterai.",
+      "tomorrow": "Domani parleremo di una trappola che conosci fin troppo bene: la colpa di aver saltato."
+    },
+    {
+      "day": 2,
+      "subject": "Saltare un giorno non cancella niente",
+      "durationMinutes": 3,
+      "intro": "Ieri abbiamo posato un mattone. Oggi facciamo un passo diverso. Parliamo della cosa che ti blocca più di qualsiasi altra: la colpa di aver interrotto.",
+      "steps": [
+        {
+          "prompt": "L'ultima cosa che ho abbandonato è…",
+          "instruction": "Una frase sola."
+        },
+        {
+          "prompt": "Il motivo per cui ho smesso non è pigrizia. È…",
+          "instruction": "Scrivi la verità. Non la scusa. La ragione reale."
+        },
+        {
+          "prompt": "Se potessi tornare senza colpa, lo farei così…",
+          "instruction": "Completa la frase con il modo in cui riprenderesti, senza giudizio."
+        }
+      ],
+      "closingRitual": "Poi chiudi il quaderno.",
+      "why": "Non stiamo cercando di evitare le interruzioni: fanno parte della vita reale. Stiamo separando l'azione dal giudizio. Il problema arriva quando l'interruzione diventa identità — ma non lo è, è solo un momento. La terza domanda è la chiave: quasi sempre la risposta è \"tornerei\". È la colpa che ti blocca, non la mancanza di voglia.",
+      "research": "",
+      "tomorrow": "Domani creeremo qualcosa di concreto: un sistema minimo che funziona anche nei giorni peggiori."
+    },
+    {
+      "day": 3,
+      "subject": "Il sistema minimo che funziona sempre",
+      "durationMinutes": 4,
+      "intro": "Oggi affrontiamo un punto cruciale: il sistema. Quelli che hai creato finora erano progettati per la tua versione migliore, ma la vita ti dà anche giornate stanche, confuse, piene di imprevisti. E quando il sistema non prevede quei giorni, crolla.",
+      "steps": [
+        {
+          "prompt": "Il mio sistema minimo.",
+          "instruction": "Scrivi questo titolo in alto sulla pagina."
+        },
+        {
+          "prompt": "Nei giorni buoni, cosa scrivo?",
+          "instruction": "Esempio: scrivo una pagina intera, rifletto, pianifico."
+        },
+        {
+          "prompt": "Nei giorni normali, cosa scrivo?",
+          "instruction": "Esempio: scrivo tre frasi su come sto."
+        },
+        {
+          "prompt": "Nei giorni peggiori, cosa scrivo?",
+          "instruction": "Esempio: scrivo una parola. Anche solo \"qui\"."
+        }
+      ],
+      "closingRitual": "Quando senti che basta, fermati.",
+      "why": "Un sistema con tre livelli non si rompe mai, perché ha sempre un'opzione accessibile. Anche nel giorno peggiore puoi aprire il quaderno e scrivere una parola, e quella parola conta: non è il volume che costruisce, è la frequenza. La differenza tra chi costruisce qualcosa nel tempo e chi no non è la disciplina: è la soglia di rientro. Più bassa è la soglia per tornare, più è probabile che tornerai.",
+      "research": "",
+      "tomorrow": "Domani parleremo di un passaggio delicato: come misurare i progressi quando non si vedono a occhio nudo."
+    },
+    {
+      "day": 4,
+      "subject": "I progressi invisibili sono quelli che contano",
+      "durationMinutes": 5,
+      "intro": "Oggi tocchiamo un punto delicato. Parliamo di una frustrazione che conosci bene: fare cose giuste senza vedere risultati. Il cambiamento non si vede guardando avanti. Si vede guardando indietro.",
+      "steps": [
+        {
+          "prompt": "Dove ero un mese fa",
+          "instruction": "Dividi la pagina in due colonne. Nella colonna sinistra scrivi come stavi un mese fa. Non solo i fatti: come ti sentivi, cosa pensavi, cosa ti preoccupava."
+        },
+        {
+          "prompt": "Dove sono oggi",
+          "instruction": "Nella colonna destra scrivi la stessa cosa per oggi."
+        }
+      ],
+      "closingRitual": "Poi confronta le due colonne. Non per giudicare. Per vedere. Poi fermati.",
+      "why": "Stai rendendo visibile il progresso. La maggior parte dei cambiamenti importanti nella vita è invisibile nel giorno per giorno: non ti accorgi di star meglio finché non confronti con come stavi prima. Il journaling è anche questo: una traccia, una prova che stai andando da qualche parte, anche quando sembra di stare fermo.",
+      "research": "",
+      "tomorrow": "Domani affrontiamo un momento specifico: la sera, quando la giornata finisce e devi decidere se quello che hai fatto è stato abbastanza."
+    },
+    {
+      "day": 5,
+      "subject": "Oggi è stato abbastanza?",
+      "durationMinutes": 5,
+      "intro": "Se c'è un momento in cui il costruttore si sente più vulnerabile è quando la giornata finisce e arriva la domanda: \"Ho fatto abbastanza?\". Il punto non è fare di più. È riconoscere ciò che hai fatto. Questo esercizio funziona meglio la sera, ma puoi farlo quando vuoi.",
+      "steps": [
+        {
+          "prompt": "Oggi ho costruito…",
+          "instruction": "Scrivi tutto ciò che hai fatto. Non solo le cose grandi. Anche le piccole, anche quelle che ti sembrano insignificanti: una mail mandata, una pausa presa, una decisione rimandata consapevolmente."
+        },
+        {
+          "prompt": "La cosa più piccola che ha contato è…",
+          "instruction": "Scegli una sola cosa. La più minuta."
+        },
+        {
+          "prompt": "Per oggi, è abbastanza.",
+          "instruction": "Chiudi con questa frase. E fermati."
+        }
+      ],
+      "closingRitual": "Chiudi con \"Per oggi, è abbastanza.\" E fermati.",
+      "why": "La mente del costruttore non si spegne a fine giornata: continua a misurare lo scarto tra il piano e la realtà, e di sera quello scarto sembra sempre enorme. Scrivere ciò che hai costruito non è un esercizio di gratitudine, è un atto di onestà: hai sempre costruito qualcosa, solo che non te ne sei accorto perché eri troppo occupato a guardare ciò che mancava. \"Per oggi, è abbastanza\" non è un accontentarsi: è un permesso. Domani costruirai ancora, ma stasera puoi posare gli strumenti.",
+      "research": "",
+      "tomorrow": "Domani parleremo della differenza tra disciplina e punizione, e perché il tuo modo di costruire potrebbe essere più duro di quanto serve."
+    },
+    {
+      "day": 6,
+      "subject": "Disciplina non significa punizione",
+      "durationMinutes": 5,
+      "intro": "Oggi facciamo un passo ancora più sottile. Parliamo del modo in cui ti tratti quando costruisci. La disciplina è scegliere di presentarsi. La punizione è giudicarsi quando non ci si riesce. Sono due cose completamente diverse, e tu spesso le confondi.",
+      "steps": [
+        {
+          "prompt": "Come mi parlo quando salto un giorno",
+          "instruction": "Dividi la pagina in tre parti. Nella prima scrivi le frasi esatte che ti dici. Senza edulcorarle. Tipo: \"non sei capace\", \"sempre la stessa storia\", \"non concludi mai niente\"."
+        },
+        {
+          "prompt": "Come parlerei a un amico nella stessa situazione",
+          "instruction": "Riscrivi quelle frasi come se le stessi dicendo a qualcuno che ami e che ha saltato un giorno. Nota la differenza."
+        },
+        {
+          "prompt": "La frase che voglio portare con me",
+          "instruction": "Una sola. Quella che ti serve per tornare a costruire senza punirti."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "Il dialogo interno del costruttore è spesso spietato. Non per cattiveria: per ambizione. Ma l'ambizione che si nutre di punizione finisce per consumare la persona che dovrebbe far crescere. Quando sai che puoi tornare senza essere giudicato, torni più spesso. E chi torna più spesso, costruisce di più.",
+      "research": "La ricerca sull'auto-compassione di Kristin Neff alla University of Texas mostra che trattarsi con gentilezza non riduce la motivazione: la aumenta.",
+      "tomorrow": "Domani arriviamo all'ultimo giorno: come portare con te ciò che hai imparato, senza trasformarlo nell'ennesima cosa da mantenere perfettamente."
+    },
+    {
+      "day": 7,
+      "subject": "Non è la fine. È il modo in cui continui.",
+      "durationMinutes": 5,
+      "intro": "Se sei arrivato fin qui non è perché hai fatto tutto, ma perché sei tornato. Anche quando non era perfetto. Anche quando era solo un mattone. Oggi non aggiungiamo nulla di nuovo. Facciamo una scelta.",
+      "steps": [
+        {
+          "prompt": "Quando scrivo, mi accorgo che…",
+          "instruction": "Scrivi ciò che senti vero. Anche se è incompleto. Anche se è solo una riga."
+        },
+        {
+          "prompt": "La cosa che mi ha aiutato di più è…",
+          "instruction": "Scrivi ciò che senti vero, senza cercare la risposta giusta."
+        },
+        {
+          "prompt": "Se continuassi, lo farei così…",
+          "instruction": "Descrivi il tuo modo di continuare: quando scrivere e quando ti serve davvero."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Il rischio, dopo un percorso, è trasformarlo subito in un dovere. Ma il journaling non funziona quando diventa un obbligo: funziona quando diventa uno spazio che scegli di avere nella tua vita. Non devi scrivere ogni giorno, non devi scrivere bene, non devi scrivere a lungo. È il punto in cui la scrittura smette di essere un esercizio e diventa un mattone: quello che posi ogni volta che torni e che, un giorno dopo l'altro, diventa una casa.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal non è un metodo da seguire. È un modo di tornare a casa, ogni volta che ne senti il bisogno. Se vuoi continuare a scrivere, sai dove trovare carta e penna. Se ti perdi, sai che puoi tornare qui. Grazie: per l'attenzione, per il tempo, per aver scelto di costruire con più gentilezza."
+}

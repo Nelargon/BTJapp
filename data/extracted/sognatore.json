@@ -1,0 +1,180 @@
+{
+  "id": "sognatore",
+  "name": "Il Sognatore con le Mani Sporche d'Inchiostro",
+  "driveFileId": "1TBhqwnCYEQQazee_8lrw6MJ3wgC7BiLI",
+  "essence": "Un nome lungo, ma preciso: vedi cose che non esistono ancora. Non nel senso della fantasia: nel senso della visione.",
+  "description": "Tu sei una persona che vede cose che non esistono ancora. Non nel senso della fantasia: nel senso della visione. Progetti, possibilità, versioni future di te e del mondo. La tua mente lavora al futuro, sempre. Vedi quello che potrebbe essere e senti il bisogno profondo di portarlo a terra.",
+  "strength": "La visione: vedi progetti, possibilità e versioni future di te e del mondo prima che esistano, e senti il bisogno profondo di portarle a terra.",
+  "shadow": "La distanza tra la visione e la realtà è enorme, e tu la senti tutta, ogni giorno. Come un divario che non riesci a colmare abbastanza in fretta, come una promessa fatta a te stesso che non riesci a mantenere.",
+  "coreNeed": "stare nella distanza tra la visione e la realtà senza esserne consumato",
+  "trap": "La paralisi della perfezione: la tua visione è così chiara, bellissima e completa che ogni passo reale ti sembra inadeguato. E così aspetti il momento giusto, le condizioni giuste, la versione giusta di te — e intanto il sogno resta un sogno, intoccabile, immobile.",
+  "journalingMetaphor": "ponte",
+  "howJournalingHelps": "Non come pianificazione, non come vision board, ma come ponte: un luogo dove la visione e la realtà si incontrano. Dove puoi sognare con la penna in mano, e sporcarti le mani con l'inchiostro del concreto. Sulla carta il sogno smette di essere una promessa irrealizzabile e diventa un cantiere aperto.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Scrivi il sogno. Poi sporcalo.",
+      "durationMinutes": 5,
+      "intro": "Oggi non pianifichiamo nulla. Non creiamo roadmap. Non definiamo obiettivi SMART. Facciamo solo una cosa: mettiamo il sogno sulla carta. E poi lo sporchiamo con il reale.",
+      "steps": [
+        {
+          "prompt": "Il sogno che porto dentro in questo periodo è…",
+          "instruction": "Scrivi tutto. La visione completa, come se stessi raccontando a qualcuno il futuro che vedi. Senza censure, senza \"ma è irrealistico\", senza filtri."
+        },
+        {
+          "prompt": "La realtà oggi è…",
+          "instruction": "Scrivi dove sei adesso. Senza giudicare. Solo descrivere."
+        },
+        {
+          "prompt": "Il prossimo passo sporco è…",
+          "instruction": "Un gesto concreto. Piccolo. Imperfetto. Che potresti fare oggi o domani."
+        }
+      ],
+      "closingRitual": "E basta così.",
+      "why": "I sogni che restano nella testa crescono, ma crescono solo in complessità: diventano più grandi, più ambiziosi, più lontani, e la distanza tra sogno e realtà aumenta finché non diventa paralizzante. Il sogno, da solo, non basta. Serve il ponte: la visione più la realtà più il passo successivo. Oggi hai costruito quel ponte: tre righe. Sogno, realtà, passo sporco.",
+      "research": "Gli studi di Gabriele Oettingen sulla tecnica del contrasto mentale mostrano che visualizzare il risultato desiderato senza confrontarlo con la realtà attuale riduce la motivazione invece di aumentarla.",
+      "tomorrow": "Domani parleremo di una trappola che conosci bene: la paralisi della perfezione futura."
+    },
+    {
+      "day": 2,
+      "subject": "La perfezione del sogno ti paralizza",
+      "durationMinutes": 3,
+      "intro": "Ieri abbiamo messo il sogno sulla carta e l'abbiamo sporcato con un passo concreto. Oggi parliamo della trappola più insidiosa per chi sogna in grande: la paralisi della perfezione. Nessun sogno è mai diventato reale nella sua forma perfetta: la sporcizia non è il fallimento della visione, è la prova che la visione è diventata reale.",
+      "steps": [
+        {
+          "prompt": "Una cosa che rimando perché non è ancora perfetta è…",
+          "instruction": "Una frase sola."
+        },
+        {
+          "prompt": "La versione sporca di questa cosa sarebbe…",
+          "instruction": "Come sarebbe se la facessi oggi, al 60%, con ciò che hai?"
+        },
+        {
+          "prompt": "Il peggior risultato possibile di fare la versione sporca è…",
+          "instruction": "Scrivi la cosa peggiore che potrebbe succedere. Poi guardala: quasi sempre è molto più sopportabile dell'immobilità."
+        }
+      ],
+      "closingRitual": "Poi chiudi il quaderno.",
+      "why": "Non stiamo uccidendo il sogno: stiamo uccidendo la sua intoccabilità. Come uno scultore davanti a un blocco di marmo: finché non dà il primo colpo, la scultura è perfetta nella sua mente, ma quel primo colpo — sporco, impreciso, irreversibile — è l'unico gesto che trasforma il marmo in qualcosa di reale. La versione sporca è il tuo primo colpo: non è bella, ma esiste. E ciò che esiste può essere migliorato; ciò che è solo immaginato, no.",
+      "research": "",
+      "tomorrow": "Domani creeremo un luogo dove la visione e il fare si incontrano ogni giorno, senza aspettare che le condizioni siano perfette."
+    },
+    {
+      "day": 3,
+      "subject": "Il cantiere: dove il sogno diventa lavoro",
+      "durationMinutes": 4,
+      "intro": "Oggi affrontiamo il punto cruciale: trasformare la visione in cantiere. Un sogno è bellissimo, ma un cantiere è più potente: è un sogno con le impalcature, i secchi di vernice e le mani sporche. Non è finito, non è perfetto, ma ci si lavora.",
+      "steps": [
+        {
+          "prompt": "Il mio cantiere.",
+          "instruction": "Scrivilo in alto sulla pagina, come titolo."
+        },
+        {
+          "prompt": "Cosa sto costruendo?",
+          "instruction": "Rispondi sotto il titolo."
+        },
+        {
+          "prompt": "A che punto sono?",
+          "instruction": "Rispondi con onestà, senza giudicare."
+        },
+        {
+          "prompt": "Qual è la prossima cosa sporca da fare?",
+          "instruction": "Non la prossima cosa importante: la prossima cosa concreta, che puoi fare con le mani, con le risorse che hai, nel tempo che hai. Tipo: scrivere la prima pagina anche brutta, mandare quella mail che rimandi da settimane, aprire il file e lavorarci 15 minuti, chiedere aiuto a qualcuno."
+        }
+      ],
+      "closingRitual": "Quando senti che basta, fermati.",
+      "why": "Il sognatore si perde nella distanza tra la visione e la realtà. Il cantiere elimina quella distanza: non perché accorcia il cammino, ma perché ti mette nel cammino. Scrivere \"a che punto sono\" è un atto di onestà che ti radica: non sei all'inizio e non sei alla fine, sei a metà. E a metà è esattamente dove si lavora.",
+      "research": "",
+      "tomorrow": "Domani parleremo di un passaggio delicato: come convivere con la frustrazione del divario, quel momento in cui la realtà non somiglia ancora alla visione e senti di non essere abbastanza."
+    },
+    {
+      "day": 4,
+      "subject": "La frustrazione del divario è il segno che stai camminando",
+      "durationMinutes": 5,
+      "intro": "Oggi tocchiamo un punto delicato: la frustrazione che conosci meglio di chiunque, il divario. Il divario tra ciò che vedi e ciò che è, tra la versione che immagini e quella che hai. Il divario non è un problema: è la prova che la tua visione è più grande della tua realtà attuale, e diventa distruttivo solo quando lo usi per giudicarti.",
+      "steps": [
+        {
+          "prompt": "Dove vorrei essere",
+          "instruction": "Dividi la pagina in due colonne. Nella colonna sinistra scrivi la tua visione, il punto d'arrivo. Senza censure."
+        },
+        {
+          "prompt": "Dove sono, e cosa c'è di buono qui",
+          "instruction": "Nella colonna destra scrivi dove sei adesso, ma questa volta, per ogni punto, aggiungi una cosa: qualcosa di buono che c'è già qui. Qualcosa che funziona, qualcosa che hai costruito."
+        }
+      ],
+      "closingRitual": "Poi fermati.",
+      "why": "Stai onorando il divario senza farti schiacciare. Il divario esiste, e va bene così. Ma accanto al divario c'è anche tutto ciò che hai già costruito, e tu, preso dalla visione, spesso te lo dimentichi. La colonna destra è la tua ancora: non ti dice di smettere di sognare, ti dice di guardare anche dove sei. È più avanti di quanto pensi.",
+      "research": "",
+      "tomorrow": "Domani affrontiamo un momento specifico: la sera, quando la giornata finisce e il divario sembra più grande che mai."
+    },
+    {
+      "day": 5,
+      "subject": "Sera: il sogno può aspettare fino a domani",
+      "durationMinutes": 5,
+      "intro": "Se c'è un momento in cui il divario pesa di più, di solito è quando la giornata finisce: di sera la mente fa i conti, e per te i conti sono sempre sfavorevoli. Il punto non è chiudere la distanza in una sera. È chiudere la giornata: dirsi \"per oggi è abbastanza, il sogno può aspettare fino a domani. Non scappa.\" Questo esercizio funziona meglio la sera, ma puoi farlo quando vuoi.",
+      "steps": [
+        {
+          "prompt": "Oggi ho lavorato al sogno così…",
+          "instruction": "Scrivi tutto ciò che hai fatto durante la giornata che, anche in minima parte, ha avvicinato il sogno alla realtà. Non solo le azioni grandi: anche un pensiero, una conversazione, una scelta piccola."
+        },
+        {
+          "prompt": "La cosa più sporca che ho fatto oggi è…",
+          "instruction": "Quella meno perfetta. Quella che nella tua visione non sarebbe mai apparsa così. Ma che esiste."
+        }
+      ],
+      "closingRitual": "Infine, chiudi scrivendo: \"Per oggi, il cantiere chiude. Il sogno mi aspetta domani.\" E fermati.",
+      "why": "Il sognatore non chiude mai: la visione è sempre accesa, sempre in costruzione, sempre incompleta. E senza una chiusura, la giornata non finisce mai veramente. Scrivere \"il cantiere chiude\" è un gesto pratico con un effetto profondo: stai dicendo alla visione \"ti ho dedicato oggi. Domani ancora.\" Non è una resa: è un rispetto, per il sogno, per il lavoro, e per te che hai bisogno di riposare per poter continuare.",
+      "research": "",
+      "tomorrow": "Domani parleremo di qualcosa che forse non consideri abbastanza: la differenza tra chi sogna e chi costruisce. E perché tu sei entrambi."
+    },
+    {
+      "day": 6,
+      "subject": "Sei un sognatore. Ma anche un costruttore.",
+      "durationMinutes": 5,
+      "intro": "Oggi facciamo un passo ancora più sottile: parliamo di come ti vedi. Tu ti definisci un sognatore, e lo sei. Ma il tuo problema non è che sogni troppo: è che non ti riconosci abbastanza quando costruisci, perché il risultato non somiglia mai alla visione e tu ti giudichi sulla distanza invece che sul cammino.",
+      "steps": [
+        {
+          "prompt": "Cose che ho sognato e che esistono",
+          "instruction": "Dividi la pagina in tre parti. Nella prima, scrivi tutto ciò che una volta era solo una visione e che oggi è reale. Anche parzialmente, anche in forma imperfetta: un progetto avviato, una relazione costruita, una decisione presa, un cambiamento fatto."
+        },
+        {
+          "prompt": "Il prezzo che ho pagato per portarle a terra",
+          "instruction": "Per ognuna, scrivi cosa ti è costato: fatica, dubbi, imperfezione accettata, giudizio degli altri. Non per lamentarti: per riconoscere il lavoro fatto."
+        },
+        {
+          "prompt": "La frase che mi dico oggi",
+          "instruction": "Una sola frase. Quella che il sognatore-costruttore si merita di sentire."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "Il sognatore guarda sempre avanti, mai indietro, e per questo non vede quanto ha già costruito. Oggi hai guardato indietro: non per nostalgia, per giustizia. Ogni sogno che hai portato a terra — anche in modo imperfetto — è la prova che non sei solo un sognatore: sei qualcuno che fa. E fare, con le mani sporche d'inchiostro, è il gesto più coraggioso che un visionario possa compiere.",
+      "research": "",
+      "tomorrow": "Domani arriviamo all'ultimo giorno: come portare con te ciò che hai imparato, senza trasformarlo nell'ennesima visione che resta in testa."
+    },
+    {
+      "day": 7,
+      "subject": "Non è la fine. È il modo in cui continui.",
+      "durationMinutes": 5,
+      "intro": "Per sette giorni hai scelto di sporcarti le mani: di portare il sogno sulla carta e lavorarci. E per un visionario, questo è tutto. Oggi non aggiungiamo nulla di nuovo. Facciamo una scelta.",
+      "steps": [
+        {
+          "prompt": "Quando scrivo, mi accorgo che…",
+          "instruction": "Scrivi le tre frasi una sotto l'altra e completale con ciò che senti vero."
+        },
+        {
+          "prompt": "La cosa che mi ha aiutato di più è…",
+          "instruction": "Anche se è incompleto. Anche se è solo una riga."
+        },
+        {
+          "prompt": "Se continuassi, lo farei così…",
+          "instruction": "Scrivi come vorresti portare il journaling nella tua vita, senza obblighi: non devi scrivere ogni giorno, né bene, né a lungo."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Il rischio, dopo un percorso, è trasformarlo in un'altra visione: qualcosa di bello che hai immaginato ma che non diventa pratica quotidiana. Il journaling non funziona quando resta un sogno: funziona quando diventa uno spazio che scegli di avere nella tua vita. Ti basta sapere perché scrivi e quando ti serve davvero. È il punto in cui la scrittura smette di essere una visione e diventa un cantiere aperto, dove ogni giorno puoi tornare, sporcarti le mani, e costruire qualcosa che prima esisteva solo nella tua testa.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal non è un metodo da seguire. È un modo di tornare a casa, ogni volta che ne senti il bisogno. Se vuoi continuare a scrivere, sai dove trovare carta e penna; se ti perdi, sai che puoi tornare qui. Grazie: per l'attenzione, per il tempo, per aver scelto di sporcarti le mani con il tuo sogno."
+}

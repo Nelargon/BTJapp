@@ -1,0 +1,172 @@
+{
+  "id": "ladro-di-scintille",
+  "name": "Il Ladro di Scintille",
+  "driveFileId": "1PXvkytScB9XSQpJ3_m_wdi4dFnMnBuAS",
+  "essence": "È un nome che non parla di confusione. Parla di fame creativa.",
+  "description": "Tu vivi di scintille. Frasi salvate, screenshot, note vocali, idee rubate all’aria mentre cammini, mentre ascolti musica, mentre guardi una scena e pensi: “ecco, questa cosa mi somiglia.” Il tuo problema non è la creatività. È la dispersione. Hai mille inizi e pochi finali. E a forza di inseguire ispirazioni, rischi di non costruire mai qualcosa che ti appartenga davvero.",
+  "strength": "La fame creativa: raccogli il mondo, catturi scintille ovunque. Non c’è niente di sbagliato nel tuo modo di raccogliere il mondo.",
+  "shadow": "La dispersione: hai mille inizi e pochi finali. A forza di inseguire ispirazioni, rischi di non costruire mai qualcosa che ti appartenga davvero.",
+  "coreNeed": "un luogo dove le scintille smettono di accumularsi e diventano qualcosa di tuo",
+  "trap": "La seduzione del nuovo: l’idea nuova, più fresca e luminosa, fa sembrare la precedente vecchia, noiosa, insufficiente. E così molli e insegui la prossima.",
+  "journalingMetaphor": "officina",
+  "howJournalingHelps": "Il journaling non come diario, non come to-do list creativa, ma come officina: un posto dove le scintille smettono di accumularsi e iniziano a prendere forma. Scrivere ogni giorno non serve a raccogliere ancora, ma a scegliere: a dare a una sola idea lo spazio che prima distribuivi su cento.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Svuota il cassetto",
+      "durationMinutes": 5,
+      "intro": "Oggi non creiamo nulla. Non organizziamo. Non scegliamo. Facciamo solo una cosa: svuotiamo. Prima di scegliere dove andare, bisogna vedere cosa c’è sul tavolo.",
+      "steps": [
+        {
+          "prompt": "Le idee, i progetti e le ispirazioni che ho in testa adesso sono…",
+          "instruction": "Scrivi tutto. Senza ordine, senza valutare, senza chiederti se sono idee buone o fattibili: il libro che vorresti scrivere, l’app venuta in mente sotto la doccia, il viaggio che sogni, la frase salvata ieri, il progetto iniziato e abbandonato. Tutto."
+        }
+      ],
+      "closingRitual": "Quando il timer suona, fermati. Rileggi e cerchia una sola cosa. Non la migliore: quella che ti chiama di più, quella che, leggendola, ti fa sentire qualcosa nel petto. E basta così.",
+      "why": "Una mente creativa piena di idee non ha bisogno di altre idee. Ha bisogno di visibilità su ciò che ha già. Quando le ispirazioni restano nella testa, competono tutte per la stessa attenzione e tu salti da una all’altra senza mai approfondire. Metterle sulla carta le ferma, le rende visibili e ti permette di scegliere.",
+      "research": "Gli studi di Teresa Amabile ad Harvard mostrano che la produzione creativa più significativa non nasce dalla quantità di idee, ma dalla capacità di selezionare e sviluppare: e la selezione inizia sempre dal rendere visibile ciò che è invisibile.",
+      "tomorrow": "Domani parleremo di una trappola che conosci bene: la seduzione dell’idea nuova."
+    },
+    {
+      "day": 2,
+      "subject": "L’idea nuova è sempre più bella. Ma non è sempre più vera.",
+      "durationMinutes": 3,
+      "intro": "Ieri abbiamo svuotato il cassetto e scelto una scintilla. Oggi parliamo della trappola più insidiosa per chi vive di ispirazioni: la seduzione del nuovo. Il nuovo attiva la dopamina, il familiare no; ma creare qualcosa di significativo richiede di restare con un’idea anche quando smette di essere nuova.",
+      "steps": [
+        {
+          "prompt": "Un’idea che ho abbandonato perché ne è arrivata una nuova è…",
+          "instruction": "Una frase sola."
+        },
+        {
+          "prompt": "Se tornassi a quell’idea oggi, cosa ci troverei ancora?",
+          "instruction": "Sotto, scrivi la prima cosa che viene."
+        }
+      ],
+      "closingRitual": "Poi chiudi il quaderno.",
+      "why": "Non stiamo dicendo che le idee nuove siano cattive: stiamo dando valore a ciò che hai già iniziato. Come un giardiniere che pianta un seme nuovo ogni settimana ma non innaffia mai quelli vecchi, alla fine hai un campo pieno di semi e nessuna pianta. A volte la cosa più creativa che puoi fare non è iniziare qualcosa di nuovo: è tornare a qualcosa di incompiuto e dargli un altro po’ d’acqua.",
+      "research": "",
+      "tomorrow": "Domani creeremo un luogo dove le scintille smettono di accumularsi e iniziano a prendere direzione."
+    },
+    {
+      "day": 3,
+      "subject": "Da scintilla a direzione",
+      "durationMinutes": 4,
+      "intro": "Oggi affrontiamo il punto cruciale: trasformare le scintille in direzione. Tu non hai un problema di ispirazione, hai un problema di contenitore: quando un’ispirazione vive in dieci posti diversi, non vive da nessuna parte. Le idee nomadi non crescono.",
+      "steps": [
+        {
+          "prompt": "La scintilla che scelgo di portare avanti è…",
+          "instruction": "Scrivi questa frase in alto. Scegli una sola idea: quella che hai cerchiato il primo giorno, oppure un’altra che nel frattempo è tornata a farsi sentire."
+        },
+        {
+          "prompt": "Perché questa e non un’altra?",
+          "instruction": "Rispondi sotto, senza bisogno di un piano completo."
+        },
+        {
+          "prompt": "Qual è il prossimo passo più piccolo possibile?",
+          "instruction": "Serve un gesto concreto, non un piano."
+        },
+        {
+          "prompt": "Quando lo faccio?",
+          "instruction": "Dai al gesto concreto una data."
+        }
+      ],
+      "closingRitual": "Quando senti che basta, fermati.",
+      "why": "La differenza tra chi ha mille idee e chi le realizza non è il talento: è la scelta. E la scelta è un muscolo che si allena. Scrivere “scelgo questa” non è un matrimonio: stai dicendo che per adesso la tua energia va qui, le altre aspettano, non scappano. Il passo più piccolo possibile non ti chiede di essere brillante, ti chiede solo di muoverti: e il movimento, anche minimo, trasforma una scintilla in qualcosa di reale.",
+      "research": "",
+      "tomorrow": "Domani parleremo di un passaggio delicato: cosa fare con tutte le altre idee che continuano ad arrivare mentre stai lavorando sulla tua."
+    },
+    {
+      "day": 4,
+      "subject": "Le idee che arrivano mentre lavori non sono nemiche",
+      "durationMinutes": 5,
+      "intro": "Stai lavorando sulla tua scintilla e all’improvviso un’altra idea ti attraversa la mente: luminosa, urgente, irresistibile. Davanti al bivio tra inseguirla o ignorarla c’è una terza opzione: catturarla e lasciarla andare. L’idea non scappa se la scrivi: scappa se resti fermo a guardarla nella testa.",
+      "steps": [
+        {
+          "prompt": "Idee in arrivo",
+          "instruction": "Dividi la pagina in due colonne. In questa colonna sinistra scrivi tutte le idee arrivate in questi giorni mentre provavi a concentrarti sulla tua scintilla: quelle che ti hanno distratto, tentato, sedotto."
+        },
+        {
+          "prompt": "Da riprendere quando",
+          "instruction": "Nella colonna destra, per ogni idea scrivi una data, un momento, oppure semplicemente “non ora”."
+        }
+      ],
+      "closingRitual": "Poi fermati.",
+      "why": "Stai onorando le idee senza farti deviare da loro. Le idee diventano tiranniche quando temono di essere dimenticate; ma quando hanno un posto dove stare – scritte, riconosciute, con una data possibile – si calmano. Non ti tirano più per la manica: sanno che tornerai. Questo esercizio non uccide la creatività, la canalizza. E la creatività canalizzata produce; quella dispersa consuma.",
+      "research": "",
+      "tomorrow": "Domani affrontiamo un momento specifico: la sera, quando la giornata finisce e la mente creativa non smette di produrre."
+    },
+    {
+      "day": 5,
+      "subject": "Sera: quando la mente creativa non si spegne",
+      "durationMinutes": 5,
+      "intro": "Se c’è un momento in cui le scintille diventano più rumorose, di solito è quando la giornata finisce. Il corpo è stanco, ma la mente no: la tua mente creativa non ha un interruttore e, se non le dai un momento di chiusura, continua a produrre tutta la notte. Questo esercizio funziona meglio la sera, ma puoi farlo quando vuoi.",
+      "steps": [
+        {
+          "prompt": "Le scintille di oggi sono state…",
+          "instruction": "Scrivi in alto questa frase e sotto annota brevemente le idee, le ispirazioni, i frammenti raccolti durante la giornata. Non importa se sono completi: basta un titolo, un’immagine, una parola."
+        },
+        {
+          "prompt": "Quella che porto con me domani è…",
+          "instruction": "Una sola. Le altre restano qui, sulla carta. Al sicuro."
+        },
+        {
+          "prompt": "Per oggi, ho raccolto abbastanza.",
+          "instruction": "Infine, chiudi scrivendo questa frase."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "La mente creativa resta accesa quando sente che qualcosa potrebbe andare perso, che un’idea non catturata è un’idea morta. Scrivere le scintille del giorno è come dire alla mente: “ho raccolto tutto. Sono al sicuro. Puoi fermarti.” Non stai spegnendo la creatività: le stai dando un orario di chiusura. E la chiusura, per una mente che non si ferma mai, è un atto di cura profonda.",
+      "research": "",
+      "tomorrow": "Domani parleremo della differenza tra consumare bellezza e produrla, e perché tu sei pronto per il secondo passo."
+    },
+    {
+      "day": 6,
+      "subject": "Da consumatore a creatore",
+      "durationMinutes": 5,
+      "intro": "Tu non vuoi solo collezionare ispirazioni: c’è qualcosa dentro che vuole uscire, un bisogno di creare e di lasciare qualcosa di tuo nel mondo. Il problema è che consumare è facile e dà la sensazione di star facendo qualcosa; creare è più faticoso, più incerto, più esposto, e per questo lo rimandi. Ma la scintilla giusta è quella che hai già.",
+      "steps": [
+        {
+          "prompt": "Cose che consumo",
+          "instruction": "Dividi la pagina in tre parti. Nella prima scrivi tutto ciò che assorbi regolarmente: podcast, libri, articoli, profili che segui, screenshot che salvi. Senza giudizio."
+        },
+        {
+          "prompt": "Cose che creo",
+          "instruction": "Nella seconda parte scrivi tutto ciò che produci: testi, idee sviluppate, progetti avviati, qualsiasi cosa che esiste perché tu l’hai fatta."
+        },
+        {
+          "prompt": "Una cosa che voglio creare a partire da ciò che ho consumato",
+          "instruction": "Una sola. Il ponte tra consumo e creazione."
+        }
+      ],
+      "closingRitual": "E fermati.",
+      "why": "La sproporzione tra consumo e creazione è una delle fonti di frustrazione più sottili, perché il consumo dà l’illusione di movimento, ma il movimento vero è nella creazione. Non stai smettendo di consumare: stai iniziando a trasformare. E la trasformazione è il gesto più naturale per un ladro di scintille: prendere ciò che hai rubato al mondo e restituirlo in una forma che è solo tua.",
+      "research": "",
+      "tomorrow": "Domani, ultimo giorno: come portare con te ciò che hai imparato, senza trasformarlo nell’ennesima ispirazione che non diventa mai niente."
+    },
+    {
+      "day": 7,
+      "subject": "Non è la fine. È il modo in cui continui.",
+      "durationMinutes": 5,
+      "intro": "Per sette giorni hai scelto di restare con una cosa sola, invece di inseguirne cento. E per te, questo è enorme. Non hai smesso di raccogliere scintille – non era questo l’obiettivo – ma hai fatto qualcosa di più raro: hai imparato a dar loro una direzione. Oggi non aggiungiamo nulla di nuovo: facciamo una scelta.",
+      "steps": [
+        {
+          "prompt": "Quando scrivo, mi accorgo che…",
+          "instruction": "Scrivi queste tre frasi una sotto l’altra e completa ciò che senti vero. Anche se è incompleto. Anche se è solo una riga."
+        },
+        {
+          "prompt": "La cosa che mi ha aiutato di più è…",
+          "instruction": "Completa con ciò che senti vero."
+        },
+        {
+          "prompt": "Se continuassi, lo farei così…",
+          "instruction": "Completa con ciò che senti vero."
+        }
+      ],
+      "closingRitual": "",
+      "why": "Il rischio, dopo un percorso, è trasformarlo in un’altra ispirazione: qualcosa di bello che hai consumato ma che non diventa pratica. Il journaling non funziona quando resta un’idea: funziona quando diventa uno spazio che scegli di avere nella tua vita. Non devi scrivere ogni giorno, né bene, né a lungo: ti basta sapere perché scrivi e quando ti serve davvero. È il punto in cui la scrittura diventa un’officina, dove le scintille prendono forma e tu diventi il creatore che sei sempre stato.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Se vuoi continuare a scrivere, sai dove trovare carta e penna. Se ti perdi, sai che puoi tornare qui. Back to Journal non è un metodo da seguire: è un modo di tornare a casa, ogni volta che ne senti il bisogno. Grazie. Per l’attenzione, per il tempo, per aver scelto di trasformare le scintille in qualcosa di tuo."
+}
