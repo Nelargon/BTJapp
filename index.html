@@ -44,6 +44,8 @@
       </div>
 
       <div class="welcome-alt">
+        <button class="link-btn" id="btn-free-write" data-i18n="freeWriteLink">Scrivere e basta, oggi</button>
+        <span class="dot-sep" aria-hidden="true">·</span>
         <button class="link-btn" id="btn-know-archetype" data-i18n="knowArchetype">Conosco già il mio archetipo</button>
         <span class="dot-sep" aria-hidden="true">·</span>
         <button class="link-btn" id="btn-quiz" data-i18n="dontKnow">Non so come mi sento</button>
@@ -91,12 +93,12 @@
     <section class="screen screen-session" id="screen-session" hidden>
       <div class="session-head">
         <p class="kicker" id="session-kicker"></p>
-        <div class="session-timer" id="session-timer" data-i18n-title="timerTitle" title="Un tempo morbido. Nessuna alarma.">
+        <div class="session-timer" id="session-timer" data-i18n-title="timerTitle" title="Un tempo morbido. Nessuna alarma." role="img" aria-label="">
           <svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true">
             <circle class="timer-track" cx="22" cy="22" r="19"></circle>
             <circle class="timer-ring" id="timer-ring" cx="22" cy="22" r="19"></circle>
           </svg>
-          <span class="timer-label" id="timer-label">5:00</span>
+          <span class="timer-label" id="timer-label" aria-hidden="true">✎</span>
         </div>
       </div>
 
@@ -123,6 +125,14 @@
       <h2 class="closing-title" data-i18n="closingTitle">E basta così.</h2>
       <p class="closing-sub" id="closing-sub" data-i18n="closingSub">Hai fatto abbastanza.</p>
 
+      <div class="circled-echo" id="circled-echo" hidden>
+        <span class="circled-echo-mark" aria-hidden="true">✎</span>
+        <div>
+          <p class="circled-echo-label" data-i18n="circledEchoLabel">Hai portato con te</p>
+          <p class="circled-echo-text" id="circled-echo-text"></p>
+        </div>
+      </div>
+
       <div class="card why-card">
         <p class="card-kicker" data-i18n="whyKicker">Perché funziona</p>
         <p id="closing-why"></p>
@@ -132,6 +142,13 @@
       <div class="card tomorrow-card" id="tomorrow-card">
         <p class="card-kicker" data-i18n="tomorrowKicker">Domani</p>
         <p id="closing-tomorrow"></p>
+      </div>
+
+      <div class="card care-card" id="care-card" hidden>
+        <p class="card-kicker" data-i18n="careKicker">Cura, non aggiustare</p>
+        <p id="closing-care-body"></p>
+        <label class="care-field-label" id="care-field-label" for="care-field"></label>
+        <textarea id="care-field" class="care-textarea" rows="2"></textarea>
       </div>
 
       <p class="returns-note" id="closing-returns"></p>

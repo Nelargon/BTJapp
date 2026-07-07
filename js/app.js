@@ -96,14 +96,12 @@ var BTJApp = (function () {
         picks.push(e);
       }
     });
-    shuffled(picks).forEach(function (e, i) {
+    shuffled(picks).forEach(function (e) {
       var b = document.createElement('button');
       b.className = 'bubble';
       b.type = 'button';
       b.setAttribute('role', 'listitem');
       b.textContent = e.label;
-      b.style.setProperty('--float-dur', (4 + (i % 5) * 0.7) + 's');
-      b.style.setProperty('--float-delay', ((i % 7) * -0.9) + 's');
       b.addEventListener('click', function () { goToMirror(e.archetypeId, e.label); });
       field.appendChild(b);
     });
@@ -326,10 +324,37 @@ var BTJApp = (function () {
 
     var a = byId(journeySelected);
     var completed = (progress[a.id] || { completedDays: [] }).completedDays;
-    var suggested = nextDayFor(a).day;
+    var next = nextDayFor(a);
+    var suggested = next.day;
 
     var daysBox = el('journey-days');
     daysBox.innerHTML = '';
+
+    /* il prossimo passo, in evidenza — non una lista di caselle da spuntare */
+    var nextCard = document.createElement('div');
+    nextCard.className = 'card journey-next-card';
+    nextCard.innerHTML =
+      '<p class="card-kicker">' + esc(BTJLang.t('journeyNextKicker')) + '</p>' +
+      '<p class="journey-next-name">' + esc(next.subject) + '</p>' +
+      '<button class="btn btn-primary" id="btn-journey-continue">' +
+        esc(BTJLang.t(completed.length ? 'journeyContinueCta' : 'journeyStartCta', { n: next.durationMinutes })) +
+      '</button>' +
+      (completed.length ? '<p class="journey-progress-note">' + esc(BTJLang.t('journeyProgressNote', { n: completed.length })) + '</p>' : '');
+    daysBox.appendChild(nextCard);
+    el('btn-journey-continue').addEventListener('click', function () {
+      BTJSession.start({ archetype: a, day: next, dayNumber: next.day, emotionLabel: '' });
+    });
+
+    /* la griglia completa dei 7 giorni resta dietro un tocco: non è un backlog da vedere subito */
+    var details = document.createElement('details');
+    details.className = 'journey-all-days';
+    var summary = document.createElement('summary');
+    summary.textContent = BTJLang.t('journeyShowAll');
+    details.addEventListener('toggle', function () {
+      summary.textContent = BTJLang.t(details.open ? 'journeyHideAll' : 'journeyShowAll');
+    });
+    details.appendChild(summary);
+
     var list = document.createElement('div');
     list.className = 'day-list';
     a.days.forEach(function (d) {
@@ -349,7 +374,8 @@ var BTJApp = (function () {
       });
       list.appendChild(item);
     });
-    daysBox.appendChild(list);
+    details.appendChild(list);
+    daysBox.appendChild(details);
   }
 
   /* ---------- diario ---------- */
@@ -448,6 +474,10 @@ var BTJApp = (function () {
       if (ev.key === 'Enter') handleFreeText();
     });
 
+    el('btn-free-write').addEventListener('click', function () {
+      currentEmotionLabel = '';
+      startSessionFor(freeArchetype(), '');
+    });
     el('btn-know-archetype').addEventListener('click', function () {
       renderArchetypeGrid();
       showScreen('archetypes');

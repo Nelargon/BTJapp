@@ -24,6 +24,7 @@ var BTJ_STRINGS = {
       '<button class="inline-link" id="fb-free">iniziare a scrivere così come sei</button>.',
     knowArchetype: 'Conosco già il mio archetipo',
     dontKnow: 'Non so come mi sento',
+    freeWriteLink: 'Scrivere e basta, oggi',
 
     candidatesQuestion: 'Quale di queste ti somiglia di più, adesso?',
     back: '← torna indietro',
@@ -47,8 +48,32 @@ var BTJ_STRINGS = {
 
     sessionKicker: '{archetype} · Giorno {n}',
     timerTitle: 'Un tempo morbido. Nessuna alarma.',
-    introHint: 'Bastano {n} minuti. Carta digitale, nessuna pressione.',
+    introHint: 'Bastano {n} minuti. Nessuna pressione.',
     beginBtn: 'Sono qui. Iniziamo',
+
+    controlQuestion: 'Quanto di questo dipende da te? (facoltativo)',
+    controlAll: 'Quasi tutto',
+    controlPart: 'Una parte',
+    controlNone: 'Quasi niente',
+
+    surfaceQuestion: 'Dove scrivi, oggi?',
+    surfacePaperCta: '✎ Sul mio quaderno',
+    surfaceScreenCta: 'Qui, sullo schermo',
+
+    paperReminderTitle: 'Scrivi sul tuo quaderno.',
+    paperReminderBody: "L'app ti aspetta qui, senza fretta.",
+    leaveLinkPaper: 'esci',
+
+    paperRitualTitle: 'Un ultimo gesto',
+    paperRitualHint: 'Rileggi quello che hai scritto sul quaderno. Porta qui la parola o la frase che hai cerchiato.',
+    paperRitualPlaceholder: 'la parola o la frase…',
+
+    circledEchoLabel: 'Hai portato con te',
+
+    careKicker: 'Cura, non aggiustare',
+    careBody: 'Questo non si risolve spingendo. Oggi hai scritto per scaricare, non per sistemare. Va bene così.',
+    careFieldLabel: 'Una piccola cosa con cui prenderti cura di te, ora (facoltativo)',
+
     stepCount: 'Passo {i} di {n}',
     textareaPlaceholder: 'continua da qui…',
     nextBtn: 'Avanti',
@@ -92,6 +117,13 @@ var BTJ_STRINGS = {
     allArchetypesChip: '+ tutti gli archetipi',
     dayMinutes: '{n} minuti',
     dayToday: 'oggi',
+
+    journeyNextKicker: 'Il tuo prossimo passo',
+    journeyStartCta: 'Inizia — bastano {n} minuti',
+    journeyContinueCta: 'Continua — bastano {n} minuti',
+    journeyProgressNote: 'Hai scritto {n} giorni di questo percorso.',
+    journeyShowAll: 'vedi tutti i giorni',
+    journeyHideAll: 'nascondi i giorni',
 
     diaryTitle: 'Il tuo diario',
     diaryHint: '🔒 Tutto resta sul tuo dispositivo. Nessun account, nessun cloud.',
@@ -143,6 +175,7 @@ var BTJ_STRINGS = {
       '<button class="inline-link" id="fb-free">empezar a escribir tal como estás</button>.',
     knowArchetype: 'Ya conozco mi arquetipo',
     dontKnow: 'No sé cómo me siento',
+    freeWriteLink: 'Solo escribir, hoy',
 
     candidatesQuestion: '¿Cuál de estas se parece más a ti, ahora?',
     back: '← volver atrás',
@@ -166,8 +199,32 @@ var BTJ_STRINGS = {
 
     sessionKicker: '{archetype} · Día {n}',
     timerTitle: 'Un tiempo suave. Ninguna alarma.',
-    introHint: 'Bastan {n} minutos. Papel digital, ninguna presión.',
+    introHint: 'Bastan {n} minutos. Ninguna presión.',
     beginBtn: 'Estoy aquí. Empecemos',
+
+    controlQuestion: '¿Cuánto de esto depende de ti? (opcional)',
+    controlAll: 'Casi todo',
+    controlPart: 'Una parte',
+    controlNone: 'Casi nada',
+
+    surfaceQuestion: '¿Dónde escribes, hoy?',
+    surfacePaperCta: '✎ En mi cuaderno',
+    surfaceScreenCta: 'Aquí, en la pantalla',
+
+    paperReminderTitle: 'Escribe en tu cuaderno.',
+    paperReminderBody: 'La app te espera aquí, sin prisa.',
+    leaveLinkPaper: 'salir',
+
+    paperRitualTitle: 'Un último gesto',
+    paperRitualHint: 'Relee lo que escribiste en tu cuaderno. Trae aquí la palabra o la frase que encerraste.',
+    paperRitualPlaceholder: 'la palabra o la frase…',
+
+    circledEchoLabel: 'Te llevaste contigo',
+
+    careKicker: 'Cuidado, no arreglo',
+    careBody: 'Esto no se resuelve empujando. Hoy escribiste para descargar, no para arreglar. Está bien así.',
+    careFieldLabel: 'Una pequeña cosa para cuidarte, ahora (opcional)',
+
     stepCount: 'Paso {i} de {n}',
     textareaPlaceholder: 'continúa desde aquí…',
     nextBtn: 'Seguir',
@@ -211,6 +268,13 @@ var BTJ_STRINGS = {
     allArchetypesChip: '+ todos los arquetipos',
     dayMinutes: '{n} minutos',
     dayToday: 'hoy',
+
+    journeyNextKicker: 'Tu próximo paso',
+    journeyStartCta: 'Empieza — bastan {n} minutos',
+    journeyContinueCta: 'Continúa — bastan {n} minutos',
+    journeyProgressNote: 'Escribiste {n} días de este camino.',
+    journeyShowAll: 'ver todos los días',
+    journeyHideAll: 'ocultar los días',
 
     diaryTitle: 'Tu diario',
     diaryHint: '🔒 Todo permanece en tu dispositivo. Sin cuenta, sin nube.',
