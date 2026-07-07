@@ -2,7 +2,7 @@
 
 App de journaling terapéutico guiado, basada en el método y los 9 arquetipos de [backtojournal.it](https://www.backtojournal.it/).
 
-**La idea en una frase:** partes de *cómo te sientes ahora* (globos de emociones o texto libre), la app te reconoce en tu arquetipo y te guía en un ejercicio de escritura de 5 minutos — frase de apertura, timer suave, ritual de cierre y el porqué científico. Disponible en **italiano y español**, con selector de idioma en la barra superior.
+**La idea en una frase:** partes de *cómo te sientes ahora* (globos de emociones o texto libre), la app te reconoce en tu arquetipo y te guía en un ejercicio de escritura de 5 minutos — frase de apertura, timer suave, ritual de cierre y el porqué científico. Disponible en **italiano y español**, con selector de idioma en la barra superior. **Papel primero**: la app acompaña el cuaderno, no lo reemplaza — cada sesión pregunta si escribes ahí o en pantalla, y el ritual de cierre funciona en los dos casos.
 
 📄 El diseño completo está en [`docs/DISENO.md`](docs/DISENO.md).
 
@@ -39,10 +39,11 @@ Funciona también publicándola tal cual en GitHub Pages / Netlify.
 
 ```
 index.html               pantallas de la app (check-in, sesión, percorso, diario)
-css/app.css               estética papel y tinta, tema claro/oscuro, responsive
+css/app.css               estética papel y tinta; tipografía Braveold/Mogena/Inter self-hosted
+fonts/*.woff2             Braveold (títulos), Mogena (wordmark), Inter (cuerpo) — sin CDN
 js/i18n.js                selector de idioma: t(), aplica traducciones estáticas, persiste preferencia
 js/app.js                 orquestador: globos, matcher de texto libre, navegación
-js/session.js             motor de la sesión guiada (pasos, timer suave, ritual, cambio de idioma en vivo)
+js/session.js             motor de la sesión: pasos, timer, bifurcación papel/pantalla, control, ritual
 js/quiz.js                mini bussola/brújula: 4 preguntas → arquetipo
 js/storage.js             persistencia local (localStorage) — privacidad primero
 data/strings.js           todos los textos de interfaz, en italiano y español
@@ -61,8 +62,14 @@ El contenido (descripciones de arquetipos, frases de apertura de los ejercicios,
 
 El selector IT/ES vive en la barra superior y funciona en cualquier pantalla, incluso a mitad de una sesión de escritura: el texto que ya escribiste nunca se traduce (es tuyo), solo cambian los textos de la interfaz y del ejercicio. La preferencia de idioma se guarda en el dispositivo. Los rituales de cierre (encerrar una frase, subrayar una palabra, marcar Ⓜ/Ⓐ, sello de cierre) se reconocen automáticamente en ambos idiomas gracias a las mismas palabras disparadoras traducidas de forma consistente.
 
+### Papel o pantalla
+
+Al empezar cada sesión, la app pregunta dónde vas a escribir. En pantalla, todo funciona como antes (textarea, ritual de tocar/subrayar/marcar). En papel, la caja de texto se reemplaza por un recordatorio breve; al final, el ritual pide traer de vuelta la palabra o frase que encerraste en el cuaderno — así el gesto de cierre sobrevive aunque no se haya tipeado nada. También hay una pregunta opcional, "¿cuánto de esto depende de ti?": si la respuesta es "casi nada", el cierre cambia de marco — de empujar hacia un próximo paso a solo acompañar, sin pedir ninguna acción.
+
 ## Principios
 
+- **Papel primero** — la app acompaña el cuaderno; no lo reemplaza.
+- **La emoción es la puerta; el arquetipo es el motor** — se entra por cómo te sientes, no eligiendo un arquetipo.
 - **Senza pressioni** — sin rachas ni culpa: se cuentan las *veces que vuelves*, nunca los días seguidos que faltaste.
-- **Privacidad radical** — todo se guarda en el dispositivo (localStorage); exportable a `.txt`.
+- **Privacidad radical** — todo se guarda en el dispositivo (localStorage), y cuanto menos texto sensible se guarde, mejor; exportable a `.txt`.
 - **Un ejercicio pequeño cada vez** — nunca una lista de tareas pendientes.

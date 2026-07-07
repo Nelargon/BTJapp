@@ -12,8 +12,10 @@ var BTJLang = (function () {
       var saved = localStorage.getItem(KEY);
       if (saved && SUPPORTED.indexOf(saved) !== -1) return saved;
     } catch (e) {}
+    /* il brand nasce italiano, ma il pubblico ispanofono è più ampio:
+       partiamo in spagnolo salvo che il browser sia esplicitamente italiano. */
     var nav = (navigator.language || '').toLowerCase();
-    return nav.indexOf('es') === 0 ? 'es' : 'it';
+    return nav.indexOf('it') === 0 ? 'it' : 'es';
   })();
 
   function t(key, vars) {
