@@ -46,6 +46,15 @@ var BTJ_STRINGS = {
     mirrorCtaSub: 'Giorno {n} · {subject}',
     mirrorBack: '← non mi ci ritrovo, torna indietro',
 
+    continuityLine: 'L’ultima volta che ti sei sentito così è stato {when}.',
+    continuityCircled: 'Portasti con te: «{phrase}»',
+    continuityToday: 'prima, oggi',
+    continuityYesterday: 'ieri',
+    continuityDaysAgo: '{n} giorni fa',
+    continuityWeekAgo: 'una settimana fa',
+    continuityWeeksAgo: '{n} settimane fa',
+    continuityWhileAgo: 'un po’ di tempo fa',
+
     sessionKicker: '{archetype} · Giorno {n}',
     timerTitle: 'Un tempo morbido. Nessuna alarma.',
     introHint: 'Bastano {n} minuti. Nessuna pressione.',
@@ -196,6 +205,15 @@ var BTJ_STRINGS = {
     mirrorCta: 'Empecemos — bastan {n} minutos',
     mirrorCtaSub: 'Día {n} · {subject}',
     mirrorBack: '← no me reconozco en esto, volver atrás',
+
+    continuityLine: 'La última vez que te sentiste así fue {when}.',
+    continuityCircled: 'Te llevaste contigo: «{phrase}»',
+    continuityToday: 'antes, hoy',
+    continuityYesterday: 'ayer',
+    continuityDaysAgo: 'hace {n} días',
+    continuityWeekAgo: 'hace una semana',
+    continuityWeeksAgo: 'hace {n} semanas',
+    continuityWhileAgo: 'hace un tiempo',
 
     sessionKicker: '{archetype} · Día {n}',
     timerTitle: 'Un tiempo suave. Ninguna alarma.',

@@ -231,6 +231,30 @@ button { font-family: inherit; color: inherit; }
 
 .greeting { color: var(--ink-soft); font-style: italic; margin: 18px 0 4px; }
 
+/* saluto speciale del primo accesso del giorno: più caldo, con una frase che invita a scrivere */
+.daily-greeting {
+  margin: 18px 0 20px;
+  padding: 18px 20px;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  text-align: center;
+  animation: screen-in 0.5s ease both;
+}
+.daily-greeting-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-wrap: balance;
+}
+.daily-quote-text {
+  font-style: italic;
+  color: var(--accent);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
 .question {
   font-family: var(--font-display);
   font-size: 1.65rem;
@@ -448,6 +472,16 @@ button { font-family: inherit; color: inherit; }
 .mirror-essence { font-style: italic; color: var(--accent); margin-bottom: 18px; }
 
 .mirror-text p { margin-bottom: 12px; }
+
+.mirror-continuity {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 0.92rem;
+  background: var(--paper-deep);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 4px 0 18px;
+}
 
 .mirror-reassurance {
   margin: 22px 0;

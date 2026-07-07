@@ -7,7 +7,8 @@ var BTJStore = (function () {
     progress: 'btj.progress',
     returns: 'btj.returns',
     draft: 'btj.draft',
-    lastArchetype: 'btj.lastArchetype'
+    lastArchetype: 'btj.lastArchetype',
+    lastGreetingDate: 'btj.lastGreetingDate'
   };
 
   function read(key, fallback) {
@@ -69,6 +70,10 @@ var BTJStore = (function () {
 
     getLastArchetype: function () { return read(KEYS.lastArchetype, null); },
     setLastArchetype: function (id) { write(KEYS.lastArchetype, id); },
+
+    /* saluto speciale del giorno: una sola volta, il primo accesso di ogni giornata */
+    getLastGreetingDate: function () { return read(KEYS.lastGreetingDate, null); },
+    setLastGreetingDate: function (d) { write(KEYS.lastGreetingDate, d); },
 
     exportText: function (archetypes) {
       var byId = {};
