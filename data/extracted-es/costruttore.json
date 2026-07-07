@@ -1,0 +1,180 @@
+{
+  "id": "costruttore",
+  "name": "El Constructor de Días",
+  "driveFileId": "12SJatqurHvyVTJw9yaP4EdrVOwNogaxD",
+  "essence": "Es un nombre que no habla de productividad. Habla de intención.",
+  "description": "Tú no quieres el giro drástico. Tú quieres la trayectoria. Te interesa construir una vida que aguante: hecha de elecciones pequeñas, repetidas, coherentes. No buscas el gesto llamativo. Buscas la solidez del ladrillo cotidiano. El punto es que estás cansado de empezar con entusiasmo y luego perderte: no porque seas inconstante, sino porque la vida real está llena, y cuando te saltas un día sientes que has perdido todo.",
+  "strength": "No hay nada de malo en tu constancia: sabes construir con intención, un ladrillo cotidiano a la vez, con elecciones pequeñas, repetidas, coherentes.",
+  "shadow": "Los sistemas que has usado hasta ahora estaban hechos para una versión idealizada de ti, esa que nunca se salta un día. Y cuando te saltas uno, sientes que has perdido todo y te sientes un fracaso.",
+  "coreNeed": "Un sistema que prevea las interrupciones y te permita volver sin culpa: algo que no te castiga cuando faltas, sino que te espera cuando vuelves.",
+  "trap": "La culpa de haber interrumpido: en el momento en que te saltas un día, aparece el pensamiento \"Lo he arruinado todo. Tengo que empezar de nuevo desde cero\". Es ese juicio el que transforma una pausa en un abandono — es la culpa la que te bloquea, no la falta de ganas.",
+  "journalingMetaphor": "cita suave",
+  "howJournalingHelps": "El journaling no es una rutina rígida ni un tracker que rellenar: es una cita suave contigo mismo. Algo que no te castiga cuando faltas, sino que te espera cuando vuelves. Dejas de contar los días consecutivos y empiezas a contar las veces que has vuelto.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Un ladrillo. Uno solo.",
+      "durationMinutes": 5,
+      "intro": "Hoy no construimos un palacio. No planificamos una semana. No creamos un sistema. Colocamos un ladrillo. Uno solo.",
+      "steps": [
+        {
+          "prompt": "Hoy mi ladrillo es…",
+          "instruction": "Escribe una sola cosa que quieres hacer hoy. No la más importante. No la más ambiciosa. La más factible."
+        },
+        {
+          "prompt": "Lo hago porque…",
+          "instruction": "No busques una motivación profunda. Incluso \"porque me hace sentir encarrilado\" basta. Incluso \"porque me lo prometí a mí mismo\"."
+        }
+      ],
+      "closingRitual": "Y basta así.",
+      "why": "La trampa del constructor es la grandeza: quieres que cada día sea significativo, cada acción importante, cada elección estratégica. Pero los sistemas que funcionan están hechos de gestos pequeños, repetidos, casi aburridos. Un ladrillo al día no parece nada, pero en un mes son treinta ladrillos. Y treinta ladrillos ya son una pared.",
+      "research": "La investigación sobre hábitos de BJ Fogg en Stanford muestra que la forma más eficaz de construir un comportamiento estable no es la motivación, es la reducción: cuanto más pequeño es el gesto, más probable es que lo repitas.",
+      "tomorrow": "Mañana hablaremos de una trampa que conoces demasiado bien: la culpa de haberte saltado un día."
+    },
+    {
+      "day": 2,
+      "subject": "Saltarte un día no borra nada",
+      "durationMinutes": 3,
+      "intro": "Ayer colocamos un ladrillo. Hoy damos un paso diferente. Hablemos de lo que te bloquea más que ninguna otra cosa: la culpa de haber interrumpido.",
+      "steps": [
+        {
+          "prompt": "Lo último que abandoné es…",
+          "instruction": "Una sola frase."
+        },
+        {
+          "prompt": "El motivo por el que lo dejé no es pereza. Es…",
+          "instruction": "Escribe la verdad. No la excusa. La razón real."
+        },
+        {
+          "prompt": "Si pudiera volver sin culpa, lo haría así…",
+          "instruction": "Completa la frase con la forma en que retomarías, sin juicio."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos tratando de evitar las interrupciones: forman parte de la vida real. Estamos separando la acción del juicio. El problema llega cuando la interrupción se convierte en identidad — pero no lo es, es solo un momento. La tercera pregunta es la clave: casi siempre la respuesta es \"volvería\". Es la culpa la que te bloquea, no la falta de ganas.",
+      "research": "",
+      "tomorrow": "Mañana crearemos algo concreto: un sistema mínimo que funciona incluso en los peores días."
+    },
+    {
+      "day": 3,
+      "subject": "El sistema mínimo que siempre funciona",
+      "durationMinutes": 4,
+      "intro": "Hoy afrontamos un punto crucial: el sistema. Los que has creado hasta ahora estaban diseñados para tu mejor versión, pero la vida también te da días cansados, confusos, llenos de imprevistos. Y cuando el sistema no prevé esos días, se derrumba.",
+      "steps": [
+        {
+          "prompt": "Mi sistema mínimo.",
+          "instruction": "Escribe este título en la parte superior de la página."
+        },
+        {
+          "prompt": "En los días buenos, ¿qué escribo?",
+          "instruction": "Ejemplo: escribo una página entera, reflexiono, planifico."
+        },
+        {
+          "prompt": "En los días normales, ¿qué escribo?",
+          "instruction": "Ejemplo: escribo tres frases sobre cómo estoy."
+        },
+        {
+          "prompt": "En los peores días, ¿qué escribo?",
+          "instruction": "Ejemplo: escribo una palabra. Aunque sea solo \"aquí\"."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "Un sistema con tres niveles nunca se rompe, porque siempre tiene una opción accesible. Incluso en el peor día puedes abrir el cuaderno y escribir una palabra, y esa palabra cuenta: no es el volumen lo que construye, es la frecuencia. La diferencia entre quien construye algo en el tiempo y quien no, no es la disciplina: es el umbral de regreso. Cuanto más bajo es el umbral para volver, más probable es que vuelvas.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: cómo medir los progresos cuando no se ven a simple vista."
+    },
+    {
+      "day": 4,
+      "subject": "Los progresos invisibles son los que cuentan",
+      "durationMinutes": 5,
+      "intro": "Hoy tocamos un punto delicado. Hablemos de una frustración que conoces bien: hacer las cosas correctas sin ver resultados. El cambio no se ve mirando hacia adelante. Se ve mirando hacia atrás.",
+      "steps": [
+        {
+          "prompt": "Dónde estaba hace un mes",
+          "instruction": "Divide la página en dos columnas. En la columna izquierda escribe cómo estabas hace un mes. No solo los hechos: cómo te sentías, qué pensabas, qué te preocupaba."
+        },
+        {
+          "prompt": "Dónde estoy hoy",
+          "instruction": "En la columna derecha escribe lo mismo para hoy."
+        }
+      ],
+      "closingRitual": "Luego compara las dos columnas. No para juzgar. Para ver. Luego detente.",
+      "why": "Estás haciendo visible el progreso. La mayoría de los cambios importantes en la vida son invisibles día a día: no te das cuenta de que estás mejor hasta que comparas con cómo estabas antes. El journaling es también esto: una huella, una prueba de que estás yendo a alguna parte, incluso cuando parece que estás parado.",
+      "research": "",
+      "tomorrow": "Mañana afrontamos un momento específico: la noche, cuando el día termina y tienes que decidir si lo que has hecho ha sido suficiente."
+    },
+    {
+      "day": 5,
+      "subject": "¿Hoy ha sido suficiente?",
+      "durationMinutes": 5,
+      "intro": "Si hay un momento en que el constructor se siente más vulnerable es cuando el día termina y llega la pregunta: \"¿He hecho suficiente?\". El punto no es hacer más. Es reconocer lo que has hecho. Este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Hoy he construido…",
+          "instruction": "Escribe todo lo que has hecho. No solo las cosas grandes. También las pequeñas, incluso las que te parecen insignificantes: un correo enviado, una pausa tomada, una decisión aplazada conscientemente."
+        },
+        {
+          "prompt": "Lo más pequeño que ha contado es…",
+          "instruction": "Elige una sola cosa. La más mínima."
+        },
+        {
+          "prompt": "Por hoy, es suficiente.",
+          "instruction": "Cierra con esta frase. Y detente."
+        }
+      ],
+      "closingRitual": "Cierra con \"Por hoy, es suficiente.\" Y detente.",
+      "why": "La mente del constructor no se apaga al final del día: sigue midiendo la distancia entre el plan y la realidad, y por la noche esa distancia siempre parece enorme. Escribir lo que has construido no es un ejercicio de gratitud, es un acto de honestidad: siempre has construido algo, solo que no te habías dado cuenta porque estabas demasiado ocupado mirando lo que faltaba. \"Por hoy, es suficiente\" no es conformarse: es un permiso. Mañana construirás de nuevo, pero esta noche puedes soltar las herramientas.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de la diferencia entre disciplina y castigo, y por qué tu forma de construir podría ser más dura de lo necesario."
+    },
+    {
+      "day": 6,
+      "subject": "Disciplina no significa castigo",
+      "durationMinutes": 5,
+      "intro": "Hoy damos un paso todavía más sutil. Hablemos de la forma en que te tratas cuando construyes. La disciplina es elegir presentarte. El castigo es juzgarte cuando no lo consigues. Son dos cosas completamente distintas, y tú a menudo las confundes.",
+      "steps": [
+        {
+          "prompt": "Cómo me hablo cuando me salto un día",
+          "instruction": "Divide la página en tres partes. En la primera escribe las frases exactas que te dices. Sin edulcorarlas. Tipo: \"no eres capaz\", \"siempre la misma historia\", \"nunca terminas nada\"."
+        },
+        {
+          "prompt": "Cómo le hablaría a un amigo en la misma situación",
+          "instruction": "Reescribe esas frases como si se las estuvieras diciendo a alguien que quieres y que se ha saltado un día. Nota la diferencia."
+        },
+        {
+          "prompt": "La frase que quiero llevar conmigo",
+          "instruction": "Una sola. La que necesitas para volver a construir sin castigarte."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "El diálogo interno del constructor es a menudo despiadado. No por maldad: por ambición. Pero la ambición que se alimenta de castigo termina por consumir a la persona que debería hacer crecer. Cuando sabes que puedes volver sin ser juzgado, vuelves más a menudo. Y quien vuelve más a menudo, construye más.",
+      "research": "La investigación sobre la autocompasión de Kristin Neff en la University of Texas muestra que tratarse con amabilidad no reduce la motivación: la aumenta.",
+      "tomorrow": "Mañana llegamos al último día: cómo llevar contigo lo que has aprendido, sin convertirlo en una cosa más que mantener a la perfección."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es la forma en que continúas.",
+      "durationMinutes": 5,
+      "intro": "Si has llegado hasta aquí no es porque hayas hecho todo, sino porque has vuelto. Incluso cuando no era perfecto. Incluso cuando era solo un ladrillo. Hoy no añadimos nada nuevo. Hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe lo que sientes verdadero. Aunque sea incompleto. Aunque sea solo una línea."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Escribe lo que sientes verdadero, sin buscar la respuesta correcta."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Describe tu forma de continuar: cuándo escribir y cuándo te hace falta de verdad."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es transformarlo enseguida en una obligación. Pero el journaling no funciona cuando se convierte en un deber: funciona cuando se convierte en un espacio que eliges tener en tu vida. No tienes que escribir cada día, no tienes que escribir bien, no tienes que escribir mucho. Es el punto en que la escritura deja de ser un ejercicio y se convierte en un ladrillo: el que colocas cada vez que vuelves y que, día tras día, se convierte en una casa.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal no es un método que seguir. Es una forma de volver a casa, cada vez que sientes la necesidad. Si quieres seguir escribiendo, sabes dónde encontrar papel y bolígrafo. Si te pierdes, sabes que puedes volver aquí. Gracias: por la atención, por el tiempo, por haber elegido construir con más amabilidad."
+}

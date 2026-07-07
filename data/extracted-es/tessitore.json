@@ -1,0 +1,172 @@
+{
+  "id": "tessitore",
+  "name": "El Tejedor de Historias",
+  "driveFileId": "1AeBBmkuwYZP8fFfiNoZwYgLbKryZcxb_",
+  "essence": "Un nombre que no habla de fantasía. Habla de inteligencia narrativa.",
+  "description": "Tú no eres solo alguien que observa. Eres alguien que conecta. Ves patrones, símbolos, detalles que para los demás son ruido. Tomas experiencias fragmentadas y les das una trama. Tomas un dolor y le encuentras un significado.",
+  "strength": "Inteligencia narrativa: conectas lo que para los demás es ruido, transformas experiencias fragmentadas en una trama y encuentras significado incluso en el dolor.",
+  "shadow": "A veces este talento se te vuelve en contra: buscas un sentido incluso donde no lo hay, te cargas de interpretaciones como si fueran verdades, y tu mente se convierte en una novela que no se detiene nunca.",
+  "coreNeed": "Contarte tu historia sin quedar prisionero de ella: dar sentido a las cosas sin que la necesidad de entender te impida vivir.",
+  "trap": "Confundir la narración con la realidad: las historias que te cuentas se vuelven tan convincentes que resultan indistinguibles de los hechos, y empiezan a guiar tus emociones y tus decisiones. En ese punto ya no estás tejiendo: estás tejido.",
+  "journalingMetaphor": "telar",
+  "howJournalingHelps": "El journaling no es otra forma de interpretar. Es un telar: un lugar donde puedes tejer con intención, distinguir los hilos importantes de los que te atrapan, y contarte tu historia sin quedar prisionero de ella. Escribir te da la distancia: no para dejar de tejer, sino para elegir qué historias merecen seguir adelante.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "Escribe sin buscar el sentido",
+      "durationMinutes": 5,
+      "intro": "Hoy no interpretamos nada. No buscamos patrones. No tejemos. Hacemos solo una cosa: escribir sin significado.",
+      "steps": [
+        {
+          "prompt": "Ahora, sin buscar un sentido, lo que hay es…",
+          "instruction": "Escribe todo lo que te venga: fragmentos, imágenes, palabras sueltas, sensaciones. No tienen que conectarse, no tienen que contar nada. Pueden ser incoherentes, contradictorias, absurdas. Si te das cuenta de que estás buscando un hilo, detente y vuelve a empezar desde la siguiente palabra, como un ejercicio de caída libre. Cuando suene el temporizador, detente."
+        }
+      ],
+      "closingRitual": "Relee. No busques un significado. Subraya solo la palabra que más te sorprenda. Y basta así.",
+      "why": "Una mente narrativa necesita, de vez en cuando, dejar de narrar. No porque narrar esté mal, sino porque sin pausas la narración se vuelve compulsiva, y cuando es compulsiva ya no es una herramienta: es una jaula. La palabra que subrayaste no es un significado, es una señal. A veces las cosas más verdaderas salen cuando dejas de buscarlas.",
+      "research": "La investigación sobre la escritura expresiva, a partir de los trabajos de James Pennebaker, muestra que escribir libremente, sin una estructura impuesta, reduce la necesidad de elaboración continua: el cerebro, cuando puede descargarse en el papel sin tener que organizarse, se calma.",
+      "tomorrow": "Mañana hablaremos de una trampa muy común para quien teje: confundir la interpretación con la verdad."
+    },
+    {
+      "day": 2,
+      "subject": "La historia que te cuentas no siempre es la verdad",
+      "durationMinutes": 3,
+      "intro": "Ayer escribimos sin buscar un sentido. Hoy damos un paso distinto: hablamos de la trampa más insidiosa para quien teje historias, confundir la narración con la realidad.",
+      "steps": [
+        {
+          "prompt": "Una historia que me estoy contando en este periodo es…",
+          "instruction": "Una sola frase. La narración que tienes en la cabeza sobre algo que está sucediendo."
+        },
+        {
+          "prompt": "Los hechos, sin interpretación, son…",
+          "instruction": "Debajo, escribe solo lo que ha ocurrido objetivamente. Sin añadidos, sin lecturas."
+        },
+        {
+          "prompt": "Otra historia posible, con los mismos hechos, sería…",
+          "instruction": "Por último, intenta contar los mismos hechos con una lectura diferente."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos eliminando la narración: la estamos haciendo transparente. Como un director que mira su película desde fuera: no deja de contar, pero ve las elecciones que ha hecho, y al verlas recupera libertad. La tercera pregunta es la clave: te recuerda que tu interpretación es una entre tantas. Poderosa, pero no única. Y si no es única, puedes elegir.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un lugar donde puedas tejer con intención, donde la narración se convierta en una herramienta y no en un automatismo."
+    },
+    {
+      "day": 3,
+      "subject": "Tejer con intención",
+      "durationMinutes": 4,
+      "intro": "Hoy afrontamos el punto crucial: aprender a tejer con intención. Tú tejes en automático, y el problema no es la historia en sí: es que la tejes por reacción, no por elección. Tejer con intención significa elegir qué historia contarte.",
+      "steps": [
+        {
+          "prompt": "La historia que elijo contarme hoy es…",
+          "instruction": "Escríbela arriba. No la historia más verdadera, no la más objetiva: la más útil. La que te ayuda a estar mejor sin mentirte."
+        },
+        {
+          "prompt": "Esta historia me sirve porque…",
+          "instruction": "Debajo, escribe para qué te sirve la historia que has elegido."
+        },
+        {
+          "prompt": "El hilo que quiero seguir hoy es…",
+          "instruction": "Un solo hilo. El que te orienta."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "La diferencia entre padecer una narración y elegirla es enorme: cuando la padeces, la historia te lleva a donde ella quiere; cuando la eliges, el tejedor eres tú. No estás manipulando la realidad: estás ejerciendo el más profundo de tus talentos, dar forma a la experiencia, pero esta vez con conciencia. Y la conciencia, para un narrador natural, es la diferencia entre estar atrapado en la historia y guiarla.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: qué hacer con las historias dolorosas que has construido con el tiempo y que se han convertido en parte de cómo te ves."
+    },
+    {
+      "day": 4,
+      "subject": "Las historias viejas que todavía te definen",
+      "durationMinutes": 5,
+      "intro": "Hoy tocamos un punto delicado: las historias viejas. Las que llevas dentro desde hace tiempo, que tejiste hace años y que, de tanto repetirlas, se han convertido en la trama con la que te defines. No son verdades: son interpretaciones cristalizadas. Divide la página en dos columnas.",
+      "steps": [
+        {
+          "prompt": "Historias que me cuento sobre mí",
+          "instruction": "En la columna izquierda, escribe las narraciones que llevas dentro desde hace tiempo. Las frases que empiezan con «Soy el que…» o «A mí siempre me pasa que…»."
+        },
+        {
+          "prompt": "Versión reescrita",
+          "instruction": "En la columna derecha, reescribe la misma historia de forma más honesta y completa. No más positiva: más verdadera, añadiendo lo que la versión original omite."
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Estás reescribiendo, no borrando. Las historias viejas no hay que destruirlas: hay que actualizarlas, como un libro que relees años después con otros ojos. La trama es la misma, pero tú no. La columna derecha no es pensamiento positivo: es honestidad narrativa. Es el tejedor que vuelve a su telar y dice: puedo hacerlo mejor.",
+      "research": "",
+      "tomorrow": "Mañana afrontamos un momento específico: la noche, cuando el día termina y la mente empieza a tejer el resumen de lo que has vivido."
+    },
+    {
+      "day": 5,
+      "subject": "Noche: el resumen que haces del día es una elección",
+      "durationMinutes": 5,
+      "intro": "Si hay un momento en el que el tejedor está más activo, es cuando el día termina: en cuanto el cuerpo se detiene, la mente empieza a tejer el resumen y a darle un tema al día. Pero ese resumen no es un hecho. Es una historia. Este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Si el día de hoy fuera un capítulo, el título sería…",
+          "instruction": "Escribe el primer título que se te ocurra. El automático, el que la mente ya ha elegido."
+        },
+        {
+          "prompt": "Otro título posible, igualmente verdadero, sería…",
+          "instruction": "Busca un segundo título, igualmente verdadero, para el mismo día."
+        },
+        {
+          "prompt": "El título que elijo llevarme conmigo es…",
+          "instruction": "Elige el título con el que quieres cerrar el día."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "El resumen que haces del día influye en cómo te duermes, en cómo te despiertas y en cómo afrontas el día siguiente. Es un poder enorme, y normalmente lo ejerces en automático. Elegir el título no es autoengaño: es la forma más alta de tu talento, usar la narración no para padecer el día sino para cerrarlo con intención.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos del límite entre dar sentido y sobrecargarse de significado, y de cómo tu don puede volverse más ligero."
+    },
+    {
+      "day": 6,
+      "subject": "No todo necesita un significado",
+      "durationMinutes": 5,
+      "intro": "Hoy damos un paso todavía más sutil: hablamos del peso del significado. Tú le das sentido a todo, es tu don. Pero si todo tiene un significado, nada es nunca ligero. A veces las cosas simplemente suceden: solo está la vida ocurriendo. Divide la página en tres partes.",
+      "steps": [
+        {
+          "prompt": "Cosas a las que he dado demasiado significado",
+          "instruction": "En la primera parte, escribe los acontecimientos recientes que has cargado de interpretaciones, subtextos, lecturas profundas. Sin juicio."
+        },
+        {
+          "prompt": "Cosas que simplemente sucedieron",
+          "instruction": "En la segunda parte, reescribe esos mismos acontecimientos en la versión más simple posible. Sin trama. Solo hechos desnudos."
+        },
+        {
+          "prompt": "Una cosa que hoy dejo ser sin significado",
+          "instruction": "Solo una. Déjala ahí. Sin interpretarla. Sin tejer nada alrededor."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "Aligerar la carga narrativa no significa dejar de tejer: significa elegir dónde tejer y dónde dejar blanco. Un tejedor experto sabe que los vacíos son tan importantes como los hilos, que no todo hay que llenarlo, que a veces el espacio en blanco es lo que hace bello el diseño. No todo necesita un significado para tener valor.",
+      "research": "",
+      "tomorrow": "Mañana, último día: cómo llevarte lo que has aprendido, sin convertirlo en otra historia más que contarte."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es el modo en que continúas.",
+      "durationMinutes": 5,
+      "intro": "En estos siete días has hecho algo poco común para un tejedor: has aceptado no tejer siempre, y has aprendido a tejer con intención en lugar de por automatismo. Hoy no añadimos nada nuevo. Hacemos una elección. Escribe estas tres frases, una debajo de la otra.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe lo que sientas verdadero. Aunque sea incompleto. Aunque sea solo una línea."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Escribe lo que sientas verdadero, sin buscar la respuesta correcta."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Imagina tu manera de continuar: cuándo, cómo, por qué escribirías."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es transformarlo enseguida en una historia: un bonito capítulo cerrado. Pero el journaling no es un capítulo: es el telar mismo. No tienes que escribir cada día, no tienes que escribir bien, no tienes que escribir mucho tiempo. Te basta saber por qué escribes y cuándo lo necesitas de verdad. Es el punto en el que la escritura se convierte en el lugar donde las historias toman forma: donde puedes tejer, deshacer y volver a empezar, con libertad.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal no es un método que seguir. Es una manera de volver a casa, cada vez que sientas la necesidad. Si quieres seguir escribiendo, ya sabes dónde encontrar papel y lápiz. Si te pierdes, sabes que puedes volver aquí. Gracias: por la atención, por el tiempo, por haber elegido tejer con más libertad."
+}

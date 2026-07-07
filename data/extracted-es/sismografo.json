@@ -1,0 +1,172 @@
+{
+  "id": "sismografo",
+  "name": "El Sismógrafo del Sentir",
+  "driveFileId": "1qKBsQ54x37v3f-y14Jb6UCTZj0KT3q51",
+  "essence": "Es un nombre que no habla de fragilidad. Habla de sensibilidad profunda.",
+  "description": "Tú percibes cosas que los demás ignoran. Un cambio de tono en una conversación. Un silencio más largo de lo habitual. Una energía extraña en una habitación. A veces te basta una mirada para entender que algo no va bien. Y cuando no tienes un lugar donde descargar, empiezas a confundir lo que es tuyo con lo que has absorbido: te encuentras cansado sin motivo, lleno sin saber de qué, inquieto sin un nombre preciso.",
+  "strength": "Percibes cosas que los demás ignoran: un cambio de tono, un silencio más largo, una energía extraña en una habitación. Esta capacidad es rara. Y valiosa.",
+  "shadow": "Tiene un efecto secundario: lo absorbes todo. Las emociones de los demás entran en ti como si fueran tuyas, la tensión de una habitación se te pega encima, el humor de quien tienes cerca se convierte en tu humor.",
+  "coreNeed": "Tener límites entre lo que es tuyo y lo que has recogido del mundo: el problema no es sentir demasiado, es no tener un lugar donde descargar.",
+  "trap": "Confundir la empatía con la absorción. La empatía es sentir con alguien; la absorción es llevar dentro de ti lo que le pertenece a otra persona.",
+  "journalingMetaphor": "filtro",
+  "howJournalingHelps": "No como análisis infinito. No como diario de sentimientos. Sino como filtro: una herramienta para separar, distinguir y volver al centro. Escribir se convierte en tu manera de poner orden, de separar, de volver a ti.",
+  "days": [
+    {
+      "day": 1,
+      "subject": "¿De quién es lo que sientes?",
+      "durationMinutes": 5,
+      "intro": "Hoy no analizamos nada. No buscamos causas profundas. No resolvemos. Hacemos solo una cosa: separar.",
+      "steps": [
+        {
+          "prompt": "En este momento, dentro de mí hay…",
+          "instruction": "Escribe todo: emociones, sensaciones físicas, tensiones, atmósferas. No necesitan tener un nombre preciso. Incluso «algo raro en el estómago» está perfecto. Cuando suene el temporizador, detente."
+        }
+      ],
+      "closingRitual": "Relee y, para cada cosa que has escrito, pregúntate: «¿Esto es mío o lo he recogido de alguien más?». Márcalo con una M si es tuyo, con una A si lo has asimilado. Y basta así.",
+      "why": "Tu sistema nervioso funciona como una antena de alta sensibilidad: capta todo, pero no tiene un filtro automático. El resultado es que tus emociones y las emociones ajenas terminan en el mismo contenedor, y te encuentras lleno sin saber de qué. Escribir y separar es el primer gesto para restablecer el orden: no estás rechazando tu sensibilidad, estás aprendiendo a no ahogarte en ella.",
+      "research": "La investigación sobre la sensibilidad de procesamiento sensorial, estudiada por Elaine Aron desde los años 90, muestra que las personas altamente sensibles procesan los estímulos con mayor profundidad: no es un defecto, pero sin herramientas para distinguir se convierte en sobrecarga.",
+      "tomorrow": "Mañana hablaremos de una trampa muy común para quienes sienten como tú: confundir la empatía con la absorción."
+    },
+    {
+      "day": 2,
+      "subject": "Sentir no significa absorber",
+      "durationMinutes": 3,
+      "intro": "Ayer hicimos algo simple pero poderoso: separamos lo que es tuyo de lo que has absorbido. Hoy damos un paso distinto: hablamos de una trampa en la que caes a menudo, quizá sin darte cuenta — confundir la empatía con la absorción.",
+      "steps": [
+        {
+          "prompt": "Una emoción que llevo dentro y que no nació en mí es…",
+          "instruction": "Una sola frase. Sin explicaciones."
+        },
+        {
+          "prompt": "Si la devolviera, ¿cómo me sentiría?",
+          "instruction": "Debajo, responde escribiendo lo primero que se te ocurra."
+        }
+      ],
+      "closingRitual": "Luego cierra el cuaderno.",
+      "why": "No estamos intentando dejar de sentir: sería como pedirle a un músico que deje de escuchar las notas. Estamos haciendo algo más sutil: estamos trazando un límite. Como cuando sales de una habitación llena de perfumes, respiras y vuelves a entrar: de pronto los distingues uno a uno. Escribir es ese respiro: te permite salir de la mezcla y volver a distinguir.",
+      "research": "",
+      "tomorrow": "Mañana crearemos un centro: un punto fijo interior al que volver cuando el mundo de fuera es demasiado ruidoso."
+    },
+    {
+      "day": 3,
+      "subject": "Encontrar el centro cuando todo vibra",
+      "durationMinutes": 4,
+      "intro": "Hoy abordamos un punto crucial: la necesidad de un centro. Cuando lo sientes todo, el riesgo es vivir a la deriva, como un barco sin ancla: cada ola te desplaza, cada corriente emocional te lleva a otra parte. No es inestabilidad: es falta de un punto de retorno.",
+      "steps": [
+        {
+          "prompt": "Vuelvo a mí.",
+          "instruction": "Escribe esta frase en la parte de arriba de la página."
+        },
+        {
+          "prompt": "¿Qué siento yo, ahora, de verdad?",
+          "instruction": "Escribe lo que surja. Vale con respuestas breves, incluso respuestas que parezcan triviales (por ejemplo: siento cansancio)."
+        },
+        {
+          "prompt": "¿Qué necesito yo, no los demás?",
+          "instruction": "Escribe lo que surja, sin filtros (por ejemplo: necesito silencio)."
+        },
+        {
+          "prompt": "¿Qué me hace sentir en casa?",
+          "instruction": "Vale incluso una respuesta simple (por ejemplo: el sofá con la manta)."
+        }
+      ],
+      "closingRitual": "Cuando sientas que es suficiente, detente.",
+      "why": "Tu sistema nervioso está acostumbrado a sintonizarse con los demás: lo hace en automático, como un radar siempre encendido. Pero un radar que nunca vuelve a la base se pierde. Escribir «vuelvo a mí» no es una frase simbólica: es una instrucción. Le estás diciendo a tu sistema: deja de captar, vuelve a la frecuencia de casa.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de un paso delicado: cómo ponerle nombre a lo que sientes sin dejarte arrastrar por el intento de entenderlo."
+    },
+    {
+      "day": 4,
+      "subject": "Ponle nombre sin dejarte arrastrar",
+      "durationMinutes": 5,
+      "intro": "Tú sientes muchísimo, pero a menudo lo que sientes queda como una masa confusa, sin contornos. La trampa es intentar entenderlo todo — buscar el origen, la causa, el porqué — y terminar dando vueltas dentro del sentir. A veces la emoción no pide ser entendida: pide solo un nombre. Y ese nombre, por sí solo, la calma.",
+      "steps": [
+        {
+          "prompt": "Qué siento en el cuerpo",
+          "instruction": "Divide la página en dos columnas. En la columna izquierda escribe las sensaciones físicas que notas en este momento: tensión en los hombros, nudo en la garganta, calor en el pecho, piernas inquietas. Cualquier cosa."
+        },
+        {
+          "prompt": "Qué nombre le doy",
+          "instruction": "En la columna derecha ponle un nombre — aunque sea inventado, aunque sea impreciso — a cada sensación. No tiene que ser la palabra correcta. Tiene que ser la tuya."
+        }
+      ],
+      "closingRitual": "Luego detente.",
+      "why": "Estás dándole forma al caos sensorial. Las emociones sin nombre permanecen en el cuerpo como ruido; en cuanto reciben un nombre — aunque sea imperfecto — se convierten en algo que puedes mirar desde fuera. Ya no te atraviesan: las ves. No estás buscando la verdad de lo que sientes, solo le estás dando una forma. Y la forma, para un sismógrafo, ya es alivio.",
+      "research": "",
+      "tomorrow": "Mañana abordamos un momento específico: la noche, cuando los estímulos del día se han acumulado y el cuerpo todavía vibra con todo lo que has atravesado."
+    },
+    {
+      "day": 5,
+      "subject": "Noche: el cuerpo todavía vibra",
+      "durationMinutes": 5,
+      "intro": "Cuando el día termina, los estímulos se detienen pero el cuerpo no. No es insomnio, no es ansiedad: es que tu sistema no ha tenido tiempo de descargar. El punto no es dormir mejor: es llegar más descargado. Este ejercicio funciona mejor por la noche, pero puedes hacerlo cuando quieras.",
+      "steps": [
+        {
+          "prompt": "Hoy he atravesado…",
+          "instruction": "Escribe arriba esta frase y debajo todo lo que has captado durante el día. No solo las emociones grandes: también las micropercepciones — un tono de voz que te impactó, una energía que se te quedó pegada, una tensión que respiraste de otra persona."
+        },
+        {
+          "prompt": "Lo que puedo dejar aquí es…",
+          "instruction": "Elige al menos una cosa. Aunque sea solo una."
+        },
+        {
+          "prompt": "Por hoy, he sentido suficiente.",
+          "instruction": "Cierra escribiendo esta frase. Y detente."
+        }
+      ],
+      "closingRitual": "Cierra con: «Por hoy, he sentido suficiente». Y detente.",
+      "why": "Tu sistema nervioso permanece activo cuando siente que todavía queda algo por procesar — y para ti siempre queda algo por procesar. Escribir es como decir: «lo he recibido todo. Por hoy basta». No estás apagando el radar: lo estás poniendo en pausa. Y esa pausa es lo que le permite al cuerpo dejar de vibrar y empezar a descansar.",
+      "research": "",
+      "tomorrow": "Mañana hablaremos de algo que quizá no consideras lo suficiente: cómo proteger tu energía sin cerrarte al mundo."
+    },
+    {
+      "day": 6,
+      "subject": "Protegerte no significa cerrarte",
+      "durationMinutes": 5,
+      "intro": "Quien tiene una sensibilidad como la tuya, tarde o temprano se pregunta: ¿tengo que cerrarme para protegerme? La respuesta es no. Cerrarse no funciona a largo plazo, porque necesitas el mundo, necesitas sentir. Pero también necesitas elegir cuánto, cuándo y qué.",
+      "steps": [
+        {
+          "prompt": "Cosas que he absorbido esta semana",
+          "instruction": "Divide la página en tres partes. En la primera escribe todo lo que has captado de los demás: emociones, atmósferas, tensiones, expectativas. Sin filtros."
+        },
+        {
+          "prompt": "Cosas de las que puedo protegerme",
+          "instruction": "Relee lo que has escrito arriba y traslada aquí todo lo que podrías evitar absorber. No se trata de evitar a las personas: se trata de evitar llevarte dentro lo que no te pertenece."
+        },
+        {
+          "prompt": "Un límite amable que puedo poner",
+          "instruction": "Una sola cosa. Pequeña, pero concreta. Por ejemplo: «no preguntar 'cómo estás' si no tengo energía para sostener la respuesta», o «salir de la habitación cuando siento que el ambiente me está entrando dentro»."
+        }
+      ],
+      "closingRitual": "Y detente.",
+      "why": "Proteger tu energía no es egoísmo: es mantenimiento. No estás dejando de sentir, estás eligiendo no llevarte dentro todo. Es uno de los pasos más difíciles para quien está acostumbrado a absorber en automático, pero también uno de los más liberadores: un límite amable no es un muro, es una puerta que puedes abrir y cerrar cuando quieras.",
+      "research": "",
+      "tomorrow": "Mañana llegamos al último día: cómo llevar contigo lo que has aprendido, sin convertirlo en una cosa más que procesar."
+    },
+    {
+      "day": 7,
+      "subject": "No es el final. Es la manera en que continúas.",
+      "durationMinutes": 5,
+      "intro": "En estos siete días no has dejado de sentir, y ese no era el objetivo. Has hecho algo más raro: has aprendido a sentir sin perderte dentro. Hoy no añadimos nada nuevo. Hacemos una elección.",
+      "steps": [
+        {
+          "prompt": "Cuando escribo, me doy cuenta de que…",
+          "instruction": "Escribe estas tres frases una debajo de la otra y completa la primera con lo que sientas como verdadero. Aunque esté incompleto, aunque sea solo una línea."
+        },
+        {
+          "prompt": "Lo que más me ha ayudado es…",
+          "instruction": "Completa con lo que sientas como verdadero, sin buscar la respuesta correcta."
+        },
+        {
+          "prompt": "Si continuara, lo haría así…",
+          "instruction": "Elige tú la manera: cuándo escribir, cuánto, para qué. Aunque sea solo una línea."
+        }
+      ],
+      "closingRitual": "",
+      "why": "El riesgo, después de un recorrido, es convertirlo enseguida en una obligación. Pero el journaling no funciona cuando se vuelve un deber: funciona cuando se convierte en un espacio que eliges tener en tu vida. No tienes que escribir todos los días, no tienes que escribir bien, no tienes que escribir mucho: te basta con saber por qué escribes y cuándo realmente lo necesitas. Es el punto en el que la escritura deja de ser un ejercicio y se convierte en un lugar de retorno.",
+      "research": "",
+      "tomorrow": ""
+    }
+  ],
+  "closingMessage": "Back to Journal no es un método que seguir. Es una manera de volver a casa, cada vez que sientas la necesidad. Si quieres seguir escribiendo, sabes dónde encontrar papel y bolígrafo; si te pierdes, sabes que puedes volver aquí. Gracias: por la atención, por el tiempo, por haber elegido volver a ti en lugar de perderte en el mundo."
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Back to Journal — journaling guidato che parte da come ti senti. 5 minuti, carta e penna digitale, senza pressioni.">
+  <meta name="description" content="Back to Journal — journaling guidato che parte da come ti senti / journaling guiado que parte de cómo te sientes.">
   <meta name="theme-color" content="#f7f2e9">
   <title>Back to Journal — Scrivi da come ti senti</title>
   <link rel="stylesheet" href="css/app.css">
@@ -12,8 +12,14 @@
 <body>
 
   <header class="topbar" id="topbar">
-    <button class="wordmark" id="btn-home" aria-label="Torna all'inizio">Back <span>to</span> Journal</button>
-    <span class="topbar-note" id="privacy-note" title="Le tue parole restano sul tuo dispositivo.">🔒 solo tuo</span>
+    <button class="wordmark" id="btn-home" data-i18n-aria="homeAria">Back <span>to</span> Journal</button>
+    <div class="topbar-right">
+      <div class="lang-switch" role="group" aria-label="Lingua / Idioma">
+        <button class="lang-btn" id="lang-it" data-lang="it" type="button">IT</button>
+        <button class="lang-btn" id="lang-es" data-lang="es" type="button">ES</button>
+      </div>
+      <span class="topbar-note" id="privacy-note" data-i18n="privacyNote" data-i18n-title="privacyTitle">🔒 solo tuo</span>
+    </div>
   </header>
 
   <main id="app">
@@ -21,50 +27,50 @@
     <!-- ============ CHECK-IN ============ -->
     <section class="screen" id="screen-welcome" hidden>
       <p class="greeting" id="greeting">Ciao.</p>
-      <h1 class="question">Come ti senti adesso?</h1>
-      <p class="hint">Tocca la frase che ti somiglia di più. Non deve essere precisa. Basta che sia vera.</p>
+      <h1 class="question" data-i18n="welcomeQuestion">Come ti senti adesso?</h1>
+      <p class="hint" data-i18n="welcomeHint">Tocca la frase che ti somiglia di più. Non deve essere precisa. Basta che sia vera.</p>
 
-      <div class="bubble-field" id="bubble-field" role="list" aria-label="Emozioni tra cui scegliere"></div>
+      <div class="bubble-field" id="bubble-field" role="list" data-i18n-aria="bubbleFieldAria"></div>
 
-      <button class="link-btn" id="btn-shuffle">↻ nessuna mi somiglia, mostrane altre</button>
+      <button class="link-btn" id="btn-shuffle" data-i18n="shuffle">↻ nessuna mi somiglia, mostrane altre</button>
 
       <div class="freetext">
-        <label class="freetext-label" for="freetext-input">…oppure scrivilo con parole tue</label>
+        <label class="freetext-label" for="freetext-input" data-i18n="freetextLabel">…oppure scrivilo con parole tue</label>
         <div class="freetext-row">
-          <input type="text" id="freetext-input" placeholder="es. «ho la testa piena e non so da dove iniziare»" autocomplete="off">
-          <button class="btn btn-primary" id="btn-freetext">Vai</button>
+          <input type="text" id="freetext-input" data-i18n-placeholder="freetextPlaceholder" placeholder="es. «ho la testa piena e non so da dove iniziare»" autocomplete="off">
+          <button class="btn btn-primary" id="btn-freetext" data-i18n="freetextGo">Vai</button>
         </div>
         <p class="freetext-feedback" id="freetext-feedback" hidden></p>
       </div>
 
       <div class="welcome-alt">
-        <button class="link-btn" id="btn-know-archetype">Conosco già il mio archetipo</button>
+        <button class="link-btn" id="btn-know-archetype" data-i18n="knowArchetype">Conosco già il mio archetipo</button>
         <span class="dot-sep" aria-hidden="true">·</span>
-        <button class="link-btn" id="btn-quiz">Non so come mi sento</button>
+        <button class="link-btn" id="btn-quiz" data-i18n="dontKnow">Non so come mi sento</button>
       </div>
     </section>
 
     <!-- ============ SCELTA TRA CANDIDATI (testo libero ambiguo) ============ -->
     <section class="screen" id="screen-candidates" hidden>
-      <h2 class="question">Quale di queste ti somiglia di più, adesso?</h2>
+      <h2 class="question" data-i18n="candidatesQuestion">Quale di queste ti somiglia di più, adesso?</h2>
       <div class="candidate-list" id="candidate-list"></div>
-      <button class="link-btn" id="btn-candidates-back">← torna indietro</button>
+      <button class="link-btn" id="btn-candidates-back" data-i18n="back">← torna indietro</button>
     </section>
 
     <!-- ============ MINI QUIZ ============ -->
     <section class="screen" id="screen-quiz" hidden>
-      <p class="kicker">Piccola bussola · <span id="quiz-progress">1 di 4</span></p>
+      <p class="kicker"><span data-i18n="quizKicker">Piccola bussola</span> · <span id="quiz-progress">1 di 4</span></p>
       <h2 class="question" id="quiz-question"></h2>
       <div class="quiz-options" id="quiz-options"></div>
-      <button class="link-btn" id="btn-quiz-back">← torna indietro</button>
+      <button class="link-btn" id="btn-quiz-back" data-i18n="quizBack">← torna indietro</button>
     </section>
 
     <!-- ============ TUTTI GLI ARCHETIPI ============ -->
     <section class="screen" id="screen-archetypes" hidden>
-      <h2 class="question">I nove archetipi</h2>
-      <p class="hint">Tocca il tuo. Se non lo conosci, il <button class="inline-link" id="btn-quiz-2">quiz veloce</button> può aiutarti.</p>
+      <h2 class="question" data-i18n="archetypesTitle">I nove archetipi</h2>
+      <p class="hint"><span data-i18n="archetypesHintPre">Tocca il tuo. Se non lo conosci, il </span><button class="inline-link" id="btn-quiz-2" data-i18n="archetypesHintLink">quiz veloce</button><span data-i18n="archetypesHintPost"> può aiutarti.</span></p>
       <div class="archetype-grid" id="archetype-grid"></div>
-      <button class="link-btn" id="btn-archetypes-back">← torna indietro</button>
+      <button class="link-btn" id="btn-archetypes-back" data-i18n="archetypesBack">← torna indietro</button>
     </section>
 
     <!-- ============ RISPECCHIAMENTO ============ -->
@@ -73,19 +79,19 @@
       <h2 class="archetype-name" id="mirror-name"></h2>
       <p class="mirror-essence" id="mirror-essence"></p>
       <div class="mirror-text" id="mirror-text"></div>
-      <p class="mirror-reassurance">Non c'è niente di sbagliato in te.</p>
+      <p class="mirror-reassurance" data-i18n="mirrorReassurance">Non c'è niente di sbagliato in te.</p>
       <div class="mirror-cta">
         <button class="btn btn-primary btn-big" id="btn-start-session"></button>
         <p class="mirror-cta-sub" id="mirror-cta-sub"></p>
       </div>
-      <button class="link-btn" id="btn-mirror-back">← non mi ci ritrovo, torna indietro</button>
+      <button class="link-btn" id="btn-mirror-back" data-i18n="mirrorBack">← non mi ci ritrovo, torna indietro</button>
     </section>
 
     <!-- ============ SESSIONE ============ -->
     <section class="screen screen-session" id="screen-session" hidden>
       <div class="session-head">
         <p class="kicker" id="session-kicker"></p>
-        <div class="session-timer" id="session-timer" title="Un tempo morbido. Nessuna alarma.">
+        <div class="session-timer" id="session-timer" data-i18n-title="timerTitle" title="Un tempo morbido. Nessuna alarma.">
           <svg viewBox="0 0 44 44" width="44" height="44" aria-hidden="true">
             <circle class="timer-track" cx="22" cy="22" r="19"></circle>
             <circle class="timer-ring" id="timer-ring" cx="22" cy="22" r="19"></circle>
@@ -101,56 +107,56 @@
 
     <!-- ============ RITUALE ============ -->
     <section class="screen" id="screen-ritual" hidden>
-      <p class="kicker">Un ultimo gesto</p>
+      <p class="kicker" data-i18n="ritualKicker">Un ultimo gesto</p>
       <h2 class="question" id="ritual-title"></h2>
       <p class="hint" id="ritual-hint">Tocca la frase.</p>
       <div class="ritual-fragments" id="ritual-fragments"></div>
       <div class="session-actions">
-        <button class="btn btn-primary" id="btn-ritual-done" disabled>Basta così</button>
-        <button class="link-btn" id="btn-ritual-skip">preferisco saltare questo passo</button>
+        <button class="btn btn-primary" id="btn-ritual-done" data-i18n="ritualDone" disabled>Basta così</button>
+        <button class="link-btn" id="btn-ritual-skip" data-i18n="ritualSkip">preferisco saltare questo passo</button>
       </div>
     </section>
 
     <!-- ============ CHIUSURA ============ -->
     <section class="screen" id="screen-closing" hidden>
       <div class="closing-seal" aria-hidden="true">✦</div>
-      <h2 class="closing-title">E basta così.</h2>
-      <p class="closing-sub" id="closing-sub">Hai fatto abbastanza.</p>
+      <h2 class="closing-title" data-i18n="closingTitle">E basta così.</h2>
+      <p class="closing-sub" id="closing-sub" data-i18n="closingSub">Hai fatto abbastanza.</p>
 
       <div class="card why-card">
-        <p class="card-kicker">Perché funziona</p>
+        <p class="card-kicker" data-i18n="whyKicker">Perché funziona</p>
         <p id="closing-why"></p>
         <p class="research" id="closing-research"></p>
       </div>
 
       <div class="card tomorrow-card" id="tomorrow-card">
-        <p class="card-kicker">Domani</p>
+        <p class="card-kicker" data-i18n="tomorrowKicker">Domani</p>
         <p id="closing-tomorrow"></p>
       </div>
 
       <p class="returns-note" id="closing-returns"></p>
 
       <div class="session-actions">
-        <button class="btn btn-primary" id="btn-closing-journey">Vedi il tuo percorso</button>
-        <button class="link-btn" id="btn-closing-home">torna all'inizio</button>
+        <button class="btn btn-primary" id="btn-closing-journey" data-i18n="seeJourney">Vedi il tuo percorso</button>
+        <button class="link-btn" id="btn-closing-home" data-i18n="backHome">torna all'inizio</button>
       </div>
     </section>
 
     <!-- ============ PERCORSO ============ -->
     <section class="screen" id="screen-journey" hidden>
-      <h2 class="question">Il tuo percorso</h2>
+      <h2 class="question" data-i18n="journeyTitle">Il tuo percorso</h2>
       <p class="returns-banner" id="returns-banner"></p>
-      <p class="hint">Non contiamo i giorni consecutivi. Contiamo le volte in cui torni.</p>
+      <p class="hint" data-i18n="journeyHint">Non contiamo i giorni consecutivi. Contiamo le volte in cui torni.</p>
       <div id="journey-archetype-picker" class="journey-picker"></div>
       <div id="journey-days"></div>
     </section>
 
     <!-- ============ DIARIO ============ -->
     <section class="screen" id="screen-diary" hidden>
-      <h2 class="question">Il tuo diario</h2>
-      <p class="hint">🔒 Tutto resta sul tuo dispositivo. Nessun account, nessun cloud.</p>
+      <h2 class="question" data-i18n="diaryTitle">Il tuo diario</h2>
+      <p class="hint" data-i18n="diaryHint">🔒 Tutto resta sul tuo dispositivo. Nessun account, nessun cloud.</p>
       <div class="diary-actions">
-        <button class="link-btn" id="btn-export">↓ esporta tutto (.txt)</button>
+        <button class="link-btn" id="btn-export" data-i18n="exportLink">↓ esporta tutto (.txt)</button>
       </div>
       <div id="diary-list"></div>
     </section>
@@ -158,19 +164,21 @@
   </main>
 
   <nav class="bottomnav" id="bottomnav" hidden>
-    <button data-nav="welcome" id="nav-today" class="nav-btn" aria-label="Oggi">
-      <span class="nav-ico" aria-hidden="true">☼</span>Oggi
+    <button data-nav="welcome" id="nav-today" class="nav-btn" data-i18n-aria="navToday">
+      <span class="nav-ico" aria-hidden="true">☼</span><span data-i18n="navToday">Oggi</span>
     </button>
-    <button data-nav="journey" id="nav-journey" class="nav-btn" aria-label="Percorso">
-      <span class="nav-ico" aria-hidden="true">〰</span>Percorso
+    <button data-nav="journey" id="nav-journey" class="nav-btn" data-i18n-aria="navJourney">
+      <span class="nav-ico" aria-hidden="true">〰</span><span data-i18n="navJourney">Percorso</span>
     </button>
-    <button data-nav="diary" id="nav-diary" class="nav-btn" aria-label="Diario">
-      <span class="nav-ico" aria-hidden="true">❧</span>Diario
+    <button data-nav="diary" id="nav-diary" class="nav-btn" data-i18n-aria="navDiary">
+      <span class="nav-ico" aria-hidden="true">❧</span><span data-i18n="navDiary">Diario</span>
     </button>
   </nav>
 
+  <script src="data/strings.js"></script>
   <script src="data/archetypes.js"></script>
   <script src="data/emotions.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/session.js"></script>
