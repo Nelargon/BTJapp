@@ -262,13 +262,24 @@ button { font-family: inherit; color: inherit; }
   font-style: italic;
   cursor: pointer;
   color: var(--ink);
-  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  transition: border-color 0.18s ease, background 0.18s ease;
+  animation: bubble-float var(--float-dur, 7s) ease-in-out var(--float-delay, 0s) infinite alternate;
 }
 
 .bubble:hover, .bubble:focus-visible {
   border-color: var(--accent);
   background: var(--paper-deep);
+  animation-play-state: paused;
   transform: scale(1.05);
+}
+.bubble:active { animation-play-state: paused; transform: scale(0.96); }
+
+/* pensieri che fluttuano nell'aria: ogni globo ha il suo ritmo,
+   una leggera deriva diagonale e una rotazione minima — mai in coro. */
+@keyframes bubble-float {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  50%  { transform: translate(var(--float-x, 3px), var(--float-y, -9px)) rotate(var(--float-rot, 1deg)) scale(1.015); }
+  100% { transform: translate(calc(var(--float-x, 3px) * -0.6), calc(var(--float-y, -9px) * 0.4)) rotate(calc(var(--float-rot, 1deg) * -1)) scale(1); }
 }
 
 .bubble:active { transform: scale(0.96); }

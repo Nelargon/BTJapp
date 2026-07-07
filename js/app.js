@@ -102,6 +102,12 @@ var BTJApp = (function () {
       b.type = 'button';
       b.setAttribute('role', 'listitem');
       b.textContent = e.label;
+      /* ogni pensiero fluttua con il suo ritmo: mai in coro, mai meccanico */
+      b.style.setProperty('--float-dur', (6 + Math.random() * 3.5).toFixed(2) + 's');
+      b.style.setProperty('--float-delay', (-Math.random() * 6).toFixed(2) + 's');
+      b.style.setProperty('--float-x', (Math.random() * 10 - 5).toFixed(1) + 'px');
+      b.style.setProperty('--float-y', (-6 - Math.random() * 8).toFixed(1) + 'px');
+      b.style.setProperty('--float-rot', (Math.random() * 2.4 - 1.2).toFixed(2) + 'deg');
       b.addEventListener('click', function () { goToMirror(e.archetypeId, e.label); });
       field.appendChild(b);
     });
